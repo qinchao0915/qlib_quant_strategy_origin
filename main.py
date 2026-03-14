@@ -516,7 +516,7 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
 
             reason = None
             if pnl <= HARD_STOP_LOSS:
-                reason = f"Hard stop ({pnl:.1%})"
+                reason = f"{regime} Hard stop ({pnl:.1%})"
             elif current_price < highest_price * (1 - cfg['trailing_stop']):
                 pullback = (highest_price - current_price) / highest_price
                 reason = f"{regime} trailing stop ({pullback * 100:.1f}%)"
@@ -535,7 +535,9 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                     '卖出日期': date.strftime('%Y%m%d'), '卖出价': round(current_price, 2),
                     '股数': pos['shares'], '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{pnl * 100:.2f}%", '持有天数': days,
-                    '买入信号': 'Top Rank', '卖出信号': reason, '卖出原因': reason,
+                    '买入信号': pos.get('buy_signal', 'Top Rank'),
+                    '买入原因': pos.get('buy_reason', 'Top Rank'),
+                    '卖出信号': reason, '卖出原因': reason,
                     '市场状态': regime, '股票池': pool_type,
                 })
                 cash += amount
@@ -594,10 +596,13 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                         cost = shares * price * (1 + SCENARIOS['normal']['buy_cost'])
                         if cost <= cash:
                             cash -= cost
+                            buy_signal_detail = f"Rank {row['pred_rank']:.2%}, Score {row['pred']:.4f}, {regime}"
                             positions[sym] = {
                                 'shares': shares, 'cost': price, 'entry_date': date,
                                 'industry': ind, 'highest_price': price, 'highest_pnl': 0,
                                 'buy_signal': f"Rank {row['pred_rank']:.2%}",
+                                'buy_reason': buy_signal_detail,
+                                'market_regime_at_entry': regime,
                             }
                             industry_exposure[ind] = current_ind + shares * price / portfolio_value
 
@@ -622,7 +627,9 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                     '卖出日期': final_date.strftime('%Y%m%d'), '卖出价': round(price[0], 2),
                     '股数': pos['shares'], '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{(price[0] / pos['cost'] - 1) * 100:.2f}%",
-                    '持有天数': days, '买入信号': pos.get('buy_signal', 'Top Rank'),
+                    '持有天数': days,
+                    '买入信号': pos.get('buy_signal', 'Top Rank'),
+                    '买入原因': pos.get('buy_reason', 'Top Rank'),
                     '卖出信号': 'Close all', '卖出原因': 'Close all',
                     '市场状态': 'END', '股票池': pool_type,
                 })
