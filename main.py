@@ -17,11 +17,29 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 
+def load_env_file(env_path='./api_keys/.env'):
+    """从 .env 文件加载环境变量"""
+    env_vars = {}
+    if Path(env_path).exists():
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    env_vars[key.strip()] = value.strip()
+    else:
+        logger.warning(f"未找到 {env_path} 文件，将使用示例配置")
+    return env_vars
+
+
+# 加载 API keys
+_env = load_env_file()
+
 # ============================================
 # 配置
 # ============================================
 CONFIG = {
-    'tushare_token': '5c77554d043c48763fa73d12051d5e62ccee9056f8bf3498b208beaf',
+    'tushare_token': _env.get('TUSHARE_TOKEN', ''),
     'cache_path': './data/cache',
     'model_dir': './models',
     'results_dir': './results',

@@ -8,6 +8,10 @@ __pycache__/
 # Data cache
 data/cache/
 
+# API keys (禁止上传)
+api_keys/
+.env
+
 # Ignore pkl in root but allow in models
 tmp_*.pkl
 
