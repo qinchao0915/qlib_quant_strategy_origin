@@ -531,11 +531,12 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                 profit = amount - pos['shares'] * pos['cost']
                 trades.append({
                     '代码': sym, '名称': stock_names.get(sym, sym), '行业': pos['industry'],
-                    '买入日期': pos['entry_date'].strftime('%Y%m%d'), '买入价': pos['cost'],
-                    '卖出日期': date.strftime('%Y%m%d'), '卖出价': current_price,
+                    '买入日期': pos['entry_date'].strftime('%Y%m%d'), '买入价': round(pos['cost'], 2),
+                    '卖出日期': date.strftime('%Y%m%d'), '卖出价': round(current_price, 2),
                     '股数': pos['shares'], '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{pnl * 100:.2f}%", '持有天数': days,
-                    '卖出原因': reason, '市场状态': regime, '股票池': pool_type,
+                    '买入信号': 'Top Rank', '卖出信号': reason, '卖出原因': reason,
+                    '市场状态': regime, '股票池': pool_type,
                 })
                 cash += amount
                 to_remove.append(sym)
@@ -596,6 +597,7 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                             positions[sym] = {
                                 'shares': shares, 'cost': price, 'entry_date': date,
                                 'industry': ind, 'highest_price': price, 'highest_pnl': 0,
+                                'buy_signal': f"Rank {row['pred_rank']:.2%}",
                             }
                             industry_exposure[ind] = current_ind + shares * price / portfolio_value
 
@@ -616,11 +618,13 @@ def run_backtest(price_df, models, weights, feature_cols, stock_names, stock_ind
                 days = (final_date - pos['entry_date']).days
                 trades.append({
                     '代码': sym, '名称': stock_names.get(sym, sym), '行业': pos['industry'],
-                    '买入日期': pos['entry_date'].strftime('%Y%m%d'), '买入价': pos['cost'],
-                    '卖出日期': final_date.strftime('%Y%m%d'), '卖出价': price[0],
+                    '买入日期': pos['entry_date'].strftime('%Y%m%d'), '买入价': round(pos['cost'], 2),
+                    '卖出日期': final_date.strftime('%Y%m%d'), '卖出价': round(price[0], 2),
                     '股数': pos['shares'], '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{(price[0] / pos['cost'] - 1) * 100:.2f}%",
-                    '持有天数': days, '卖出原因': 'Close all', '市场状态': 'END', '股票池': pool_type,
+                    '持有天数': days, '买入信号': pos.get('buy_signal', 'Top Rank'),
+                    '卖出信号': 'Close all', '卖出原因': 'Close all',
+                    '市场状态': 'END', '股票池': pool_type,
                 })
                 cash += amount
 
