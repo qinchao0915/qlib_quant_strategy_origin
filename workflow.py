@@ -37,6 +37,9 @@ def parse_args():
                         help='开始日期 (YYYY-MM-DD)')
     parser.add_argument('--end', type=str, default='2025-12-31',
                         help='结束日期 (YYYY-MM-DD)')
+    parser.add_argument('--sell-price', type=str, default='open',
+                        choices=['open', 'close'],
+                        help='卖出价格类型: open=开盘价, close=收盘价 (默认: open)')
 
     return parser.parse_args()
 
@@ -49,11 +52,14 @@ def load_data(args):
 
 
 def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
-                          pool_type, start_date, end_date):
+                          pool_type, start_date, end_date, sell_price_type='open'):
     """
     执行策略回测
 
     通用回测引擎，通过策略接口执行具体逻辑
+
+    参数:
+        sell_price_type: 'open' 或 'close', 卖出时使用的价格
     """
     logger.info(f"\n{'='*60}")
     logger.info(f" {strategy.name} Backtest - {pool_type.upper()}")
@@ -101,11 +107,31 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
         # ========== 卖出逻辑 ==========
         to_remove = []
         for sym, pos in positions.items():
-            price_data = day_data[day_data['symbol'] == sym]['close'].values
-            if len(price_data) == 0:
+            stock_day_data = day_data[day_data['symbol'] == sym]
+            if len(stock_day_data) == 0:
                 continue
 
-            current_price = price_data[0]
+            # 使用当天开盘价卖出
+            open_price = stock_day_data['open'].values[0]
+            high_price = stock_day_data['high'].values[0]
+            low_price = stock_day_data['low'].values[0]
+            pre_close = stock_day_data['pre_close'].values[0] if 'pre_close' in stock_day_data.columns else pos['cost']
+
+            # 一字跌停判断：开盘价<=跌停价 且 开盘价==最低价（无法卖出）
+            跌停价 = pre_close * 0.9  # 10%跌停板
+            is_一字跌停 = (open_price <= 跌停价 * 1.001) and (abs(open_price - low_price) < 0.001)
+
+            if is_一字跌停:
+                continue  # 一字跌停无法卖出
+
+            # 卖出价格选择：开盘价或收盘价
+            if sell_price_type == 'close':
+                sell_price = stock_day_data['close'].values[0]
+                current_price = sell_price
+            else:
+                sell_price = open_price
+                current_price = open_price
+
             days = (date - pos['entry_date']).days
 
             # 使用策略的卖出判断
@@ -158,18 +184,21 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
         # ========== 计算净值 ==========
         portfolio_value = cash
         for sym, pos in positions.items():
-            price = day_data[day_data['symbol'] == sym]['close'].values
-            if len(price) > 0:
-                portfolio_value += pos['shares'] * price[0]
+            # 使用当天开盘价计算持仓市值
+            stock_data = day_data[day_data['symbol'] == sym]
+            if len(stock_data) > 0:
+                open_price = stock_data['open'].values[0]
+                portfolio_value += pos['shares'] * open_price
 
-        # 行业敞口
+        # 行业敞口（使用开盘价计算）
         industry_exposure = {}
         for sym, pos in positions.items():
-            price = day_data[day_data['symbol'] == sym]['close'].values
-            if len(price) > 0:
+            stock_data = day_data[day_data['symbol'] == sym]
+            if len(stock_data) > 0:
+                open_price = stock_data['open'].values[0]
                 ind = pos['industry']
                 industry_exposure[ind] = industry_exposure.get(ind, 0) + \
-                    pos['shares'] * price[0] / portfolio_value
+                    pos['shares'] * open_price / portfolio_value
 
         # ========== 买入逻辑 ==========
         slots = max_positions - len(positions)
@@ -193,7 +222,20 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
                         continue
 
                     sym = row['symbol']
-                    price = row['close']
+                    # 使用当天开盘价买入
+                    open_price = row['open']
+                    high_price = row['high']
+                    low_price = row['low']
+                    pre_close = row['pre_close'] if 'pre_close' in row else open_price
+
+                    # 一字涨停判断：开盘价>=涨停价 且 开盘价==最高价（无法买入）
+                    涨停价 = pre_close * 1.1  # 10%涨停板
+                    is_一字涨停 = (open_price >= 涨停价 * 0.999) and (abs(open_price - high_price) < 0.001)
+
+                    if is_一字涨停:
+                        continue  # 一字涨停无法买入
+
+                    price = open_price
                     ind = stock_industries.get(sym, '其他')
 
                     # 计算买入股数
@@ -241,12 +283,20 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
         final_data = test_df[test_df['date'] == final_date]
 
         for sym, pos in list(positions.items()):
-            price = final_data[final_data['symbol'] == sym]['close'].values
-            if len(price) > 0:
-                amount = pos['shares'] * price[0] * (1 - scenarios['normal']['sell_cost'])
+            stock_data = final_data[final_data['symbol'] == sym]
+            if len(stock_data) > 0:
+                # 最后一天清仓根据配置选择开盘价或收盘价
+                if sell_price_type == 'close':
+                    close_price = stock_data['close'].values[0]
+                    sell_price = close_price
+                else:
+                    open_price = stock_data['open'].values[0]
+                    sell_price = open_price
+
+                amount = pos['shares'] * sell_price * (1 - scenarios['normal']['sell_cost'])
                 profit = amount - pos['shares'] * pos['cost']
                 days = (final_date - pos['entry_date']).days
-                pnl = (price[0] - pos['cost']) / pos['cost']
+                pnl = (sell_price - pos['cost']) / pos['cost']
 
                 trades.append({
                     '代码': sym,
@@ -255,7 +305,7 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
                     '买入日期': pos['entry_date'].strftime('%Y%m%d'),
                     '买入价': round(pos['cost'], 2),
                     '卖出日期': final_date.strftime('%Y%m%d'),
-                    '卖出价': round(price[0], 2),
+                    '卖出价': round(sell_price, 2),
                     '股数': pos['shares'],
                     '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{pnl * 100:.2f}%",
@@ -351,6 +401,8 @@ def main():
     logger.info(f" 量化策略工作流")
     logger.info(f" 策略: {args.strategy}, 股票池: {args.pool}, 模式: {args.mode}")
     logger.info(f" 时间: {args.start} 至 {args.end}")
+    if args.mode == 'backtest':
+        logger.info(f" 卖出价格: {args.sell_price}")
     logger.info("="*70)
 
     # 加载策略
@@ -368,7 +420,7 @@ def main():
     if args.mode == 'backtest':
         result, trades, pf = run_backtest_strategy(
             strategy, price_df, stock_names, stock_industries,
-            args.pool, args.start, args.end
+            args.pool, args.start, args.end, sell_price_type=args.sell_price
         )
 
         # 保存结果
