@@ -195,25 +195,22 @@ class FeatureEngineer:
         return group
     
     def get_feature_cols(self):
-        """获取v7特征列列表"""
+        """获取v7特征列列表 (与模型期望的53个特征一致)"""
         if self.feature_cols is None:
             self.feature_cols = [
                 'return_1d', 'return_3d', 'return_5d', 'return_10d', 'return_20d', 'return_60d',
                 'return_accel', 'intraday_momentum',
                 'volatility_5d', 'volatility_10d', 'volatility_20d', 'volatility_60d',
                 'vol_trend', 'realized_vol_5d',
-                'ma_5', 'ma_10', 'ma_20', 'ma_30', 'ma_60', 'ma_120',
                 'price_to_ma20', 'ma5_to_ma20', 'ma20_to_ma60', 'trend_up', 'golden_cross',
-                'bollinger_upper', 'bollinger_lower', 'bollinger_pos', 'bollinger_width', 'bollinger_squeeze',
+                'bollinger_pos', 'bollinger_width', 'bollinger_squeeze',
                 'rsi', 'rsi_overbought', 'rsi_oversold', 'rsi_divergence',
                 'macd', 'macd_signal', 'macd_long', 'macd_hist', 'macd_cross',
-                'volume_ma5', 'volume_ma10', 'volume_ma20',
                 'volume_ratio_5_20', 'volume_ratio', 'volume_trend', 'volume_breakout',
-                'obv', 'obv_ma', 'price_volume_corr', 'volume_price_trend',
+                'obv', 'price_volume_corr', 'volume_price_trend',
                 'high_low_pct', 'gap', 'amplitude_20d', 'upper_shadow', 'lower_shadow',
-                'mfi', 'turnover', 'turnover_ma5', 'turnover_ma20', 'turnover_ratio',
-                'net_money_flow', 'big_money', 'big_money_ratio',
-                'market_cap_proxy', 'size_rank', 'is_low_price', 'liquidity_score'
+                'mfi', 'turnover_ratio', 'net_money_flow', 'big_money', 'big_money_ratio',
+                'market_cap_proxy', 'size_rank', 'price_level', 'is_low_price', 'liquidity_score'
             ]
         return self.feature_cols
 

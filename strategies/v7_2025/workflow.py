@@ -154,6 +154,8 @@ def run_backtest(price_df, models, weights, feature_cols, feature_engineer,
 
     # 计算特征
     df = feature_engineer.calculate_features(price_df)
+
+    # 只保留模型期望的特征列（避免FeatureEngineer的额外列影响预测）
     df = df.dropna(subset=feature_cols)
 
     # 预测

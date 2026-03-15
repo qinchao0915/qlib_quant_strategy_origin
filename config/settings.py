@@ -18,32 +18,42 @@ RESULTS_DIR = BASE_DIR / 'results'
 
 # 风控配置
 RISK_CONFIG = {
+    'account': 200000,                # 初始资金
     'max_positions': 30,              # 最大持仓数
-    'max_position_per_stock': 0.20,   # 单只股票最大仓位
+    'max_position_per_stock': 0.10,   # 单只股票最大仓位
     'max_position_per_industry': 0.30,  # 单行业最大仓位
     'hard_stop_loss': -0.08,          # 硬性止损
     'trailing_stop': 0.10,            # 移动止损回撤比例
 }
 
-# 市场状态参数
+# 市场状态参数 (三状态动态参数)
 PARAMS = {
     'BULL': {
-        'min_holding_days': 5,
-        'rank_exit_threshold': 0.15,
-        'max_daily_return': 0.10,
+        'top_n': 0.05,
+        'min_holding_days': 10,
+        'rank_exit_threshold': 0.40,
+        'trailing_stop': 0.15,
+        'max_daily_return': 0.09,
+        'max_ma5_deviation': 0.08,
+        'pos_ratio': 1.0,
+    },
+    'CHOPPY': {
+        'top_n': 0.04,
+        'min_holding_days': 7,
+        'rank_exit_threshold': 0.30,
+        'trailing_stop': 0.10,
+        'max_daily_return': 0.06,
         'max_ma5_deviation': 0.05,
+        'pos_ratio': 0.6,
     },
     'BEAR': {
-        'min_holding_days': 3,
-        'rank_exit_threshold': 0.10,
-        'max_daily_return': 0.05,
+        'top_n': 0.03,
+        'min_holding_days': 5,
+        'rank_exit_threshold': 0.20,
+        'trailing_stop': 0.08,
+        'max_daily_return': 0.04,
         'max_ma5_deviation': 0.03,
-    },
-    'OSCILLATION': {
-        'min_holding_days': 4,
-        'rank_exit_threshold': 0.12,
-        'max_daily_return': 0.08,
-        'max_ma5_deviation': 0.04,
+        'pos_ratio': 0.3,
     }
 }
 
