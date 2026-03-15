@@ -1,0 +1,51 @@
+﻿代码,名称,行业,买入日期,买入价,卖出日期,卖出价,股数,盈亏金额,盈亏比例,持有天数,买入信号,买入原因,卖出信号,卖出原因,市场状态,股票池
+601066,中信建投,证券,20260106,27.41,20260119,25.13,200,-462.9,-8.33%,13,Rank 3.21%,"Rank 3.21%, Score 0.0221, BULL",BULL Hard stop (-8.3%),BULL Hard stop (-8.3%),BULL,csi300
+601825,沪农商行,银行,20260105,9.36,20260121,8.6,400,-308.5,-8.12%,16,Rank 4.49%,"Rank 4.49%, Score 0.0175, BULL",BULL Hard stop (-8.1%),BULL Hard stop (-8.1%),BULL,csi300
+600115,中国东航,空运,20260109,5.98,20260128,5.44,2000,-1094.1,-9.03%,19,Rank 1.92%,"Rank 1.92%, Score 0.0238, BULL",BULL Hard stop (-9.0%),BULL Hard stop (-9.0%),BULL,csi300
+688472,阿特斯,电气设备,20260105,15.34,20260130,15.28,300,-24.0,-0.39%,25,Rank 4.17%,"Rank 4.17%, Score 0.0186, BULL",BULL trailing stop (15.3%),BULL trailing stop (15.3%),BULL,csi300
+600795,国电电力,火力发电,20260106,5.09,20260202,4.64,1300,-603.9,-9.00%,27,Rank 1.28%,"Rank 1.28%, Score 0.0377, BULL",BULL Hard stop (-9.0%),BULL Hard stop (-9.0%),BULL,csi300
+603392,万泰生物,生物制药,20260107,45.53,20260202,41.59,100,-399.4,-8.65%,26,Rank 3.83%,"Rank 3.83%, Score 0.0168, BULL",BULL Hard stop (-8.7%),BULL Hard stop (-8.7%),BULL,csi300
+000975,山金国际,黄金,20260130,34.84,20260202,31.36,200,-704.2,-9.99%,3,Rank 0.95%,"Rank 0.95%, Score 0.0376, BULL",BULL Hard stop (-10.0%),BULL Hard stop (-10.0%),BULL,csi300
+601698,中国卫通,电信运营,20260121,35.85,20260211,35.88,100,-1.7,0.08%,21,Rank 0.63%,"Rank 0.63%, Score 0.0318, BULL",BULL trailing stop (15.5%),BULL trailing stop (15.5%),BULL,csi300
+000807,云铝股份,铝,20260108,33.6,20260212,31.68,200,-393.6,-5.73%,35,Rank 4.15%,"Rank 4.15%, Score 0.0172, BULL",BULL trailing stop (15.6%),BULL trailing stop (15.6%),BULL,csi300
+300251,光线传媒,影视音像,20260211,26.86,20260212,23.59,300,-990.2,-12.17%,1,Rank 0.32%,"Rank 0.32%, Score 0.1191, BULL",BULL Hard stop (-12.2%),BULL Hard stop (-12.2%),BULL,csi300
+300251,光线传媒,影视音像,20260212,23.59,20260224,21.78,300,-551.5,-7.67%,12,Rank 0.63%,"Rank 0.63%, Score 0.0409, BULL",BULL trailing stop (20.0%),BULL trailing stop (20.0%),BULL,csi300
+300251,光线传媒,影视音像,20260224,21.78,20260226,19.86,500,-972.9,-8.82%,2,Rank 1.89%,"Rank 1.89%, Score 0.0299, BULL",BULL Hard stop (-8.8%),BULL Hard stop (-8.8%),BULL,csi300
+688396,华润微,半导体,20260107,60.55,20260227,57.13,100,-348.6,-5.64%,51,Rank 4.15%,"Rank 4.15%, Score 0.0162, BULL",BULL trailing stop (16.3%),BULL trailing stop (16.3%),BULL,csi300
+300251,光线传媒,影视音像,20260226,19.86,20260303,17.84,500,-1021.6,-10.17%,5,Rank 0.95%,"Rank 0.95%, Score 0.0435, BULL",BULL Hard stop (-10.2%),BULL Hard stop (-10.2%),BULL,csi300
+300979,华利集团,服饰,20260106,50.62,20260305,46.37,100,-431.0,-8.40%,58,Rank 2.88%,"Rank 2.88%, Score 0.0225, BULL",BULL Hard stop (-8.4%),BULL Hard stop (-8.4%),BULL,csi300
+603806,福斯特,塑料,20260212,18.71,20260305,17.19,200,-308.5,-8.12%,21,Rank 0.95%,"Rank 0.95%, Score 0.0368, BULL",BULL Hard stop (-8.1%),BULL Hard stop (-8.1%),BULL,csi300
+000301,东方盛虹,化纤,20260105,10.7,20260309,12.07,400,541.7,12.80%,63,Rank 2.88%,"Rank 2.88%, Score 0.0250, BULL",BULL trailing stop (17.2%),BULL trailing stop (17.2%),BULL,csi300
+600346,恒力石化,石油加工,20260109,23.22,20260310,22.27,300,-293.7,-4.09%,60,Rank 2.24%,"Rank 2.24%, Score 0.0223, BULL",BULL trailing stop (16.7%),BULL trailing stop (16.7%),BULL,csi300
+002601,龙佰集团,化工原料,20260112,20.08,20260310,19.9,400,-82.8,-0.90%,57,Rank 3.51%,"Rank 3.51%, Score 0.0191, BULL",BULL trailing stop (15.2%),BULL trailing stop (15.2%),BULL,csi300
+000768,中航西飞,航空,20260128,29.82,20260312,27.31,300,-763.7,-8.42%,43,Rank 0.95%,"Rank 0.95%, Score 0.0507, BULL",BULL Hard stop (-8.4%),BULL Hard stop (-8.4%),BULL,csi300
+001391,国货航,仓储物流,20260105,5.96,20260313,5.7,1000,-267.4,-4.36%,67,Rank 0.32%,"Rank 0.32%, Score 0.1642, BULL",Close all,Close all,END,csi300
+601236,红塔证券,证券,20260105,8.38,20260313,7.97,700,-288.8,-4.80%,67,Rank 0.64%,"Rank 0.64%, Score 0.0950, BULL",Close all,Close all,END,csi300
+000800,一汽解放,汽车整车,20260105,6.8,20260313,6.91,800,80.8,1.62%,67,Rank 0.96%,"Rank 0.96%, Score 0.0489, BULL",Close all,Close all,END,csi300
+601808,中海油服,石油开采,20260105,14.14,20260313,17.69,400,1410.8,25.11%,67,Rank 1.28%,"Rank 1.28%, Score 0.0444, BULL",Close all,Close all,END,csi300
+000002,万科Ａ,全国地产,20260105,4.75,20260313,4.66,1100,-105.7,-1.89%,67,Rank 1.92%,"Rank 1.92%, Score 0.0271, BULL",Close all,Close all,END,csi300
+001965,招商公路,路桥,20260105,9.92,20260313,10.1,500,83.4,1.81%,67,Rank 2.24%,"Rank 2.24%, Score 0.0264, BULL",Close all,Close all,END,csi300
+600803,新奥股份,供气供热,20260105,20.84,20260313,22.88,200,402.0,9.79%,67,Rank 2.56%,"Rank 2.56%, Score 0.0254, BULL",Close all,Close all,END,csi300
+688009,中国通号,运输设备,20260105,5.51,20260313,6.13,900,550.8,11.25%,67,Rank 3.21%,"Rank 3.21%, Score 0.0210, BULL",Close all,Close all,END,csi300
+601456,国联民生,证券,20260105,9.84,20260313,9.43,400,-168.9,-4.17%,67,Rank 3.53%,"Rank 3.53%, Score 0.0207, BULL",Close all,Close all,END,csi300
+601800,中国交建,建筑工程,20260106,8.35,20260313,8.62,800,209.5,3.27%,66,Rank 0.96%,"Rank 0.96%, Score 0.0540, BULL",Close all,Close all,END,csi300
+002493,荣盛石化,化纤,20260106,11.98,20260313,13.62,500,811.1,13.69%,66,Rank 1.60%,"Rank 1.60%, Score 0.0287, BULL",Close all,Close all,END,csi300
+603833,欧派家居,家居用品,20260106,52.98,20260313,54.79,100,174.4,3.43%,66,Rank 3.85%,"Rank 3.85%, Score 0.0215, BULL",Close all,Close all,END,csi300
+601117,中国化学,建筑工程,20260107,8.24,20260313,10.25,1000,2000.4,24.44%,65,Rank 1.60%,"Rank 1.60%, Score 0.0248, BULL",Close all,Close all,END,csi300
+600377,宁沪高速,路桥,20260107,11.82,20260313,12.37,600,320.4,4.65%,65,Rank 3.51%,"Rank 3.51%, Score 0.0174, BULL",Close all,Close all,END,csi300
+000983,山西焦煤,煤炭开采,20260107,7.1,20260313,7.49,800,305.9,5.52%,65,Rank 4.79%,"Rank 4.79%, Score 0.0142, BULL",Close all,Close all,END,csi300
+600039,四川路桥,建筑工程,20260108,10.33,20260313,9.98,900,-327.8,-3.40%,64,Rank 2.88%,"Rank 2.88%, Score 0.0183, BULL",Close all,Close all,END,csi300
+601298,青岛港,港口,20260108,8.49,20260313,9.25,900,676.1,8.99%,64,Rank 4.79%,"Rank 4.79%, Score 0.0150, BULL",Close all,Close all,END,csi300
+001289,龙源电力,新型电力,20260112,15.76,20260313,18.55,900,2487.8,17.69%,60,Rank 1.28%,"Rank 1.28%, Score 0.0793, BULL",Close all,Close all,END,csi300
+601669,中国电建,建筑工程,20260119,5.84,20260313,7.19,2300,3083.5,23.12%,53,Rank 0.63%,"Rank 0.63%, Score 0.0327, BULL",Close all,Close all,END,csi300
+600918,中泰证券,证券,20260202,6.4,20260313,6.24,800,-134.5,-2.50%,39,Rank 1.26%,"Rank 1.26%, Score 0.0326, BULL",Close all,Close all,END,csi300
+601998,中信银行,银行,20260202,7.56,20260313,7.69,400,49.2,1.76%,39,Rank 1.89%,"Rank 1.89%, Score 0.0295, BULL",Close all,Close all,END,csi300
+000708,中信特钢,特种钢,20260202,15.0,20260313,17.63,100,261.5,17.59%,39,Rank 2.83%,"Rank 2.83%, Score 0.0254, BULL",Close all,Close all,END,csi300
+600875,东方电气,电气设备,20260227,37.07,20260313,38.4,100,128.0,3.59%,14,Rank 1.26%,"Rank 1.26%, Score 0.0307, BULL",Close all,Close all,END,csi300
+600176,中国巨石,玻璃,20260303,26.73,20260313,26.38,400,-155.2,-1.32%,10,Rank 1.58%,"Rank 1.58%, Score 0.0480, BULL",Close all,Close all,END,csi300
+300251,光线传媒,影视音像,20260305,17.52,20260313,16.44,200,-220.3,-6.16%,8,Rank 0.95%,"Rank 0.95%, Score 0.0712, BULL",Close all,Close all,END,csi300
+688223,晶科能源,电气设备,20260305,7.05,20260313,7.89,300,248.9,11.91%,8,Rank 1.26%,"Rank 1.26%, Score 0.0588, BULL",Close all,Close all,END,csi300
+600161,天坛生物,生物制药,20260309,16.01,20260313,16.04,500,4.6,0.19%,4,Rank 1.26%,"Rank 1.26%, Score 0.0586, BULL",Close all,Close all,END,csi300
+000301,东方盛虹,化纤,20260310,11.76,20260313,11.56,600,-129.0,-1.70%,3,Rank 1.26%,"Rank 1.26%, Score 0.0369, BULL",Close all,Close all,END,csi300
+600989,宝丰能源,化工原料,20260310,28.95,20260313,34.7,100,570.5,19.86%,3,Rank 2.52%,"Rank 2.52%, Score 0.0259, BULL",Close all,Close all,END,csi300
+601898,中煤能源,煤炭开采,20260312,19.61,20260313,19.06,600,-343.1,-2.79%,1,Rank 1.26%,"Rank 1.26%, Score 0.0713, BULL",Close all,Close all,END,csi300
