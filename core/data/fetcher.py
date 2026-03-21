@@ -59,7 +59,14 @@ class DataFetcher:
         return stocks
 
     def get_daily_price(self, ts_code, start_date, end_date):
-        """获取日线行情"""
+        """获取日线行情
+
+        返回后复权价格用于特征计算和收益率计算，同时保留未复权价格用于
+        交易记录显示。
+
+        后复权公式: price_adj = raw_price * adj_factor
+        后复权保证收益率计算包含分红/拆股，且不受查询时间范围影响。
+        """
         cache_file = self.cache_dir / f"daily_{ts_code}_{start_date}_{end_date}.pkl"
 
         if cache_file.exists():
@@ -76,8 +83,13 @@ class DataFetcher:
             adj_df = self.pro.adj_factor(ts_code=ts_code, start_date=start, end_date=end)
             if not adj_df.empty:
                 df = df.merge(adj_df[['trade_date', 'adj_factor']], on='trade_date', how='left')
+                # 保留未复权价格用于交易记录显示
                 for col in ['open', 'high', 'low', 'close']:
-                    df[col] = df[col] * df['adj_factor'] / df['adj_factor'].iloc[-1]
+                    df[f'raw_{col}'] = df[col]
+                # 后复权: price * adj_factor（不除以任何基准）
+                # 后复权价格与查询时间范围无关，保证跨缓存一致性
+                for col in ['open', 'high', 'low', 'close']:
+                    df[col] = df[col] * df['adj_factor']
 
             df['trade_date'] = pd.to_datetime(df['trade_date'])
             df = df.sort_values('trade_date')
@@ -114,7 +126,8 @@ class DataFetcher:
         result.rename(columns=column_mapping, inplace=True)
         result['date'] = pd.to_datetime(result['date'])
 
-        return result[['date', 'symbol', 'open', 'high', 'low', 'close', 'volume', 'amount']]
+        return result[['date', 'symbol', 'open', 'high', 'low', 'close', 'volume', 'amount']
+                      + [c for c in ['raw_open', 'raw_high', 'raw_low', 'raw_close'] if c in result.columns]]
 
     def load_data_extended(self, start_date, end_date, market='csi500'):
         """加载扩展股票池数据"""
@@ -148,7 +161,16 @@ class DataFetcher:
 
         # 获取股票信息
         try:
-            stock_info = self.pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,industry')
+            import time
+            stock_info = pd.DataFrame()
+            for attempt in range(3):
+                stock_info = self.pro.stock_basic(exchange='', list_status='L', fields='ts_code,symbol,name,industry')
+                if not stock_info.empty and 'ts_code' in stock_info.columns:
+                    break
+                logger.warning(f"stock_basic 返回为空，重试 {attempt+1}/3...")
+                time.sleep(2)
+            if stock_info.empty or 'ts_code' not in stock_info.columns:
+                raise ValueError("stock_basic 返回数据为空")
             stock_info['symbol'] = stock_info['ts_code'].str.replace('.SH', '').str.replace('.SZ', '')
             stock_names = dict(zip(stock_info['symbol'], stock_info['name']))
             stock_industries = dict(zip(stock_info['symbol'], stock_info['industry']))

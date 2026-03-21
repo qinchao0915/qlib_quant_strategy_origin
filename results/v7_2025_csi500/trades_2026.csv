@@ -1,77 +1,72 @@
 ﻿代码,名称,行业,买入日期,买入价,卖出日期,卖出价,股数,盈亏金额,盈亏比例,持有天数,买入信号,买入原因,卖出信号,卖出原因,市场状态,股票池
-600879,航天电子,航空,20260105,22.3,20260115,27.37,200,1006.9,22.74%,10,Rank 1.52%,"Rank 1.52%, Score 0.0651, BULL",BULL trailing stop (15.1%),BULL trailing stop (15.1%),BULL,csi500
-002025,航天电器,元器件,20260105,51.19,20260115,57.54,100,627.5,12.40%,10,Rank 2.02%,"Rank 2.02%, Score 0.0569, BULL",BULL trailing stop (15.1%),BULL trailing stop (15.1%),BULL,csi500
-300058,蓝色光标,广告包装,20260106,13.6,20260116,17.5,300,1163.2,28.68%,10,Rank 4.38%,"Rank 4.38%, Score 0.0509, BULL",BULL trailing stop (22.2%),BULL trailing stop (22.2%),BULL,csi500
-688375,国博电子,元器件,20260115,160.0,20260116,139.0,100,-2118.1,-13.12%,1,Rank 0.85%,"Rank 0.85%, Score 0.1324, BULL",BULL Hard stop (-13.1%),BULL Hard stop (-13.1%),BULL,csi500
-601611,中国核建,建筑工程,20260105,13.56,20260119,16.98,300,1020.2,25.24%,14,Rank 3.54%,"Rank 3.54%, Score 0.0525, BULL",BULL trailing stop (15.5%),BULL trailing stop (15.5%),BULL,csi500
-300058,蓝色光标,广告包装,20260116,17.5,20260119,16.0,1100,-1672.9,-8.57%,3,Rank 0.34%,"Rank 0.34%, Score 0.1715, BULL",BULL Hard stop (-8.6%),BULL Hard stop (-8.6%),BULL,csi500
-002044,美年健康,医疗保健,20260105,5.29,20260121,7.2,1100,2090.7,36.11%,16,Rank 1.69%,"Rank 1.69%, Score 0.0611, BULL",BULL trailing stop (16.1%),BULL trailing stop (16.1%),BULL,csi500
-002131,利欧股份,互联网,20260106,6.36,20260122,8.42,1500,3073.6,32.39%,16,Rank 0.34%,"Rank 0.34%, Score 0.0928, BULL",BULL trailing stop (15.2%),BULL trailing stop (15.2%),BULL,csi500
-688387,信科移动-U,通信设备,20260115,19.2,20260122,17.02,1100,-2422.3,-11.35%,7,Rank 0.68%,"Rank 0.68%, Score 0.1610, BULL",BULL Hard stop (-11.4%),BULL Hard stop (-11.4%),BULL,csi500
-688249,晶合集成,半导体,20260122,39.4,20260127,36.01,300,-1031.0,-8.60%,5,Rank 0.51%,"Rank 0.51%, Score 0.0652, BULL",BULL Hard stop (-8.6%),BULL Hard stop (-8.6%),BULL,csi500
-002130,沃尔核材,电气设备,20260105,26.39,20260130,27.4,100,97.4,3.83%,25,Rank 2.53%,"Rank 2.53%, Score 0.0560, BULL",BULL trailing stop (16.5%),BULL trailing stop (16.5%),BULL,csi500
-002558,巨人网络,互联网,20260106,44.4,20260130,43.68,100,-77.7,-1.62%,24,Rank 4.55%,"Rank 4.55%, Score 0.0508, BULL",BULL trailing stop (15.7%),BULL trailing stop (15.7%),BULL,csi500
-000960,锡业股份,小金属,20260105,28.28,20260202,36.8,100,847.0,30.12%,28,Rank 3.04%,"Rank 3.04%, Score 0.0540, BULL",BULL trailing stop (21.5%),BULL trailing stop (21.5%),BULL,csi500
-300432,富临精工,汽车配件,20260105,16.75,20260202,16.8,200,5.6,0.30%,28,Rank 4.89%,"Rank 4.89%, Score 0.0484, BULL",BULL trailing stop (17.7%),BULL trailing stop (17.7%),BULL,csi500
-300339,润和软件,软件服务,20260106,50.55,20260202,50.07,100,-54.6,-0.95%,27,Rank 3.20%,"Rank 3.20%, Score 0.0569, BULL",BULL trailing stop (16.7%),BULL trailing stop (16.7%),BULL,csi500
-300285,国瓷材料,陶瓷,20260105,28.12,20260203,29.18,200,204.4,3.77%,29,Rank 1.85%,"Rank 1.85%, Score 0.0569, BULL",BULL trailing stop (16.3%),BULL trailing stop (16.3%),BULL,csi500
-000878,云南铜业,铜,20260106,20.75,20260203,22.88,200,420.1,10.27%,28,Rank 3.70%,"Rank 3.70%, Score 0.0550, BULL",BULL trailing stop (17.3%),BULL trailing stop (17.3%),BULL,csi500
-688005,容百科技,电气设备,20260121,32.61,20260203,29.99,600,-1595.4,-8.03%,13,Rank 0.68%,"Rank 0.68%, Score 0.0736, BULL",BULL Hard stop (-8.0%),BULL Hard stop (-8.0%),BULL,csi500
-600884,杉杉股份,电气设备,20260122,14.05,20260203,12.85,700,-851.7,-8.54%,12,Rank 0.84%,"Rank 0.84%, Score 0.0617, BULL",BULL Hard stop (-8.5%),BULL Hard stop (-8.5%),BULL,csi500
-300212,易华录,软件服务,20260202,13.17,20260203,11.02,300,-649.3,-16.32%,1,Rank 0.67%,"Rank 0.67%, Score 0.0657, BULL",BULL Hard stop (-16.3%),BULL Hard stop (-16.3%),BULL,csi500
-688172,燕东微,半导体,20260202,46.2,20260204,41.64,100,-461.4,-9.87%,2,Rank 0.17%,"Rank 0.17%, Score 0.0837, BULL",BULL Hard stop (-9.9%),BULL Hard stop (-9.9%),BULL,csi500
-000021,深科技,元器件,20260105,25.76,20260205,27.34,100,154.4,6.13%,31,Rank 3.37%,"Rank 3.37%, Score 0.0526, BULL",BULL trailing stop (18.5%),BULL trailing stop (18.5%),BULL,csi500
-002156,通富微电,半导体,20260105,38.13,20260205,47.33,100,913.8,24.13%,31,Rank 3.71%,"Rank 3.71%, Score 0.0524, BULL",BULL trailing stop (18.3%),BULL trailing stop (18.3%),BULL,csi500
-002281,光迅科技,通信设备,20260106,70.25,20260206,65.64,100,-469.5,-6.56%,31,Rank 2.02%,"Rank 2.02%, Score 0.0640, BULL",BULL trailing stop (15.9%),BULL trailing stop (15.9%),BULL,csi500
-600021,上海电力,火力发电,20260106,20.09,20260206,20.0,300,-34.8,-0.45%,31,Rank 2.53%,"Rank 2.53%, Score 0.0593, BULL",BULL trailing stop (16.7%),BULL trailing stop (16.7%),BULL,csi500
-002436,兴森科技,元器件,20260106,22.27,20260206,21.66,200,-127.6,-2.74%,31,Rank 3.54%,"Rank 3.54%, Score 0.0553, BULL",BULL trailing stop (16.3%),BULL trailing stop (16.3%),BULL,csi500
-300919,中伟新材,电气设备,20260116,56.14,20260206,50.03,200,-1233.5,-10.87%,21,Rank 0.68%,"Rank 0.68%, Score 0.0850, BULL",BULL Hard stop (-10.9%),BULL Hard stop (-10.9%),BULL,csi500
-300058,蓝色光标,广告包装,20260119,16.0,20260206,19.01,700,2089.7,18.81%,18,Rank 1.01%,"Rank 1.01%, Score 0.0693, BULL",BULL trailing stop (16.6%),BULL trailing stop (16.6%),BULL,csi500
-600977,中国电影,影视音像,20260105,15.56,20260213,17.5,300,575.2,12.47%,39,Rank 3.20%,"Rank 3.20%, Score 0.0537, BULL",BULL trailing stop (15.6%),BULL trailing stop (15.6%),BULL,csi500
-000933,神火股份,铝,20260105,28.55,20260213,30.59,100,200.0,7.15%,39,Rank 4.22%,"Rank 4.22%, Score 0.0497, BULL",BULL trailing stop (15.1%),BULL trailing stop (15.1%),BULL,csi500
-300118,东方日升,电气设备,20260105,14.74,20260224,20.19,400,2169.5,36.97%,50,Rank 0.67%,"Rank 0.67%, Score 0.0796, BULL",BULL trailing stop (15.9%),BULL trailing stop (15.9%),BULL,csi500
-002558,巨人网络,互联网,20260203,42.91,20260225,39.26,100,-370.1,-8.51%,22,Rank 1.01%,"Rank 1.01%, Score 0.0657, BULL",BULL Hard stop (-8.5%),BULL Hard stop (-8.5%),BULL,csi500
-002517,恺英网络,互联网,20260213,25.52,20260225,23.2,300,-705.0,-9.09%,12,Rank 0.84%,"Rank 0.84%, Score 0.0630, BULL",BULL Hard stop (-9.1%),BULL Hard stop (-9.1%),BULL,csi500
-300017,网宿科技,软件服务,20260224,22.52,20260226,20.5,800,-1637.3,-8.97%,2,Rank 0.84%,"Rank 0.84%, Score 0.0760, BULL",BULL Hard stop (-9.0%),BULL Hard stop (-9.0%),BULL,csi500
-002414,高德红外,电器仪表,20260106,16.5,20260302,15.66,500,-430.2,-5.09%,55,Rank 1.01%,"Rank 1.01%, Score 0.0739, BULL",BULL trailing stop (15.3%),BULL trailing stop (15.3%),BULL,csi500
-300699,光威复材,化纤,20260105,40.66,20260304,36.1,100,-460.7,-11.21%,58,Rank 4.05%,"Rank 4.05%, Score 0.0501, BULL",BULL Hard stop (-11.2%),BULL Hard stop (-11.2%),BULL,csi500
-000733,振华科技,元器件,20260127,56.73,20260304,51.98,300,-1445.3,-8.37%,36,Rank 0.51%,"Rank 0.51%, Score 0.0838, BULL",BULL Hard stop (-8.4%),BULL Hard stop (-8.4%),BULL,csi500
-300212,易华录,软件服务,20260203,11.02,20260304,11.06,700,17.9,0.36%,29,Rank 0.50%,"Rank 0.50%, Score 0.0676, BULL",BULL trailing stop (20.6%),BULL trailing stop (20.6%),BULL,csi500
-688249,晶合集成,半导体,20260205,34.66,20260304,31.2,100,-350.1,-9.98%,27,Rank 1.01%,"Rank 1.01%, Score 0.0707, BULL",BULL Hard stop (-10.0%),BULL Hard stop (-10.0%),BULL,csi500
-688099,晶晨股份,半导体,20260213,93.84,20260304,86.0,100,-795.2,-8.35%,19,Rank 0.17%,"Rank 0.17%, Score 0.0875, BULL",BULL Hard stop (-8.4%),BULL Hard stop (-8.4%),BULL,csi500
-600765,中航重机,航空,20260225,21.21,20260304,19.3,100,-193.5,-9.01%,7,Rank 1.01%,"Rank 1.01%, Score 0.0709, BULL",BULL Hard stop (-9.0%),BULL Hard stop (-9.0%),BULL,csi500
-002340,格林美,小金属,20260302,9.93,20260304,9.0,1300,-1224.2,-9.37%,2,Rank 0.34%,"Rank 0.34%, Score 0.0774, BULL",BULL Hard stop (-9.4%),BULL Hard stop (-9.4%),BULL,csi500
-002080,中材科技,玻璃,20260226,51.4,20260306,46.56,300,-1470.2,-9.42%,8,Rank 0.34%,"Rank 0.34%, Score 0.0813, BULL",BULL Hard stop (-9.4%),BULL Hard stop (-9.4%),BULL,csi500
-000831,中国稀土,小金属,20260203,52.06,20260312,54.7,100,256.9,5.07%,37,Rank 1.34%,"Rank 1.34%, Score 0.0629, BULL",BULL trailing stop (15.4%),BULL trailing stop (15.4%),BULL,csi500
-002402,和而泰,元器件,20260206,35.8,20260312,32.86,100,-298.3,-8.21%,34,Rank 2.85%,"Rank 2.85%, Score 0.0547, BULL",BULL Hard stop (-8.2%),BULL Hard stop (-8.2%),BULL,csi500
-002126,银轮股份,汽车配件,20260205,43.6,20260313,47.12,100,345.9,8.07%,36,Rank 0.84%,"Rank 0.84%, Score 0.0708, BULL",BULL trailing stop (15.4%),BULL trailing stop (15.4%),BULL,csi500
-600487,亨通光电,通信设备,20260105,24.96,20260313,51.05,200,5204.7,104.53%,67,Rank 1.01%,"Rank 1.01%, Score 0.0693, BULL",Close all,Close all,END,csi500
-600157,永泰能源,火力发电,20260105,1.57,20260313,2.01,3300,1443.4,28.03%,67,Rank 2.19%,"Rank 2.19%, Score 0.0568, BULL",Close all,Close all,END,csi500
-600096,云天化,农药化肥,20260105,33.6,20260313,42.39,100,873.5,26.16%,67,Rank 2.70%,"Rank 2.70%, Score 0.0550, BULL",Close all,Close all,END,csi500
-601179,中国西电,电气设备,20260105,9.22,20260313,18.51,500,4633.0,100.76%,67,Rank 2.87%,"Rank 2.87%, Score 0.0547, BULL",Close all,Close all,END,csi500
-603650,彤程新材,化工原料,20260106,45.2,20260313,54.16,100,889.0,19.82%,66,Rank 1.35%,"Rank 1.35%, Score 0.0661, BULL",Close all,Close all,END,csi500
-002353,杰瑞股份,化工机械,20260106,74.02,20260313,108.47,100,3430.9,46.54%,66,Rank 1.85%,"Rank 1.85%, Score 0.0643, BULL",Close all,Close all,END,csi500
-600673,东阳光,综合类,20260106,23.58,20260313,37.0,200,2674.4,56.91%,66,Rank 4.04%,"Rank 4.04%, Score 0.0522, BULL",Close all,Close all,END,csi500
-600498,烽火通信,通信设备,20260119,39.09,20260313,55.0,400,6335.4,40.70%,53,Rank 0.68%,"Rank 0.68%, Score 0.0902, BULL",Close all,Close all,END,csi500
-000400,许继电气,电气设备,20260130,30.53,20260313,32.38,100,180.4,6.05%,42,Rank 0.67%,"Rank 0.67%, Score 0.0749, BULL",Close all,Close all,END,csi500
-600312,平高电气,电气设备,20260130,21.48,20260313,23.94,100,242.5,11.44%,42,Rank 0.84%,"Rank 0.84%, Score 0.0710, BULL",Close all,Close all,END,csi500
-002532,天山铝业,铝,20260202,17.74,20260313,20.04,100,227.6,12.98%,39,Rank 2.01%,"Rank 2.01%, Score 0.0591, BULL",Close all,Close all,END,csi500
-600418,江淮汽车,汽车整车,20260203,52.93,20260313,49.59,100,-340.4,-6.31%,38,Rank 0.34%,"Rank 0.34%, Score 0.0689, BULL",Close all,Close all,END,csi500
-600141,兴发集团,农药化肥,20260203,37.42,20260313,40.34,100,286.8,7.80%,38,Rank 1.17%,"Rank 1.17%, Score 0.0630, BULL",Close all,Close all,END,csi500
-601118,海南橡胶,橡胶,20260204,7.1,20260313,8.33,3100,3779.4,17.32%,37,Rank 0.50%,"Rank 0.50%, Score 0.0665, BULL",Close all,Close all,END,csi500
-002487,大金重工,电气设备,20260206,62.01,20260313,73.99,100,1188.4,19.32%,35,Rank 0.34%,"Rank 0.34%, Score 0.0791, BULL",Close all,Close all,END,csi500
-688568,中科星图,软件服务,20260206,67.0,20260313,69.01,100,192.0,3.00%,35,Rank 2.35%,"Rank 2.35%, Score 0.0571, BULL",Close all,Close all,END,csi500
-002436,兴森科技,元器件,20260206,21.66,20260313,23.45,200,351.9,8.26%,35,Rank 2.68%,"Rank 2.68%, Score 0.0563, BULL",Close all,Close all,END,csi500
-603659,璞泰来,化工原料,20260206,27.13,20260313,29.73,100,256.1,9.58%,35,Rank 3.02%,"Rank 3.02%, Score 0.0544, BULL",Close all,Close all,END,csi500
-000933,神火股份,铝,20260225,30.95,20260313,38.21,200,1442.1,23.46%,16,Rank 0.84%,"Rank 0.84%, Score 0.0723, BULL",Close all,Close all,END,csi500
-300432,富临精工,汽车配件,20260304,16.18,20260313,17.3,400,439.0,6.92%,9,Rank 0.67%,"Rank 0.67%, Score 0.0646, BULL",Close all,Close all,END,csi500
-002312,川发龙蟒,化工原料,20260304,12.6,20260313,13.06,500,221.5,3.65%,9,Rank 1.01%,"Rank 1.01%, Score 0.0614, BULL",Close all,Close all,END,csi500
-001203,大中矿业,普钢,20260304,35.0,20260313,38.42,100,337.0,9.77%,9,Rank 1.35%,"Rank 1.35%, Score 0.0592, BULL",Close all,Close all,END,csi500
-600170,上海建工,建筑工程,20260304,2.81,20260313,3.03,1700,367.3,7.83%,9,Rank 1.52%,"Rank 1.52%, Score 0.0581, BULL",Close all,Close all,END,csi500
-600601,方正科技,元器件,20260304,10.36,20260313,10.44,400,26.6,0.77%,9,Rank 1.85%,"Rank 1.85%, Score 0.0547, BULL",Close all,Close all,END,csi500
-601933,永辉超市,超市连锁,20260304,4.1,20260313,4.04,900,-58.7,-1.46%,9,Rank 2.02%,"Rank 2.02%, Score 0.0545, BULL",Close all,Close all,END,csi500
-688249,晶合集成,半导体,20260304,31.2,20260313,32.36,100,111.8,3.72%,9,Rank 2.19%,"Rank 2.19%, Score 0.0543, BULL",Close all,Close all,END,csi500
-300763,锦浪科技,电气设备,20260306,89.29,20260313,105.97,200,3308.4,18.68%,7,Rank 0.34%,"Rank 0.34%, Score 0.0803, BULL",Close all,Close all,END,csi500
-300251,光线传媒,影视音像,20260312,16.94,20260313,16.71,700,-176.2,-1.36%,1,Rank 0.50%,"Rank 0.50%, Score 0.0711, BULL",Close all,Close all,END,csi500
-600839,四川长虹,家用电器,20260312,10.01,20260313,9.83,600,-115.7,-1.80%,1,Rank 1.34%,"Rank 1.34%, Score 0.0567, BULL",Close all,Close all,END,csi500
-688099,晶晨股份,半导体,20260313,88.5,20260313,88.5,100,-11.5,0.00%,0,Rank 0.67%,"Rank 0.67%, Score 0.0718, BULL",Close all,Close all,END,csi500
+001203,大中矿业,普钢,20260106,31.91,20260109,27.7,100,-460.7,-13.19%,3,Rank 1.52%,"Rank 1.52%, Score 0.0418, BULL",BULL Hard stop (-13.2%),BULL Hard stop (-13.2%),BULL,csi500
+601399,国机重装,工程机械,20260106,4.98,20260121,5.4,1100,454.3,8.43%,15,Rank 2.36%,"Rank 2.36%, Score 0.0279, BULL",BULL trailing stop (18.2%),BULL trailing stop (18.2%),BULL,csi500
+601611,中国核建,建筑工程,20260112,18.14,20260121,16.24,300,-622.6,-10.47%,9,Rank 4.55%,"Rank 4.55%, Score 0.0211, BULL",BULL trailing stop (19.2%),BULL trailing stop (19.2%),BULL,csi500
+688005,容百科技,电气设备,20260108,34.81,20260123,30.2,100,-718.8,-13.24%,15,Rank 4.04%,"Rank 4.04%, Score 0.0203, BULL",BULL Hard stop (-13.2%),BULL Hard stop (-13.2%),BULL,csi500
+688295,中复神鹰,化纤,20260106,32.52,20260126,35.27,100,272.3,8.46%,20,Rank 4.05%,"Rank 4.05%, Score 0.0210, BULL",BULL rank exit (68.1%),BULL rank exit (68.1%),BULL,csi500
+002044,美年健康,医疗保健,20260109,5.77,20260129,6.96,100,1155.1,20.62%,20,Rank 4.04%,"Rank 4.04%, Score 0.0214, BULL",BULL trailing stop (18.9%),BULL trailing stop (18.9%),BULL,csi500
+002240,盛新锂能,小金属,20260108,36.66,20260202,34.48,100,-372.4,-5.95%,25,Rank 2.53%,"Rank 2.53%, Score 0.0271, BULL",BULL trailing stop (18.2%),BULL trailing stop (18.2%),BULL,csi500
+601858,中国科传,出版业,20260114,21.57,20260202,21.05,300,-189.4,-2.41%,19,Rank 2.20%,"Rank 2.20%, Score 0.0515, BULL",BULL rank exit (90.4%),BULL rank exit (90.4%),BULL,csi500
+001203,大中矿业,普钢,20260109,27.7,20260203,28.8,200,230.6,3.97%,25,Rank 3.37%,"Rank 3.37%, Score 0.0244, BULL",BULL rank exit (40.9%),BULL rank exit (40.9%),BULL,csi500
+601958,金钼股份,小金属,20260113,18.21,20260203,19.04,200,263.6,4.56%,21,Rank 4.73%,"Rank 4.73%, Score 0.0206, BULL",BULL trailing stop (18.4%),BULL trailing stop (18.4%),BULL,csi500
+688599,天合光能,电气设备,20260114,19.36,20260203,19.16,300,-71.9,-1.03%,20,Rank 3.55%,"Rank 3.55%, Score 0.0281, BULL",BULL rank exit (56.0%),BULL rank exit (56.0%),BULL,csi500
+601212,白银有色,铜,20260106,6.25,20260204,10.3,900,3647.5,64.80%,29,Rank 2.02%,"Rank 2.02%, Score 0.0341, BULL",BULL trailing stop (32.2%),BULL trailing stop (32.2%),BULL,csi500
+603650,彤程新材,化工原料,20260114,53.3,20260204,55.48,100,230.2,4.09%,21,Rank 4.90%,"Rank 4.90%, Score 0.0255, BULL",BULL rank exit (37.1%),BULL rank exit (37.1%),BULL,csi500
+688387,信科移动-U,通信设备,20260106,12.23,20260205,16.5,500,2124.3,34.91%,30,Rank 0.51%,"Rank 0.51%, Score 0.0900, BULL",BULL trailing stop (19.5%),BULL trailing stop (19.5%),BULL,csi500
+000738,航发控制,航空,20260114,22.69,20260205,26.75,100,741.1,17.89%,22,Rank 3.89%,"Rank 3.89%, Score 0.0279, BULL",BULL rank exit (79.4%),BULL rank exit (79.4%),BULL,csi500
+000591,太阳能,新型电力,20260116,5.24,20260205,5.69,100,680.8,8.59%,20,Rank 3.05%,"Rank 3.05%, Score 0.0333, BULL",BULL rank exit (35.6%),BULL rank exit (35.6%),BULL,csi500
+600871,石化油服,石油开采,20260106,2.18,20260206,2.72,1000,1321.8,24.77%,31,Rank 3.54%,"Rank 3.54%, Score 0.0223, BULL",BULL trailing stop (18.6%),BULL trailing stop (18.6%),BULL,csi500
+688114,华大智造,医疗保健,20260119,67.26,20260206,66.48,100,-87.0,-1.16%,18,Rank 4.92%,"Rank 4.92%, Score 0.0221, BULL",BULL rank exit (81.2%),BULL rank exit (81.2%),BULL,csi500
+000987,越秀资本,多元金融,20260116,9.82,20260212,9.46,100,-323.1,-3.67%,27,Rank 2.37%,"Rank 2.37%, Score 0.0396, BULL",BULL trailing stop (18.1%),BULL trailing stop (18.1%),BULL,csi500
+002465,海格通信,通信设备,20260122,17.71,20260212,17.3,100,-311.1,-2.32%,21,Rank 0.84%,"Rank 0.84%, Score 0.0673, BULL",BULL rank exit (45.8%),BULL rank exit (45.8%),BULL,csi500
+600637,东方明珠,影视音像,20260120,12.39,20260213,11.6,100,-451.7,-6.38%,24,Rank 1.86%,"Rank 1.86%, Score 0.0447, BULL",BULL rank exit (36.6%),BULL rank exit (36.6%),BULL,csi500
+688005,容百科技,电气设备,20260123,30.2,20260213,31.55,100,202.4,4.47%,21,Rank 4.05%,"Rank 4.05%, Score 0.0240, BULL",BULL rank exit (37.2%),BULL rank exit (37.2%),BULL,csi500
+603000,人民网,互联网,20260126,25.32,20260213,26.0,100,281.7,2.69%,18,Rank 2.19%,"Rank 2.19%, Score 0.0258, BULL",BULL rank exit (80.9%),BULL rank exit (80.9%),BULL,csi500
+601212,白银有色,铜,20260205,10.43,20260213,8.98,800,-1174.0,-13.90%,8,Rank 0.84%,"Rank 0.84%, Score 0.0582, BULL",BULL Hard stop (-13.9%),BULL Hard stop (-13.9%),BULL,csi500
+601233,桐昆股份,化纤,20260204,21.11,20260225,24.44,100,1060.4,15.77%,21,Rank 3.86%,"Rank 3.86%, Score 0.0240, BULL",BULL rank exit (73.4%),BULL rank exit (73.4%),BULL,csi500
+603225,新凤鸣,化纤,20260107,20.21,20260226,22.1,100,399.5,9.35%,50,Rank 4.38%,"Rank 4.38%, Score 0.0208, BULL",BULL rank exit (42.0%),BULL rank exit (42.0%),BULL,csi500
+300118,东方日升,电气设备,20260106,14.46,20260227,19.31,100,1684.9,33.54%,52,Rank 0.84%,"Rank 0.84%, Score 0.0681, BULL",BULL trailing stop (19.5%),BULL trailing stop (19.5%),BULL,csi500
+601933,永辉超市,超市连锁,20260106,4.63,20260227,4.22,100,-381.0,-8.86%,52,Rank 3.37%,"Rank 3.37%, Score 0.0224, BULL",BULL trailing stop (19.8%),BULL trailing stop (19.8%),BULL,csi500
+601615,明阳智能,电气设备,20260112,18.78,20260304,19.2,300,131.4,2.24%,51,Rank 4.38%,"Rank 4.38%, Score 0.0215, BULL",BULL trailing stop (27.2%),BULL trailing stop (27.2%),BULL,csi500
+601106,中国一重,工程机械,20260119,4.83,20260304,4.57,1900,-509.3,-5.38%,44,Rank 1.53%,"Rank 1.53%, Score 0.0602, BULL",BULL trailing stop (23.8%),BULL trailing stop (23.8%),BULL,csi500
+002429,兆驰股份,家用电器,20260121,9.02,20260304,9.2,100,160.2,2.00%,42,Rank 1.35%,"Rank 1.35%, Score 0.0650, BULL",BULL trailing stop (22.7%),BULL trailing stop (22.7%),BULL,csi500
+688172,燕东微,半导体,20260123,35.35,20260304,35.93,100,53.4,1.64%,40,Rank 4.73%,"Rank 4.73%, Score 0.0206, BULL",BULL trailing stop (22.9%),BULL trailing stop (22.9%),BULL,csi500
+300212,易华录,软件服务,20260209,12.62,20260304,11.06,100,-1346.3,-12.36%,23,Rank 3.86%,"Rank 3.86%, Score 0.0338, BULL",BULL Hard stop (-12.4%),BULL Hard stop (-12.4%),BULL,csi500
+601231,环旭电子,元器件,20260109,28.3,20260309,37.8,100,2297.7,33.57%,59,Rank 2.36%,"Rank 2.36%, Score 0.0298, BULL",BULL trailing stop (21.5%),BULL trailing stop (21.5%),BULL,csi500
+688249,晶合集成,半导体,20260205,34.66,20260309,31.5,100,-321.7,-9.12%,32,Rank 2.68%,"Rank 2.68%, Score 0.0339, BULL",BULL rank exit (36.9%),BULL rank exit (36.9%),BULL,csi500
+600871,石化油服,石油开采,20260206,2.72,20260310,3.38,1400,2261.6,24.26%,32,Rank 1.17%,"Rank 1.17%, Score 0.0581, BULL",BULL trailing stop (20.8%),BULL trailing stop (20.8%),BULL,csi500
+601212,白银有色,铜,20260213,8.98,20260313,9.43,800,351.6,5.01%,28,Rank 0.50%,"Rank 0.50%, Score 0.0764, BULL",BULL trailing stop (18.4%),BULL trailing stop (18.4%),BULL,csi500
+688387,信科移动-U,通信设备,20260205,16.5,20260316,14.5,400,-807.5,-12.12%,39,Rank 2.35%,"Rank 2.35%, Score 0.0353, BULL",BULL Hard stop (-12.1%),BULL Hard stop (-12.1%),BULL,csi500
+000960,锡业股份,小金属,20260210,35.95,20260316,36.5,100,179.3,1.53%,34,Rank 1.85%,"Rank 1.85%, Score 0.0354, BULL",BULL trailing stop (21.5%),BULL trailing stop (21.5%),BULL,csi500
+601399,国机重装,工程机械,20260121,5.4,20260317,4.76,1100,-710.8,-11.85%,55,Rank 4.90%,"Rank 4.90%, Score 0.0281, BULL",BULL trailing stop (18.5%),BULL trailing stop (18.5%),BULL,csi500
+601958,金钼股份,小金属,20260203,19.04,20260317,21.8,200,894.1,14.50%,42,Rank 3.36%,"Rank 3.36%, Score 0.0387, BULL",BULL trailing stop (18.2%),BULL trailing stop (18.2%),BULL,csi500
+601608,中信重工,专用机械,20260108,6.78,20260318,6.59,600,-192.9,-2.80%,69,Rank 4.21%,"Rank 4.21%, Score 0.0203, BULL",BULL trailing stop (19.7%),BULL trailing stop (19.7%),BULL,csi500
+002044,美年健康,医疗保健,20260129,6.96,20260318,6.0,100,-946.6,-13.79%,48,Rank 0.84%,"Rank 0.84%, Score 0.0488, BULL",BULL Hard stop (-13.8%),BULL Hard stop (-13.8%),BULL,csi500
+003035,南网能源,新型电力,20260206,6.89,20260318,8.6,1000,1717.3,24.82%,40,Rank 2.35%,"Rank 2.35%, Score 0.0435, BULL",BULL trailing stop (18.1%),BULL trailing stop (18.1%),BULL,csi500
+688676,金盘科技,电气设备,20260212,91.88,20260318,82.99,100,-950.5,-9.68%,34,Rank 4.70%,"Rank 4.70%, Score 0.0211, BULL",BULL trailing stop (19.6%),BULL trailing stop (19.6%),BULL,csi500
+000878,云南铜业,铜,20260224,22.95,20260318,20.97,100,-622.8,-8.63%,22,Rank 3.52%,"Rank 3.52%, Score 0.0235, BULL",BULL trailing stop (19.3%),BULL trailing stop (19.3%),BULL,csi500
+601233,桐昆股份,化纤,20260305,22.2,20260318,19.15,100,-988.6,-13.74%,13,Rank 3.20%,"Rank 3.20%, Score 0.0295, BULL",BULL Hard stop (-13.7%),BULL Hard stop (-13.7%),BULL,csi500
+601179,中国西电,电气设备,20260106,9.46,20260319,17.45,400,3755.5,84.46%,72,Rank 3.71%,"Rank 3.71%, Score 0.0215, BULL",BEAR trailing stop (12.8%),BEAR trailing stop (12.8%),BEAR,csi500
+601611,中国核建,建筑工程,20260121,16.24,20260319,15.88,400,-164.5,-2.22%,57,Rank 4.73%,"Rank 4.73%, Score 0.0282, BULL",BEAR trailing stop (16.4%),BEAR trailing stop (16.4%),BEAR,csi500
+002240,盛新锂能,小金属,20260202,34.48,20260319,37.19,100,445.6,7.86%,45,Rank 2.69%,"Rank 2.69%, Score 0.0370, BULL",BEAR trailing stop (18.3%),BEAR trailing stop (18.3%),BEAR,csi500
+603077,和邦生物,化工原料,20260202,2.49,20260319,2.98,100,698.1,19.68%,45,Rank 2.86%,"Rank 2.86%, Score 0.0362, BULL",BEAR trailing stop (10.5%),BEAR trailing stop (10.5%),BEAR,csi500
+000825,太钢不锈,特种钢,20260203,4.9,20260319,4.67,100,-192.6,-4.69%,44,Rank 3.69%,"Rank 3.69%, Score 0.0365, BULL",BEAR trailing stop (13.7%),BEAR trailing stop (13.7%),BEAR,csi500
+001203,大中矿业,普钢,20260227,39.5,20260319,35.4,100,-449.8,-10.38%,20,Rank 4.37%,"Rank 4.37%, Score 0.0202, BULL",BEAR trailing stop (12.5%),BEAR trailing stop (12.5%),BEAR,csi500
+601615,明阳智能,电气设备,20260304,19.2,20260319,20.01,300,260.9,4.22%,15,Rank 1.01%,"Rank 1.01%, Score 0.0560, BULL",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
+688772,珠海冠宇,电气设备,20260304,17.0,20260319,16.1,300,-290.8,-5.29%,15,Rank 4.38%,"Rank 4.38%, Score 0.0300, BULL",BEAR rank exit (23.5%),BEAR rank exit (23.5%),BEAR,csi500
+603885,吉祥航空,空运,20260310,12.65,20260319,11.88,200,-477.2,-6.09%,9,Rank 3.19%,"Rank 3.19%, Score 0.0256, BULL",BEAR rank exit (39.8%),BEAR rank exit (39.8%),BEAR,csi500
+002430,杭氧股份,化工机械,20260311,30.79,20260319,28.72,100,-513.7,-6.72%,8,Rank 4.37%,"Rank 4.37%, Score 0.0144, BULL",BEAR rank exit (25.4%),BEAR rank exit (25.4%),BEAR,csi500
+601933,永辉超市,超市连锁,20260311,4.11,20260319,3.94,100,-160.6,-4.14%,8,Rank 4.54%,"Rank 4.54%, Score 0.0142, BULL",BEAR rank exit (20.3%),BEAR rank exit (20.3%),BEAR,csi500
+300118,东方日升,电气设备,20260227,19.31,20260320,17.8,100,-535.4,-7.82%,21,Rank 1.18%,"Rank 1.18%, Score 0.0468, BULL",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
+600871,石化油服,石油开采,20260312,3.55,20260320,3.04,1000,-1266.4,-14.37%,8,Rank 1.68%,"Rank 1.68%, Score 0.0230, BULL",BEAR Hard stop (-14.4%),BEAR Hard stop (-14.4%),BEAR,csi500
+002945,华林证券,证券,20260312,16.75,20260320,16.29,400,-197.1,-2.75%,8,Rank 4.87%,"Rank 4.87%, Score 0.0136, BULL",BEAR rank exit (27.1%),BEAR rank exit (27.1%),BEAR,csi500
+601212,白银有色,铜,20260313,9.43,20260320,8.35,1000,-1095.2,-11.45%,7,Rank 3.87%,"Rank 3.87%, Score 0.0180, BULL",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
+600977,中国电影,影视音像,20260302,14.45,20260320,13.29,400,-515.2,-8.03%,18,Rank 4.87%,"Rank 4.87%, Score 0.0123, BULL",Close all,Close all,END,csi500
+688172,燕东微,半导体,20260304,35.93,20260320,43.0,200,1405.6,19.68%,16,Rank 0.84%,"Rank 0.84%, Score 0.0566, BULL",Close all,Close all,END,csi500
+002624,完美世界,互联网,20260316,19.17,20260320,18.58,100,-228.3,-3.08%,4,Rank 2.86%,"Rank 2.86%, Score 0.0229, BULL",Close all,Close all,END,csi500
+688387,信科移动-U,通信设备,20260316,14.5,20260320,15.7,500,589.8,8.28%,4,Rank 4.54%,"Rank 4.54%, Score 0.0195, BULL",Close all,Close all,END,csi500
+601555,东吴证券,证券,20260317,8.65,20260320,8.32,700,-344.0,-3.82%,3,Rank 4.19%,"Rank 4.19%, Score 0.0200, BULL",Close all,Close all,END,csi500
+688100,威胜信息,通信设备,20260317,39.6,20260320,37.3,100,-252.5,-5.81%,3,Rank 4.53%,"Rank 4.53%, Score 0.0199, BULL",Close all,Close all,END,csi500
+000629,钒钛股份,小金属,20260317,3.81,20260320,3.49,200,-505.6,-8.40%,3,Rank 4.87%,"Rank 4.87%, Score 0.0190, BULL",Close all,Close all,END,csi500
+003035,南网能源,新型电力,20260318,8.6,20260320,8.52,900,-82.9,-0.93%,2,Rank 0.50%,"Rank 0.50%, Score 0.0519, BULL",Close all,Close all,END,csi500
+002240,盛新锂能,小金属,20260320,35.66,20260320,35.66,300,-23.3,0.00%,0,Rank 0.50%,"Rank 0.50%, Score 0.0449, BEAR",Close all,Close all,END,csi500

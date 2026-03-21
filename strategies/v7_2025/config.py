@@ -23,27 +23,27 @@ RISK_CONFIG = {
 PARAMS = {
     'BULL': {
         'top_n': 0.05,
-        'min_holding_days': 10,
-        'rank_exit_threshold': 0.40,
-        'trailing_stop': 0.15,
+        'min_holding_days': 18,
+        'rank_exit_threshold': 0.35,
+        'trailing_stop': 0.18,
         'max_daily_return': 0.09,
         'max_ma5_deviation': 0.08,
         'pos_ratio': 1.0,
     },
     'CHOPPY': {
         'top_n': 0.04,
-        'min_holding_days': 7,
-        'rank_exit_threshold': 0.30,
-        'trailing_stop': 0.10,
+        'min_holding_days': 12,
+        'rank_exit_threshold': 0.25,
+        'trailing_stop': 0.12,
         'max_daily_return': 0.06,
         'max_ma5_deviation': 0.05,
         'pos_ratio': 0.6,
     },
     'BEAR': {
         'top_n': 0.03,
-        'min_holding_days': 5,
+        'min_holding_days': 8,
         'rank_exit_threshold': 0.20,
-        'trailing_stop': 0.08,
+        'trailing_stop': 0.10,
         'max_daily_return': 0.04,
         'max_ma5_deviation': 0.03,
         'pos_ratio': 0.3,
@@ -59,7 +59,7 @@ SCENARIOS = {
 }
 
 # 硬性止损
-HARD_STOP_LOSS = -0.08
+HARD_STOP_LOSS = -0.12
 
 # 模型配置
 MODEL_CONFIG = {

@@ -51,8 +51,20 @@ def load_data(args):
     return fetcher.load_data_extended(args.start, args.end, args.pool)
 
 
+def _attach_next_day_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Add T+1 price columns used for execution."""
+    trade_columns = ['open', 'high', 'low', 'close', 'volume']
+    raw_columns = [c for c in ['raw_open', 'raw_high', 'raw_low', 'raw_close'] if c in df.columns]
+    df = df.sort_values(['symbol', 'date']).copy()
+    for col in trade_columns + raw_columns:
+        df[f'next_{col}'] = df.groupby('symbol')[col].shift(-1)
+    df['next_date'] = df.groupby('symbol')['date'].shift(-1)
+    return df
+
+
 def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
-                          pool_type, start_date, end_date, sell_price_type='open'):
+                          pool_type, start_date, end_date, sell_price_type='open',
+                          skip_model_load: bool = False):
     """
     执行策略回测
 
@@ -60,23 +72,27 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
 
     参数:
         sell_price_type: 'open' 或 'close', 卖出时使用的价格
+        skip_model_load: 是否跳过模型加载（用于 walk-forward 模式）
     """
     logger.info(f"\n{'='*60}")
     logger.info(f" {strategy.name} Backtest - {pool_type.upper()}")
     logger.info(f" Period: {start_date} to {end_date}")
     logger.info(f"{'='*60}")
 
-    # 加载模型
-    strategy.load_models(pool_type)
+    # 加载模型（walk-forward 模式下跳过）
+    if not skip_model_load:
+        strategy.load_models(pool_type)
 
     # 生成信号
     logger.info("生成交易信号...")
     signals_df = strategy.generate_signals(price_df)
+    signals_df = _attach_next_day_columns(signals_df)
 
     # 筛选回测区间
     test_df = signals_df[(signals_df['date'] >= start_date) &
                          (signals_df['date'] <= end_date)].copy()
     test_df = test_df.sort_values(['date', 'symbol'])
+    test_df = test_df.dropna(subset=['next_open'])
     dates = sorted(test_df['date'].unique())
 
     logger.info(f"交易日: {len(dates)}, 股票数: {test_df['symbol'].nunique()}")
@@ -108,50 +124,58 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
         to_remove = []
         for sym, pos in positions.items():
             stock_day_data = day_data[day_data['symbol'] == sym]
-            if len(stock_day_data) == 0:
+            if stock_day_data.empty:
                 continue
 
-            # 使用当天开盘价卖出
-            open_price = stock_day_data['open'].values[0]
-            high_price = stock_day_data['high'].values[0]
-            low_price = stock_day_data['low'].values[0]
-            pre_close = stock_day_data['pre_close'].values[0] if 'pre_close' in stock_day_data.columns else pos['cost']
+            trade_open = stock_day_data['next_open'].values[0]
+            trade_high = stock_day_data['next_high'].values[0]
+            trade_low = stock_day_data['next_low'].values[0]
+            trade_date = stock_day_data['next_date'].values[0]
+            if pd.isna(trade_open) or pd.isna(trade_date):
+                continue
 
-            # 一字跌停判断：开盘价<=跌停价 且 开盘价==最低价（无法卖出）
-            跌停价 = pre_close * 0.9  # 10%跌停板
-            is_一字跌停 = (open_price <= 跌停价 * 1.001) and (abs(open_price - low_price) < 0.001)
+            prev_close = stock_day_data['close'].values[0]
+            跌停价 = prev_close * 0.9
+            is_一字跌停 = (trade_open <= 跌停价 * 1.001) and (abs(trade_open - trade_low) < 0.001)
 
             if is_一字跌停:
-                continue  # 一字跌停无法卖出
+                continue
 
-            # 卖出价格选择：开盘价或收盘价
             if sell_price_type == 'close':
-                sell_price = stock_day_data['close'].values[0]
-                current_price = sell_price
+                sell_price = stock_day_data['next_close'].values[0]
+                current_price = sell_price if not pd.isna(sell_price) else trade_open
             else:
-                sell_price = open_price
-                current_price = open_price
+                sell_price = trade_open
+                current_price = trade_open
 
-            days = (date - pos['entry_date']).days
+            days = (trade_date - pos['entry_date']).days
 
-            # 使用策略的卖出判断
             should_sell, reason, pnl = strategy.should_sell(
                 pos, current_price, days, regime, day_data
             )
 
             if should_sell:
-                # 计算卖出金额
                 amount = pos['shares'] * current_price * (1 - scenarios['normal']['sell_cost'])
                 profit = amount - pos['shares'] * pos['cost']
+
+                # 用未复权价格显示（如果有）
+                display_sell = current_price
+                if 'next_raw_open' in stock_day_data.columns:
+                    if sell_price_type == 'close' and 'next_raw_close' in stock_day_data.columns:
+                        raw_val = stock_day_data['next_raw_close'].values[0]
+                        display_sell = raw_val if not pd.isna(raw_val) else display_sell
+                    else:
+                        raw_val = stock_day_data['next_raw_open'].values[0]
+                        display_sell = raw_val if not pd.isna(raw_val) else display_sell
 
                 trades.append({
                     '代码': sym,
                     '名称': stock_names.get(sym, sym),
                     '行业': pos['industry'],
                     '买入日期': pos['entry_date'].strftime('%Y%m%d'),
-                    '买入价': round(pos['cost'], 2),
-                    '卖出日期': date.strftime('%Y%m%d'),
-                    '卖出价': round(current_price, 2),
+                    '买入价': round(pos.get('raw_cost', pos['cost']), 2),
+                    '卖出日期': pd.to_datetime(trade_date).strftime('%Y%m%d'),
+                    '卖出价': round(display_sell, 2),
                     '股数': pos['shares'],
                     '盈亏金额': round(profit, 1),
                     '盈亏比例': f"{pnl * 100:.2f}%",
@@ -167,7 +191,6 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
                 cash += amount
                 to_remove.append(sym)
             else:
-                # 更新最高价格
                 positions[sym]['highest_price'] = max(
                     pos.get('highest_price', pos['cost']),
                     current_price
@@ -178,32 +201,37 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
                 )
 
         for sym in to_remove:
-            if sym in positions:
-                del positions[sym]
+            positions.pop(sym, None)
 
         # ========== 计算净值 ==========
         portfolio_value = cash
         for sym, pos in positions.items():
-            # 使用当天开盘价计算持仓市值
             stock_data = day_data[day_data['symbol'] == sym]
-            if len(stock_data) > 0:
-                open_price = stock_data['open'].values[0]
-                portfolio_value += pos['shares'] * open_price
+            if stock_data.empty:
+                continue
+            next_open = stock_data['next_open'].values[0]
+            if pd.isna(next_open):
+                continue
+            portfolio_value += pos['shares'] * next_open
 
-        # 行业敞口（使用开盘价计算）
         industry_exposure = {}
-        for sym, pos in positions.items():
-            stock_data = day_data[day_data['symbol'] == sym]
-            if len(stock_data) > 0:
-                open_price = stock_data['open'].values[0]
+        if portfolio_value > 0:
+            for sym, pos in positions.items():
+                stock_data = day_data[day_data['symbol'] == sym]
+                if stock_data.empty:
+                    continue
+                next_open = stock_data['next_open'].values[0]
+                if pd.isna(next_open):
+                    continue
                 ind = pos['industry']
                 industry_exposure[ind] = industry_exposure.get(ind, 0) + \
-                    pos['shares'] * open_price / portfolio_value
+                    pos['shares'] * next_open / portfolio_value
 
         # ========== 买入逻辑 ==========
         slots = max_positions - len(positions)
         if slots > 0 and cash > 0:
             candidates = day_data[~day_data['symbol'].isin(positions.keys())]
+            candidates = candidates.dropna(subset=['next_open', 'next_date'])
             if len(candidates) > 0:
                 candidates = candidates.sort_values('pred', ascending=False)
                 top_candidates = candidates.head(int(len(candidates) * params['top_n']) + 10)
@@ -212,62 +240,64 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
                     if len(positions) >= max_positions:
                         break
 
-                    # 使用策略的买入判断
                     should_buy, reason = strategy.should_buy(
                         row, regime, industry_exposure,
                         portfolio_value, len(positions), cash
                     )
-
                     if not should_buy:
                         continue
 
                     sym = row['symbol']
-                    # 使用当天开盘价买入
-                    open_price = row['open']
-                    high_price = row['high']
-                    low_price = row['low']
-                    pre_close = row['pre_close'] if 'pre_close' in row else open_price
+                    trade_price = row['next_open']
+                    trade_high = row['next_high']
+                    trade_low = row['next_low']
+                    trade_date = row['next_date']
+                    if pd.isna(trade_price) or pd.isna(trade_date):
+                        continue
 
-                    # 一字涨停判断：开盘价>=涨停价 且 开盘价==最高价（无法买入）
-                    涨停价 = pre_close * 1.1  # 10%涨停板
-                    is_一字涨停 = (open_price >= 涨停价 * 0.999) and (abs(open_price - high_price) < 0.001)
-
+                    prev_close = row['close']
+                    涨停价 = prev_close * 1.1
+                    is_一字涨停 = (trade_price >= 涨停价 * 0.999) and (abs(trade_price - trade_high) < 0.001)
                     if is_一字涨停:
-                        continue  # 一字涨停无法买入
+                        continue
 
-                    price = open_price
                     ind = stock_industries.get(sym, '其他')
-
-                    # 计算买入股数
                     shares = strategy.calculate_position_size(
-                        cash, slots, portfolio_value, price,
+                        cash, slots, portfolio_value, trade_price,
                         risk_config['max_position_per_stock']
                     )
-
                     if shares < 100:
                         continue
 
-                    cost = shares * price * (1 + scenarios['normal']['buy_cost'])
+                    cost = shares * trade_price * (1 + scenarios['normal']['buy_cost'])
                     if cost > cash:
                         continue
 
                     cash -= cost
                     buy_signal_detail = f"Rank {row['pred_rank']:.2%}, Score {row['pred']:.4f}, {regime}"
 
+                    # 保存未复权买入价用于显示
+                    raw_trade_price = trade_price
+                    if 'next_raw_open' in row.index and not pd.isna(row.get('next_raw_open')):
+                        raw_trade_price = row['next_raw_open']
+
                     positions[sym] = {
+                        'symbol': sym,
                         'shares': shares,
-                        'cost': price,
-                        'entry_date': date,
+                        'cost': trade_price,
+                        'raw_cost': raw_trade_price,
+                        'entry_date': pd.to_datetime(trade_date),
                         'industry': ind,
-                        'highest_price': price,
+                        'highest_price': trade_price,
                         'highest_pnl': 0,
                         'buy_signal': f"Rank {row['pred_rank']:.2%}",
                         'buy_reason': buy_signal_detail,
                         'market_regime_at_entry': regime,
                     }
 
-                    industry_exposure[ind] = industry_exposure.get(ind, 0) + \
-                        shares * price / portfolio_value
+                    if portfolio_value > 0:
+                        industry_exposure[ind] = industry_exposure.get(ind, 0) + \
+                            shares * trade_price / portfolio_value
 
         portfolio_values.append({
             'date': date,
@@ -284,40 +314,64 @@ def run_backtest_strategy(strategy, price_df, stock_names, stock_industries,
 
         for sym, pos in list(positions.items()):
             stock_data = final_data[final_data['symbol'] == sym]
-            if len(stock_data) > 0:
-                # 最后一天清仓根据配置选择开盘价或收盘价
+            if stock_data.empty:
+                continue
+
+            next_price = stock_data['next_open'].values[0]
+            next_close = stock_data['next_close'].values[0]
+            next_date = stock_data['next_date'].values[0]
+            if not pd.isna(next_price) and not pd.isna(next_date):
                 if sell_price_type == 'close':
-                    close_price = stock_data['close'].values[0]
-                    sell_price = close_price
+                    sell_price = next_close if not pd.isna(next_close) else next_price
                 else:
-                    open_price = stock_data['open'].values[0]
-                    sell_price = open_price
+                    sell_price = next_price
+                sell_date = pd.to_datetime(next_date)
+            else:
+                sell_price = stock_data['close'].values[0] if sell_price_type == 'close' else stock_data['open'].values[0]
+                sell_date = pd.to_datetime(stock_data['date'].values[0])
 
-                amount = pos['shares'] * sell_price * (1 - scenarios['normal']['sell_cost'])
-                profit = amount - pos['shares'] * pos['cost']
-                days = (final_date - pos['entry_date']).days
-                pnl = (sell_price - pos['cost']) / pos['cost']
+            amount = pos['shares'] * sell_price * (1 - scenarios['normal']['sell_cost'])
+            profit = amount - pos['shares'] * pos['cost']
+            days = (sell_date - pos['entry_date']).days
+            pnl = (sell_price - pos['cost']) / pos['cost']
 
-                trades.append({
-                    '代码': sym,
-                    '名称': stock_names.get(sym, sym),
-                    '行业': pos['industry'],
-                    '买入日期': pos['entry_date'].strftime('%Y%m%d'),
-                    '买入价': round(pos['cost'], 2),
-                    '卖出日期': final_date.strftime('%Y%m%d'),
-                    '卖出价': round(sell_price, 2),
-                    '股数': pos['shares'],
-                    '盈亏金额': round(profit, 1),
-                    '盈亏比例': f"{pnl * 100:.2f}%",
-                    '持有天数': days,
-                    '买入信号': pos.get('buy_signal', ''),
-                    '买入原因': pos.get('buy_reason', ''),
-                    '卖出信号': 'Close all',
-                    '卖出原因': 'Close all',
-                    '市场状态': 'END',
-                    '股票池': pool_type,
-                })
-                cash += amount
+            # 用未复权价格显示（如果有）
+            display_sell = sell_price
+            if not pd.isna(next_price) and not pd.isna(next_date):
+                if sell_price_type == 'close' and 'next_raw_close' in stock_data.columns:
+                    raw_val = stock_data['next_raw_close'].values[0]
+                    display_sell = raw_val if not pd.isna(raw_val) else display_sell
+                elif 'next_raw_open' in stock_data.columns:
+                    raw_val = stock_data['next_raw_open'].values[0]
+                    display_sell = raw_val if not pd.isna(raw_val) else display_sell
+            else:
+                if sell_price_type == 'close' and 'raw_close' in stock_data.columns:
+                    raw_val = stock_data['raw_close'].values[0]
+                    display_sell = raw_val if not pd.isna(raw_val) else display_sell
+                elif 'raw_open' in stock_data.columns:
+                    raw_val = stock_data['raw_open'].values[0]
+                    display_sell = raw_val if not pd.isna(raw_val) else display_sell
+
+            trades.append({
+                '代码': sym,
+                '名称': stock_names.get(sym, sym),
+                '行业': pos['industry'],
+                '买入日期': pos['entry_date'].strftime('%Y%m%d'),
+                '买入价': round(pos.get('raw_cost', pos['cost']), 2),
+                '卖出日期': sell_date.strftime('%Y%m%d'),
+                '卖出价': round(display_sell, 2),
+                '股数': pos['shares'],
+                '盈亏金额': round(profit, 1),
+                '盈亏比例': f"{pnl * 100:.2f}%",
+                '持有天数': days,
+                '买入信号': pos.get('buy_signal', ''),
+                '买入原因': pos.get('buy_reason', ''),
+                '卖出信号': 'Close all',
+                '卖出原因': 'Close all',
+                '市场状态': 'END',
+                '股票池': pool_type,
+            })
+            cash += amount
 
     # ========== 计算结果 ==========
     final_value = cash
