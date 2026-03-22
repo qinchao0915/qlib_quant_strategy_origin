@@ -46,7 +46,7 @@ PARAMS = {
         'trailing_stop': 0.10,
         'max_daily_return': 0.04,
         'max_ma5_deviation': 0.03,
-        'pos_ratio': 0.3,
+        'pos_ratio': 0.2,
     }
 }
 
@@ -59,7 +59,7 @@ SCENARIOS = {
 }
 
 # 硬性止损
-HARD_STOP_LOSS = -0.12
+HARD_STOP_LOSS = -0.10
 
 # 模型配置
 MODEL_CONFIG = {

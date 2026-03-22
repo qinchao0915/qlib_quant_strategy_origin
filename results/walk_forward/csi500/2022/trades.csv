@@ -1,287 +1,245 @@
 ﻿代码,名称,行业,买入日期,买入价,卖出日期,卖出价,股数,盈亏金额,盈亏比例,持有天数,买入信号,买入原因,卖出信号,卖出原因,市场状态,股票池
-600021,上海电力,火力发电,20220105,12.7,20220113,12.4,200,-141.4,-2.36%,8,Rank 0.92%,"Rank 0.92%, Score 0.0267, BULL",BEAR rank exit (40.0%),BEAR rank exit (40.0%),BEAR,csi500
-002945,华林证券,证券,20220105,13.0,20220113,12.65,400,-148.6,-2.69%,8,Rank 1.11%,"Rank 1.11%, Score 0.0227, BULL",BEAR rank exit (51.8%),BEAR rank exit (51.8%),BEAR,csi500
-603858,步长制药,中成药,20220105,21.33,20220113,22.09,100,149.8,3.56%,8,Rank 2.03%,"Rank 2.03%, Score 0.0171, BULL",BEAR rank exit (42.3%),BEAR rank exit (42.3%),BEAR,csi500
-002128,电投能源,煤炭开采,20220105,14.53,20220113,15.36,100,238.1,5.71%,8,Rank 3.69%,"Rank 3.69%, Score 0.0137, BULL",BEAR rank exit (69.2%),BEAR rank exit (69.2%),BEAR,csi500
-600598,北大荒,种植业,20220105,15.3,20220113,14.78,100,-138.1,-3.40%,8,Rank 4.61%,"Rank 4.61%, Score 0.0131, BULL",BEAR rank exit (52.0%),BEAR rank exit (52.0%),BEAR,csi500
-603885,吉祥航空,空运,20220105,17.6,20220114,16.5,100,-333.4,-6.25%,9,Rank 2.58%,"Rank 2.58%, Score 0.0152, BULL",BEAR rank exit (26.4%),BEAR rank exit (26.4%),BEAR,csi500
-600096,云天化,农药化肥,20220106,18.75,20220114,19.31,100,132.0,2.99%,8,Rank 2.40%,"Rank 2.40%, Score 0.0188, BULL",BEAR rank exit (26.0%),BEAR rank exit (26.0%),BEAR,csi500
-000893,亚钾国际,农药化肥,20220106,26.12,20220117,24.57,100,-321.9,-5.93%,11,Rank 2.58%,"Rank 2.58%, Score 0.0184, BULL",BEAR rank exit (25.5%),BEAR rank exit (25.5%),BEAR,csi500
-601865,福莱特,玻璃,20220107,50.95,20220117,50.16,100,-86.6,-1.55%,10,Rank 2.21%,"Rank 2.21%, Score 0.0220, BULL",BEAR rank exit (83.2%),BEAR rank exit (83.2%),BEAR,csi500
-300748,金力永磁,矿物制品,20220107,40.58,20220118,37.9,100,-442.1,-6.60%,11,Rank 3.87%,"Rank 3.87%, Score 0.0171, BULL",BEAR rank exit (27.8%),BEAR rank exit (27.8%),BEAR,csi500
-000629,钒钛股份,小金属,20220106,4.26,20220119,4.04,200,-350.9,-5.16%,13,Rank 1.29%,"Rank 1.29%, Score 0.0294, BULL",BEAR rank exit (40.0%),BEAR rank exit (40.0%),BEAR,csi500
-003022,联泓新科,化工原料,20220106,33.22,20220120,30.32,100,-384.2,-8.73%,14,Rank 2.03%,"Rank 2.03%, Score 0.0233, BULL",BEAR trailing stop (10.8%),BEAR trailing stop (10.8%),BEAR,csi500
-603650,彤程新材,化工原料,20220110,41.47,20220121,36.69,100,-502.6,-11.53%,11,Rank 4.80%,"Rank 4.80%, Score 0.0227, BULL",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-688385,复旦微电,半导体,20220112,43.19,20220121,40.9,100,-234.3,-5.30%,9,Rank 3.87%,"Rank 3.87%, Score 0.0255, BULL",BEAR trailing stop (10.1%),BEAR trailing stop (10.1%),BEAR,csi500
-601615,明阳智能,电气设备,20220112,22.79,20220121,22.88,300,18.4,0.39%,9,Rank 4.24%,"Rank 4.24%, Score 0.0249, BULL",BEAR rank exit (22.8%),BEAR rank exit (22.8%),BEAR,csi500
-002603,以岭药业,中成药,20220119,25.3,20220124,22.08,100,-1285.5,-12.73%,5,Rank 0.19%,"Rank 0.19%, Score 0.0314, BEAR",BEAR Hard stop (-12.7%),BEAR Hard stop (-12.7%),BEAR,csi500
-300118,东方日升,电气设备,20220118,25.67,20220126,22.0,200,-2529.1,-14.30%,8,Rank 0.56%,"Rank 0.56%, Score 0.0385, BEAR",BEAR Hard stop (-14.3%),BEAR Hard stop (-14.3%),BEAR,csi500
-688037,芯源微,半导体,20220117,138.93,20220127,149.49,100,1039.7,7.60%,10,Rank 1.29%,"Rank 1.29%, Score 0.0295, BEAR",BEAR rank exit (47.7%),BEAR rank exit (47.7%),BEAR,csi500
-002487,大金重工,电气设备,20220117,33.0,20220128,35.22,100,1004.3,6.73%,11,Rank 0.92%,"Rank 0.92%, Score 0.0446, BEAR",BEAR rank exit (49.1%),BEAR rank exit (49.1%),BEAR,csi500
-601699,潞安环能,煤炭开采,20220120,12.71,20220207,11.75,200,-1198.4,-7.55%,18,Rank 0.93%,"Rank 0.93%, Score 0.0320, BEAR",BEAR trailing stop (15.2%),BEAR trailing stop (15.2%),BEAR,csi500
-000519,中兵红箭,专用机械,20220121,20.14,20220207,18.4,100,-1400.0,-8.64%,17,Rank 1.30%,"Rank 1.30%, Score 0.0353, BEAR",BEAR trailing stop (15.5%),BEAR trailing stop (15.5%),BEAR,csi500
-603858,步长制药,中成药,20220126,20.49,20220208,19.91,400,-496.6,-2.83%,13,Rank 0.19%,"Rank 0.19%, Score 0.0510, BEAR",BEAR rank exit (20.7%),BEAR rank exit (20.7%),BEAR,csi500
-688180,君实生物-U,生物制药,20220127,65.0,20220208,58.0,300,-2122.6,-10.77%,12,Rank 0.19%,"Rank 0.19%, Score 0.0605, BEAR",BEAR trailing stop (10.8%),BEAR trailing stop (10.8%),BEAR,csi500
-000155,川能动力,新型电力,20220121,20.5,20220209,20.8,600,256.8,1.46%,19,Rank 1.48%,"Rank 1.48%, Score 0.0330, BEAR",BEAR rank exit (24.0%),BEAR rank exit (24.0%),BEAR,csi500
-002603,以岭药业,中成药,20220124,22.08,20220209,20.71,200,-1105.5,-6.20%,16,Rank 0.74%,"Rank 0.74%, Score 0.0528, BEAR",BEAR rank exit (36.5%),BEAR rank exit (36.5%),BEAR,csi500
-002240,盛新锂能,小金属,20220121,44.74,20220210,46.8,200,646.5,4.60%,20,Rank 0.93%,"Rank 0.93%, Score 0.0406, BEAR",BEAR rank exit (34.5%),BEAR rank exit (34.5%),BEAR,csi500
-300058,蓝色光标,广告包装,20220208,8.64,20220214,7.84,100,-1550.4,-9.26%,6,Rank 0.55%,"Rank 0.55%, Score 0.0613, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
-688676,金盘科技,电气设备,20220209,24.44,20220214,21.66,700,-1989.3,-11.37%,5,Rank 1.85%,"Rank 1.85%, Score 0.0378, BEAR",BEAR trailing stop (11.4%),BEAR trailing stop (11.4%),BEAR,csi500
-300118,东方日升,电气设备,20220128,22.99,20220218,22.33,200,-471.2,-2.87%,21,Rank 0.56%,"Rank 0.56%, Score 0.0489, BEAR",BEAR rank exit (63.5%),BEAR rank exit (63.5%),BEAR,csi500
-002837,英维克,专用机械,20220207,33.05,20220218,36.01,100,1110.2,8.96%,11,Rank 1.48%,"Rank 1.48%, Score 0.0366, BEAR",BEAR rank exit (52.5%),BEAR rank exit (52.5%),BEAR,csi500
-000519,中兵红箭,专用机械,20220208,18.52,20220218,19.87,100,1051.0,7.29%,10,Rank 0.74%,"Rank 0.74%, Score 0.0461, BEAR",BEAR rank exit (37.4%),BEAR rank exit (37.4%),BEAR,csi500
-300454,深信服,软件服务,20220210,145.68,20220218,145.99,100,12.1,0.21%,8,Rank 0.55%,"Rank 0.55%, Score 0.0368, BEAR",BEAR rank exit (69.6%),BEAR rank exit (69.6%),BEAR,csi500
-688676,金盘科技,电气设备,20220214,21.66,20220222,23.97,800,1844.9,10.66%,8,Rank 0.74%,"Rank 0.74%, Score 0.0443, BEAR",BEAR rank exit (51.0%),BEAR rank exit (51.0%),BEAR,csi500
-002244,滨江集团,区域地产,20220106,4.84,20220228,5.99,100,713.9,23.76%,53,Rank 3.87%,"Rank 3.87%, Score 0.0176, BULL",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
-300458,全志科技,半导体,20220218,52.25,20220228,54.98,100,556.2,5.22%,10,Rank 0.92%,"Rank 0.92%, Score 0.0230, BEAR",BEAR rank exit (32.3%),BEAR rank exit (32.3%),BEAR,csi500
-300058,蓝色光标,广告包装,20220214,7.84,20220302,7.9,100,95.2,0.77%,16,Rank 0.55%,"Rank 0.55%, Score 0.0553, BEAR",BEAR rank exit (72.7%),BEAR rank exit (72.7%),BEAR,csi500
-300115,长盈精密,元器件,20220218,12.14,20220302,12.2,100,54.1,0.49%,12,Rank 0.74%,"Rank 0.74%, Score 0.0277, BEAR",BEAR rank exit (47.8%),BEAR rank exit (47.8%),BEAR,csi500
-688561,奇安信-U,软件服务,20220218,67.3,20220304,66.79,200,-119.4,-0.76%,14,Rank 0.55%,"Rank 0.55%, Score 0.0287, BEAR",BEAR rank exit (36.3%),BEAR rank exit (36.3%),BEAR,csi500
-600348,华阳股份,煤炭开采,20220218,11.79,20220308,12.5,100,656.1,6.02%,18,Rank 0.18%,"Rank 0.18%, Score 0.0417, BEAR",BEAR rank exit (26.2%),BEAR rank exit (26.2%),BEAR,csi500
-000933,神火股份,铝,20220228,12.92,20220308,13.89,100,1195.5,7.51%,8,Rank 0.18%,"Rank 0.18%, Score 0.0459, BEAR",BEAR rank exit (99.8%),BEAR rank exit (99.8%),BEAR,csi500
-002444,巨星科技,轻工机械,20220302,19.5,20220308,17.22,200,-2021.0,-11.69%,6,Rank 0.37%,"Rank 0.37%, Score 0.0296, BEAR",BEAR trailing stop (11.7%),BEAR trailing stop (11.7%),BEAR,csi500
-600546,山煤国际,煤炭开采,20220207,9.32,20220309,12.14,200,4609.6,30.26%,30,Rank 0.92%,"Rank 0.92%, Score 0.0517, BEAR",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
-603826,坤彩科技,染料涂料,20220228,52.62,20220310,53.17,200,126.9,1.05%,10,Rank 0.37%,"Rank 0.37%, Score 0.0374, BEAR",BEAR rank exit (21.1%),BEAR rank exit (21.1%),BEAR,csi500
-688599,天合光能,电气设备,20220209,60.01,20220311,71.3,300,3412.9,18.81%,30,Rank 2.03%,"Rank 2.03%, Score 0.0341, BEAR",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
-002120,韵达股份,仓储物流,20220302,19.3,20220311,19.29,100,-22.2,-0.05%,9,Rank 0.92%,"Rank 0.92%, Score 0.0215, BEAR",BEAR rank exit (80.8%),BEAR rank exit (80.8%),BEAR,csi500
-002738,中矿资源,小金属,20220304,96.79,20220311,90.5,100,-981.7,-6.50%,7,Rank 0.18%,"Rank 0.18%, Score 0.0388, BEAR",BEAR trailing stop (13.0%),BEAR trailing stop (13.0%),BEAR,csi500
-300679,电连技术,元器件,20220308,36.85,20220315,33.1,100,-1368.5,-10.18%,7,Rank 0.55%,"Rank 0.55%, Score 0.0399, BEAR",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
-688516,奥特维,专用机械,20220222,173.94,20220316,197.0,100,2307.8,13.26%,22,Rank 0.55%,"Rank 0.55%, Score 0.0524, BEAR",BEAR trailing stop (10.0%),BEAR trailing stop (10.0%),BEAR,csi500
-002444,巨星科技,轻工机械,20220308,17.22,20220318,16.56,200,-598.2,-3.83%,10,Rank 0.37%,"Rank 0.37%, Score 0.0430, BEAR",BEAR rank exit (37.8%),BEAR rank exit (37.8%),BEAR,csi500
-688266,泽璟制药-U,生物制药,20220308,38.2,20220318,37.45,500,-399.3,-1.96%,10,Rank 0.74%,"Rank 0.74%, Score 0.0374, BEAR",BEAR rank exit (39.1%),BEAR rank exit (39.1%),BEAR,csi500
-603345,安井食品,食品,20220310,113.66,20220318,112.5,100,-134.9,-1.02%,8,Rank 1.11%,"Rank 1.11%, Score 0.0437, BEAR",BEAR rank exit (44.2%),BEAR rank exit (44.2%),BEAR,csi500
-300866,安克创新,元器件,20220311,71.96,20220323,68.83,200,-647.1,-4.35%,12,Rank 1.29%,"Rank 1.29%, Score 0.0445, BEAR",BEAR rank exit (31.3%),BEAR rank exit (31.3%),BEAR,csi500
-600056,中国医药,医药商业,20220309,15.18,20220324,31.8,100,16087.9,109.49%,15,Rank 0.92%,"Rank 0.92%, Score 0.0481, BEAR",BEAR trailing stop (14.1%),BEAR trailing stop (14.1%),BEAR,csi500
-601666,平煤股份,煤炭开采,20220315,13.03,20220324,14.41,500,1938.4,10.59%,9,Rank 0.37%,"Rank 0.37%, Score 0.0734, BEAR",BEAR rank exit (28.0%),BEAR rank exit (28.0%),BEAR,csi500
-002531,天顺风能,电气设备,20220318,15.25,20220328,13.56,100,-1393.9,-11.08%,10,Rank 0.73%,"Rank 0.73%, Score 0.0419, BEAR",BEAR trailing stop (11.4%),BEAR trailing stop (11.4%),BEAR,csi500
-600295,鄂尔多斯,特种钢,20220318,22.65,20220328,23.52,200,565.9,3.84%,10,Rank 1.10%,"Rank 1.10%, Score 0.0413, BEAR",BEAR rank exit (43.2%),BEAR rank exit (43.2%),BEAR,csi500
-300207,欣旺达,电气设备,20220316,27.51,20220329,27.75,100,140.5,0.87%,13,Rank 0.37%,"Rank 0.37%, Score 0.0595, BEAR",BEAR trailing stop (11.4%),BEAR trailing stop (11.4%),BEAR,csi500
-688065,凯赛生物,化工原料,20220311,110.47,20220331,115.01,100,442.6,4.11%,20,Rank 0.55%,"Rank 0.55%, Score 0.0485, BEAR",BEAR rank exit (23.9%),BEAR rank exit (23.9%),BEAR,csi500
-601966,玲珑轮胎,汽车配件,20220324,23.18,20220401,21.9,800,-1126.3,-5.52%,8,Rank 0.92%,"Rank 0.92%, Score 0.0252, BEAR",BEAR rank exit (46.6%),BEAR rank exit (46.6%),BEAR,csi500
-003021,兆威机电,元器件,20220311,43.67,20220406,38.77,200,-1601.9,-11.22%,26,Rank 0.92%,"Rank 0.92%, Score 0.0469, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-600859,王府井,百货,20220318,21.33,20220406,21.75,200,359.1,1.97%,19,Rank 0.92%,"Rank 0.92%, Score 0.0418, BEAR",BEAR rank exit (21.0%),BEAR rank exit (21.0%),BEAR,csi500
-000887,中鼎股份,汽车配件,20220328,15.0,20220406,14.86,100,-115.2,-0.93%,9,Rank 0.36%,"Rank 0.36%, Score 0.0442, BEAR",BEAR rank exit (25.6%),BEAR rank exit (25.6%),BEAR,csi500
-601567,三星医疗,电气设备,20220328,9.99,20220406,10.77,400,1569.1,7.81%,9,Rank 0.55%,"Rank 0.55%, Score 0.0430, BEAR",BEAR rank exit (42.8%),BEAR rank exit (42.8%),BEAR,csi500
-300679,电连技术,元器件,20220323,33.1,20220408,29.31,100,-1381.2,-11.45%,16,Rank 0.37%,"Rank 0.37%, Score 0.0361, BEAR",BEAR trailing stop (12.5%),BEAR trailing stop (12.5%),BEAR,csi500
-688002,睿创微纳,通信设备,20220324,48.02,20220408,42.98,400,-2044.5,-10.50%,15,Rank 0.73%,"Rank 0.73%, Score 0.0257, BEAR",BEAR trailing stop (10.5%),BEAR trailing stop (10.5%),BEAR,csi500
-002487,大金重工,电气设备,20220401,30.9,20220408,27.79,100,-1453.2,-10.06%,7,Rank 0.37%,"Rank 0.37%, Score 0.0389, BEAR",BEAR trailing stop (11.0%),BEAR trailing stop (11.0%),BEAR,csi500
-002531,天顺风能,电气设备,20220329,13.55,20220412,12.23,100,-1090.5,-9.74%,14,Rank 0.36%,"Rank 0.36%, Score 0.0400, BEAR",BEAR trailing stop (11.4%),BEAR trailing stop (11.4%),BEAR,csi500
-002335,科华数据,电气设备,20220406,25.25,20220412,22.33,100,-1727.5,-11.56%,6,Rank 0.91%,"Rank 0.91%, Score 0.0233, BEAR",BEAR trailing stop (11.6%),BEAR trailing stop (11.6%),BEAR,csi500
-600348,华阳股份,煤炭开采,20220331,11.95,20220413,12.33,100,344.2,3.18%,13,Rank 0.36%,"Rank 0.36%, Score 0.0363, BEAR",BEAR rank exit (23.9%),BEAR rank exit (23.9%),BEAR,csi500
-300118,东方日升,电气设备,20220406,22.79,20220413,20.61,200,-1509.0,-9.57%,7,Rank 0.73%,"Rank 0.73%, Score 0.0251, BEAR",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
-000537,绿发电力,新型电力,20220408,15.76,20220414,13.43,200,-3057.3,-14.78%,6,Rank 0.55%,"Rank 0.55%, Score 0.0402, BEAR",BEAR Hard stop (-14.8%),BEAR Hard stop (-14.8%),BEAR,csi500
-300474,景嘉微,元器件,20220406,94.24,20220415,83.79,100,-2137.1,-11.09%,9,Rank 1.28%,"Rank 1.28%, Score 0.0203, BEAR",BEAR trailing stop (11.1%),BEAR trailing stop (11.1%),BEAR,csi500
-002487,大金重工,电气设备,20220408,27.79,20220415,24.36,100,-1598.9,-12.34%,7,Rank 1.10%,"Rank 1.10%, Score 0.0365, BEAR",BEAR Hard stop (-12.3%),BEAR Hard stop (-12.3%),BEAR,csi500
-605358,立昂微,半导体,20220406,89.41,20220418,77.41,200,-2422.5,-13.42%,12,Rank 1.10%,"Rank 1.10%, Score 0.0204, BEAR",BEAR Hard stop (-13.4%),BEAR Hard stop (-13.4%),BEAR,csi500
-688002,睿创微纳,通信设备,20220408,42.98,20220419,41.47,400,-627.4,-3.51%,11,Rank 1.83%,"Rank 1.83%, Score 0.0298, BEAR",BEAR rank exit (21.7%),BEAR rank exit (21.7%),BEAR,csi500
-603179,新泉股份,汽车配件,20220412,26.48,20220420,28.8,300,1331.9,8.76%,8,Rank 1.28%,"Rank 1.28%, Score 0.0454, BEAR",BEAR rank exit (75.8%),BEAR rank exit (75.8%),BEAR,csi500
-300212,易华录,软件服务,20220412,18.29,20220422,16.93,100,-1181.8,-7.44%,10,Rank 1.10%,"Rank 1.10%, Score 0.0460, BEAR",BEAR trailing stop (10.6%),BEAR trailing stop (10.6%),BEAR,csi500
-688608,恒玄科技,半导体,20220413,152.1,20220422,140.0,100,-1229.4,-7.96%,9,Rank 0.55%,"Rank 0.55%, Score 0.0458, BEAR",BEAR trailing stop (10.0%),BEAR trailing stop (10.0%),BEAR,csi500
-000537,绿发电力,新型电力,20220414,13.43,20220422,11.73,200,-2233.9,-12.66%,8,Rank 1.09%,"Rank 1.09%, Score 0.0485, BEAR",BEAR Hard stop (-12.7%),BEAR Hard stop (-12.7%),BEAR,csi500
-002531,天顺风能,电气设备,20220415,11.37,20220422,10.13,200,-2045.9,-10.91%,7,Rank 1.28%,"Rank 1.28%, Score 0.0500, BEAR",BEAR trailing stop (10.9%),BEAR trailing stop (10.9%),BEAR,csi500
-000582,北部湾港,港口,20220418,8.64,20220422,7.69,400,-1914.6,-11.00%,4,Rank 0.55%,"Rank 0.55%, Score 0.0677, BEAR",BEAR trailing stop (11.0%),BEAR trailing stop (11.0%),BEAR,csi500
-300724,捷佳伟创,专用机械,20220413,62.09,20220425,53.18,300,-2720.7,-14.35%,12,Rank 1.09%,"Rank 1.09%, Score 0.0437, BEAR",BEAR Hard stop (-14.4%),BEAR Hard stop (-14.4%),BEAR,csi500
-002603,以岭药业,中成药,20220419,29.15,20220425,27.27,100,-757.9,-6.45%,6,Rank 0.18%,"Rank 0.18%, Score 0.0867, BEAR",BEAR trailing stop (12.0%),BEAR trailing stop (12.0%),BEAR,csi500
-688772,珠海冠宇,电气设备,20220420,25.35,20220425,22.14,700,-2267.1,-12.66%,5,Rank 0.55%,"Rank 0.55%, Score 0.0498, BEAR",BEAR Hard stop (-12.7%),BEAR Hard stop (-12.7%),BEAR,csi500
-002487,大金重工,电气设备,20220415,24.36,20220426,21.46,100,-1352.4,-11.90%,11,Rank 0.73%,"Rank 0.73%, Score 0.0526, BEAR",BEAR trailing stop (14.4%),BEAR trailing stop (14.4%),BEAR,csi500
-600418,江淮汽车,汽车整车,20220422,8.62,20220426,7.65,300,-1861.2,-11.25%,4,Rank 1.45%,"Rank 1.45%, Score 0.0512, BEAR",BEAR trailing stop (11.3%),BEAR trailing stop (11.3%),BEAR,csi500
-300567,精测电子,电器仪表,20220422,36.4,20220426,31.77,100,-1436.4,-12.72%,4,Rank 1.64%,"Rank 1.64%, Score 0.0500, BEAR",BEAR Hard stop (-12.7%),BEAR Hard stop (-12.7%),BEAR,csi500
-000537,绿发电力,新型电力,20220422,11.73,20220427,10.28,200,-1905.9,-12.36%,5,Rank 0.73%,"Rank 0.73%, Score 0.0572, BEAR",BEAR Hard stop (-12.4%),BEAR Hard stop (-12.4%),BEAR,csi500
-688005,容百科技,电气设备,20220422,95.42,20220427,82.47,100,-1309.6,-13.57%,5,Rank 1.09%,"Rank 1.09%, Score 0.0550, BEAR",BEAR Hard stop (-13.6%),BEAR Hard stop (-13.6%),BEAR,csi500
-002335,科华数据,电气设备,20220422,19.74,20220427,16.54,100,-1887.2,-16.21%,5,Rank 1.27%,"Rank 1.27%, Score 0.0528, BEAR",BEAR Hard stop (-16.2%),BEAR Hard stop (-16.2%),BEAR,csi500
-688037,芯源微,半导体,20220425,110.61,20220427,91.7,100,-1913.6,-17.10%,2,Rank 0.91%,"Rank 0.91%, Score 0.0595, BEAR",BEAR Hard stop (-17.1%),BEAR Hard stop (-17.1%),BEAR,csi500
-002531,天顺风能,电气设备,20220425,9.94,20220427,8.88,200,-1749.4,-10.66%,2,Rank 2.18%,"Rank 2.18%, Score 0.0523, BEAR",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
-002240,盛新锂能,小金属,20220425,38.26,20220505,43.32,200,1618.2,13.23%,10,Rank 1.82%,"Rank 1.82%, Score 0.0558, BEAR",BEAR rank exit (51.3%),BEAR rank exit (51.3%),BEAR,csi500
-002850,科达利,电气设备,20220426,105.8,20220505,120.43,100,2264.8,14.01%,9,Rank 1.82%,"Rank 1.82%, Score 0.0754, BEAR",BEAR rank exit (86.3%),BEAR rank exit (86.3%),BEAR,csi500
-300679,电连技术,元器件,20220427,23.96,20220506,27.39,100,1224.7,14.32%,9,Rank 0.73%,"Rank 0.73%, Score 0.0978, BEAR",BEAR rank exit (32.1%),BEAR rank exit (32.1%),BEAR,csi500
-688037,芯源微,半导体,20220427,91.7,20220509,105.92,100,1416.1,15.51%,12,Rank 1.46%,"Rank 1.46%, Score 0.0947, BEAR",BEAR rank exit (21.7%),BEAR rank exit (21.7%),BEAR,csi500
-300757,罗博特科,专用机械,20220426,29.1,20220512,33.82,400,2457.7,16.22%,16,Rank 1.28%,"Rank 1.28%, Score 0.0775, BEAR",BEAR rank exit (23.0%),BEAR rank exit (23.0%),BEAR,csi500
-000537,绿发电力,新型电力,20220427,10.28,20220512,11.35,200,1374.4,10.41%,15,Rank 0.55%,"Rank 0.55%, Score 0.1026, BEAR",BEAR rank exit (36.6%),BEAR rank exit (36.6%),BEAR,csi500
-300432,富临精工,汽车配件,20220505,19.48,20220513,22.4,100,1538.8,14.99%,8,Rank 2.01%,"Rank 2.01%, Score 0.0464, BEAR",BEAR rank exit (87.3%),BEAR rank exit (87.3%),BEAR,csi500
-688608,恒玄科技,半导体,20220506,110.28,20220516,127.79,100,1736.1,15.88%,10,Rank 0.18%,"Rank 0.18%, Score 0.0661, BEAR",BEAR rank exit (41.2%),BEAR rank exit (41.2%),BEAR,csi500
-603650,彤程新材,化工原料,20220509,24.79,20220524,28.89,700,2960.3,16.54%,15,Rank 0.36%,"Rank 0.36%, Score 0.0615, BEAR",BEAR rank exit (27.9%),BEAR rank exit (27.9%),BEAR,csi500
-688027,国盾量子,通信设备,20220512,87.15,20220527,91.5,200,847.1,4.99%,15,Rank 0.36%,"Rank 0.36%, Score 0.0454, BEAR",BEAR rank exit (28.2%),BEAR rank exit (28.2%),BEAR,csi500
-002261,拓维信息,软件服务,20220516,5.82,20220527,6.3,300,1435.0,8.25%,11,Rank 0.54%,"Rank 0.54%, Score 0.0639, BEAR",BEAR rank exit (99.8%),BEAR rank exit (99.8%),BEAR,csi500
-688772,珠海冠宇,电气设备,20220513,24.95,20220601,27.65,700,2000.1,11.60%,19,Rank 0.36%,"Rank 0.36%, Score 0.0566, BEAR",BEAR rank exit (96.0%),BEAR rank exit (96.0%),BEAR,csi500
-002837,英维克,专用机械,20220524,26.72,20220602,22.77,100,1157.6,11.51%,9,Rank 0.55%,"Rank 0.55%, Score 0.0350, BEAR",BEAR rank exit (66.4%),BEAR rank exit (66.4%),BEAR,csi500
-688276,百克生物,生物制药,20220527,42.2,20220607,48.1,400,2335.0,13.98%,11,Rank 0.91%,"Rank 0.91%, Score 0.0350, BEAR",BEAR rank exit (55.0%),BEAR rank exit (55.0%),BEAR,csi500
-300140,节能环境,环境保护,20220512,5.4,20220608,7.86,800,8203.8,45.56%,27,Rank 0.18%,"Rank 0.18%, Score 0.0563, BEAR",BEAR trailing stop (14.6%),BEAR trailing stop (14.6%),BEAR,csi500
-002603,以岭药业,中成药,20220527,22.05,20220608,22.99,200,720.3,4.26%,12,Rank 0.36%,"Rank 0.36%, Score 0.0552, BEAR",BEAR rank exit (88.8%),BEAR rank exit (88.8%),BEAR,csi500
-000400,许继电气,电气设备,20220601,19.16,20220609,19.82,100,490.5,3.44%,8,Rank 0.73%,"Rank 0.73%, Score 0.0231, BEAR",BEAR rank exit (23.2%),BEAR rank exit (23.2%),BEAR,csi500
-600056,中国医药,医药商业,20220602,20.09,20220610,20.8,100,662.7,3.53%,8,Rank 0.18%,"Rank 0.18%, Score 0.0643, BEAR",BEAR rank exit (91.7%),BEAR rank exit (91.7%),BEAR,csi500
-300140,节能环境,环境保护,20220608,7.86,20220610,7.08,700,-2312.5,-9.92%,2,Rank 0.18%,"Rank 0.18%, Score 0.0495, BEAR",BEAR trailing stop (10.4%),BEAR trailing stop (10.4%),BEAR,csi500
-600062,华润双鹤,化学制药,20220607,22.47,20220615,20.68,100,-1463.9,-7.97%,8,Rank 0.54%,"Rank 0.54%, Score 0.0379, BEAR",BEAR trailing stop (11.7%),BEAR trailing stop (11.7%),BEAR,csi500
-603233,大参林,医药商业,20220608,33.36,20220627,30.5,300,2180.8,11.35%,19,Rank 0.36%,"Rank 0.36%, Score 0.0246, BEAR",BULL rank exit (83.7%),BULL rank exit (83.7%),BULL,csi500
-002432,九安医疗,医疗保健,20220615,60.22,20220705,61.85,100,483.5,2.71%,20,Rank 0.18%,"Rank 0.18%, Score 0.0350, BEAR",BULL rank exit (58.5%),BULL rank exit (58.5%),BULL,csi500
-688617,惠泰医疗,医疗保健,20220610,203.03,20220706,219.56,100,1635.8,8.14%,26,Rank 0.91%,"Rank 0.91%, Score 0.0266, BEAR",BULL rank exit (42.0%),BULL rank exit (42.0%),BULL,csi500
-002939,长城证券,证券,20220621,10.02,20220711,9.66,200,-78.3,-3.59%,20,Rank 2.54%,"Rank 2.54%, Score 0.0210, BULL",BULL rank exit (83.2%),BULL rank exit (83.2%),BULL,csi500
-601991,大唐发电,火力发电,20220622,2.54,20220711,2.83,300,234.3,11.42%,19,Rank 2.90%,"Rank 2.90%, Score 0.0192, BULL",BULL rank exit (47.4%),BULL rank exit (47.4%),BULL,csi500
-603920,世运电路,元器件,20220427,11.95,20220712,15.3,600,3439.1,32.74%,76,Rank 2.01%,"Rank 2.01%, Score 0.0893, BEAR",BULL trailing stop (19.5%),BULL trailing stop (19.5%),BULL,csi500
-002409,雅克科技,半导体,20220609,56.17,20220712,48.75,100,-2373.7,-13.21%,33,Rank 0.72%,"Rank 0.72%, Score 0.0232, BEAR",BULL Hard stop (-13.2%),BULL Hard stop (-13.2%),BULL,csi500
-688567,孚能科技,电气设备,20220628,30.35,20220718,28.55,100,-183.7,-5.93%,20,Rank 4.16%,"Rank 4.16%, Score 0.0188, BULL",BULL rank exit (63.4%),BULL rank exit (63.4%),BULL,csi500
-000967,盈峰环境,环境保护,20220629,5.23,20220718,4.98,100,-133.8,-4.78%,19,Rank 2.53%,"Rank 2.53%, Score 0.0167, BULL",BULL rank exit (89.9%),BULL rank exit (89.9%),BULL,csi500
-603885,吉祥航空,空运,20220706,16.7,20220725,16.32,100,-119.3,-2.28%,19,Rank 4.50%,"Rank 4.50%, Score 0.0208, BULL",BULL rank exit (69.9%),BULL rank exit (69.9%),BULL,csi500
-002487,大金重工,电气设备,20220505,21.29,20220729,45.51,100,11168.1,113.85%,85,Rank 0.36%,"Rank 0.36%, Score 0.0629, BEAR",BULL trailing stop (18.7%),BULL trailing stop (18.7%),BULL,csi500
-601615,明阳智能,电气设备,20220705,33.49,20220729,29.19,100,-446.2,-12.84%,24,Rank 4.69%,"Rank 4.69%, Score 0.0163, BULL",BULL Hard stop (-12.8%),BULL Hard stop (-12.8%),BULL,csi500
-300558,贝达药业,化学制药,20220712,57.15,20220801,49.7,100,-765.7,-13.04%,20,Rank 4.14%,"Rank 4.14%, Score 0.0161, BULL",BULL Hard stop (-13.0%),BULL Hard stop (-13.0%),BULL,csi500
-000155,川能动力,新型电力,20220712,21.61,20220801,23.22,100,247.7,7.45%,20,Rank 4.68%,"Rank 4.68%, Score 0.0157, BULL",BULL rank exit (80.9%),BULL rank exit (80.9%),BULL,csi500
-000709,河钢股份,普钢,20220714,3.03,20220801,2.79,200,-321.5,-4.90%,18,Rank 0.18%,"Rank 0.18%, Score 0.0641, BULL",BULL rank exit (91.4%),BULL rank exit (91.4%),BULL,csi500
-002583,海能达,通信设备,20220629,4.93,20220802,5.26,100,182.0,6.69%,34,Rank 2.71%,"Rank 2.71%, Score 0.0166, BULL",BULL rank exit (40.4%),BULL rank exit (40.4%),BULL,csi500
-688180,君实生物-U,生物制药,20220715,68.6,20220802,60.06,100,-861.8,-12.45%,18,Rank 0.36%,"Rank 0.36%, Score 0.0337, BULL",BULL Hard stop (-12.4%),BULL Hard stop (-12.4%),BULL,csi500
-688276,百克生物,生物制药,20220712,63.12,20220803,61.8,100,-129.5,-1.92%,22,Rank 0.72%,"Rank 0.72%, Score 0.0422, BULL",BULL rank exit (71.0%),BULL rank exit (71.0%),BULL,csi500
-688676,金盘科技,电气设备,20220427,14.0,20220804,31.88,1100,20278.1,130.41%,99,Rank 0.36%,"Rank 0.36%, Score 0.1338, BEAR",BULL trailing stop (18.3%),BULL trailing stop (18.3%),BULL,csi500
-601231,环旭电子,元器件,20220718,15.89,20220805,18.12,100,503.1,14.03%,18,Rank 1.08%,"Rank 1.08%, Score 0.0293, BULL",BULL rank exit (90.9%),BULL rank exit (90.9%),BULL,csi500
-688248,南网科技,电气设备,20220629,23.78,20220808,34.54,100,1082.5,45.71%,40,Rank 3.80%,"Rank 3.80%, Score 0.0153, BULL",BULL trailing stop (23.2%),BULL trailing stop (23.2%),BULL,csi500
-300765,新诺威,食品,20220711,16.3,20220808,15.0,100,-367.3,-7.98%,28,Rank 2.16%,"Rank 2.16%, Score 0.0244, BULL",BULL rank exit (48.5%),BULL rank exit (48.5%),BULL,csi500
-601001,晋控煤业,煤炭开采,20220718,14.51,20220808,13.06,200,-475.2,-7.51%,21,Rank 1.80%,"Rank 1.80%, Score 0.0264, BULL",BULL rank exit (42.2%),BULL rank exit (42.2%),BULL,csi500
-002203,海亮股份,铜,20220719,12.01,20220808,11.94,100,-32.4,-0.58%,20,Rank 1.80%,"Rank 1.80%, Score 0.0205, BULL",BULL rank exit (83.2%),BULL rank exit (83.2%),BULL,csi500
-600500,中化国际,塑料,20220719,6.65,20220808,6.47,100,-165.3,-2.71%,20,Rank 2.69%,"Rank 2.69%, Score 0.0189, BULL",BULL rank exit (40.1%),BULL rank exit (40.1%),BULL,csi500
-603712,七一二,通信设备,20220719,28.31,20220808,30.81,100,249.1,8.83%,20,Rank 3.59%,"Rank 3.59%, Score 0.0179, BULL",BULL rank exit (38.8%),BULL rank exit (38.8%),BULL,csi500
-688183,生益电子,元器件,20220719,11.29,20220808,12.75,300,450.5,12.93%,20,Rank 4.85%,"Rank 4.85%, Score 0.0154, BULL",BULL rank exit (97.7%),BULL rank exit (97.7%),BULL,csi500
-002531,天顺风能,电气设备,20220610,13.5,20220809,16.6,200,5157.8,23.56%,60,Rank 0.36%,"Rank 0.36%, Score 0.0327, BEAR",BEAR trailing stop (13.7%),BEAR trailing stop (13.7%),BEAR,csi500
-000629,钒钛股份,小金属,20220701,3.8,20220809,6.3,100,1940.9,65.79%,39,Rank 3.07%,"Rank 3.07%, Score 0.0242, BULL",BEAR trailing stop (14.9%),BEAR trailing stop (14.9%),BEAR,csi500
-688772,珠海冠宇,电气设备,20220713,28.1,20220809,26.9,200,-248.7,-4.27%,27,Rank 3.60%,"Rank 3.60%, Score 0.0232, BULL",BEAR rank exit (27.7%),BEAR rank exit (27.7%),BEAR,csi500
-300339,润和软件,软件服务,20220725,23.06,20220809,21.64,100,-915.8,-6.16%,15,Rank 0.18%,"Rank 0.18%, Score 0.0555, BULL",BEAR rank exit (22.9%),BEAR rank exit (22.9%),BEAR,csi500
-600988,赤峰黄金,黄金,20220729,18.04,20220809,19.25,100,646.8,6.71%,11,Rank 1.79%,"Rank 1.79%, Score 0.0219, BULL",BEAR rank exit (46.3%),BEAR rank exit (46.3%),BEAR,csi500
-300601,康泰生物,生物制药,20220801,33.3,20220809,34.84,100,367.6,4.62%,8,Rank 2.68%,"Rank 2.68%, Score 0.0184, BULL",BEAR rank exit (43.1%),BEAR rank exit (43.1%),BEAR,csi500
-601615,明阳智能,电气设备,20220801,29.45,20220809,28.8,100,-70.7,-2.21%,8,Rank 4.29%,"Rank 4.29%, Score 0.0139, BULL",BEAR rank exit (74.2%),BEAR rank exit (74.2%),BEAR,csi500
-601155,新城控股,区域地产,20220715,21.22,20220810,19.3,100,-307.3,-9.05%,26,Rank 4.49%,"Rank 4.49%, Score 0.0178, BULL",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
-688180,君实生物-U,生物制药,20220802,60.06,20220810,59.2,100,-93.7,-1.43%,8,Rank 0.72%,"Rank 0.72%, Score 0.0299, BULL",BEAR rank exit (60.3%),BEAR rank exit (60.3%),BEAR,csi500
-002429,兆驰股份,家用电器,20220801,3.89,20220811,4.01,200,205.7,3.08%,10,Rank 3.40%,"Rank 3.40%, Score 0.0151, BULL",BEAR rank exit (20.9%),BEAR rank exit (20.9%),BEAR,csi500
-603766,隆鑫通用,摩托车,20220802,5.03,20220811,4.98,400,-70.2,-0.99%,9,Rank 3.22%,"Rank 3.22%, Score 0.0112, BULL",BEAR rank exit (20.4%),BEAR rank exit (20.4%),BEAR,csi500
-300573,兴齐眼药,化学制药,20220803,90.46,20220811,100.65,100,1034.1,11.26%,8,Rank 1.07%,"Rank 1.07%, Score 0.0239, BULL",BEAR rank exit (38.8%),BEAR rank exit (38.8%),BEAR,csi500
-605589,圣泉集团,化工原料,20220729,24.36,20220812,20.18,400,-1694.3,-17.16%,14,Rank 2.33%,"Rank 2.33%, Score 0.0195, BULL",BEAR Hard stop (-17.2%),BEAR Hard stop (-17.2%),BEAR,csi500
-603728,鸣志电器,电气设备,20220711,20.2,20220815,40.01,100,2610.2,98.07%,35,Rank 4.32%,"Rank 4.32%, Score 0.0197, BULL",BEAR trailing stop (16.2%),BEAR trailing stop (16.2%),BEAR,csi500
-002126,银轮股份,汽车配件,20220713,11.24,20220815,14.89,100,2033.5,32.47%,33,Rank 4.68%,"Rank 4.68%, Score 0.0213, BULL",BEAR trailing stop (10.3%),BEAR trailing stop (10.3%),BEAR,csi500
-300679,电连技术,元器件,20220805,46.0,20220815,52.5,100,2342.2,14.13%,10,Rank 0.54%,"Rank 0.54%, Score 0.0303, BULL",BEAR rank exit (21.3%),BEAR rank exit (21.3%),BEAR,csi500
-603927,中科软,软件服务,20220808,24.2,20220816,23.75,100,-70.5,-1.86%,8,Rank 3.04%,"Rank 3.04%, Score 0.0183, BULL",BEAR rank exit (55.1%),BEAR rank exit (55.1%),BEAR,csi500
-002500,山西证券,证券,20220808,5.47,20220819,5.77,400,140.7,5.48%,11,Rank 4.65%,"Rank 4.65%, Score 0.0156, BULL",BEAR rank exit (31.7%),BEAR rank exit (31.7%),BEAR,csi500
-601555,东吴证券,证券,20220808,6.39,20220822,6.75,400,182.4,5.63%,14,Rank 3.40%,"Rank 3.40%, Score 0.0173, BULL",BEAR rank exit (41.3%),BEAR rank exit (41.3%),BEAR,csi500
-600909,华安证券,证券,20220808,4.27,20220822,4.49,700,179.3,5.15%,14,Rank 4.11%,"Rank 4.11%, Score 0.0162, BULL",BEAR rank exit (49.0%),BEAR rank exit (49.0%),BEAR,csi500
-688234,天岳先进,半导体,20220714,61.12,20220823,106.57,100,4531.1,74.36%,40,Rank 3.06%,"Rank 3.06%, Score 0.0213, BULL",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
-688099,晶晨股份,半导体,20220719,81.53,20220823,90.17,100,854.0,10.60%,35,Rank 1.62%,"Rank 1.62%, Score 0.0205, BULL",BEAR trailing stop (10.3%),BEAR trailing stop (10.3%),BEAR,csi500
-000415,渤海租赁,多元金融,20220808,2.1,20220825,2.23,100,265.9,6.19%,17,Rank 2.68%,"Rank 2.68%, Score 0.0187, BULL",BEAR rank exit (31.3%),BEAR rank exit (31.3%),BEAR,csi500
-002773,康弘药业,化学制药,20220808,14.27,20220826,15.32,200,416.2,7.36%,18,Rank 1.97%,"Rank 1.97%, Score 0.0200, BULL",BEAR rank exit (96.1%),BEAR rank exit (96.1%),BEAR,csi500
-600673,东阳光,综合类,20220823,12.7,20220826,11.49,100,-1677.2,-9.53%,3,Rank 0.36%,"Rank 0.36%, Score 0.0224, BEAR",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
-688390,固德威,电气设备,20220426,168.3,20220829,388.76,100,37899.6,224.49%,125,Rank 0.18%,"Rank 0.18%, Score 0.1385, BEAR",BEAR trailing stop (13.3%),BEAR trailing stop (13.3%),BEAR,csi500
-688819,天能股份,电气设备,20220711,35.23,20220829,43.99,100,898.6,24.87%,49,Rank 3.60%,"Rank 3.60%, Score 0.0210, BULL",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
-603379,三美股份,化工原料,20220718,23.9,20220829,27.87,100,567.6,16.61%,42,Rank 3.95%,"Rank 3.95%, Score 0.0211, BULL",BEAR trailing stop (12.1%),BEAR trailing stop (12.1%),BEAR,csi500
+002945,华林证券,证券,20220105,13.0,20220113,12.65,400,-148.6,-2.69%,8,Rank 0.55%,"Rank 0.55%, Score 0.0328, BULL",BEAR rank exit (80.8%),BEAR rank exit (80.8%),BEAR,csi500
+600021,上海电力,火力发电,20220105,12.7,20220113,12.4,200,-141.4,-2.36%,8,Rank 2.40%,"Rank 2.40%, Score 0.0162, BULL",BEAR rank exit (68.3%),BEAR rank exit (68.3%),BEAR,csi500
+603858,步长制药,中成药,20220105,21.33,20220113,22.09,100,149.8,3.56%,8,Rank 2.58%,"Rank 2.58%, Score 0.0159, BULL",BEAR rank exit (41.1%),BEAR rank exit (41.1%),BEAR,csi500
+600598,北大荒,种植业,20220105,15.3,20220113,14.78,100,-138.1,-3.40%,8,Rank 4.24%,"Rank 4.24%, Score 0.0130, BULL",BEAR rank exit (57.0%),BEAR rank exit (57.0%),BEAR,csi500
+603885,吉祥航空,空运,20220105,17.6,20220114,16.5,100,-333.4,-6.25%,9,Rank 2.21%,"Rank 2.21%, Score 0.0166, BULL",BEAR rank exit (26.2%),BEAR rank exit (26.2%),BEAR,csi500
+600096,云天化,农药化肥,20220106,18.75,20220114,19.31,100,132.0,2.99%,8,Rank 2.40%,"Rank 2.40%, Score 0.0199, BULL",BEAR rank exit (22.9%),BEAR rank exit (22.9%),BEAR,csi500
+601865,福莱特,玻璃,20220107,50.95,20220117,50.16,100,-86.6,-1.55%,10,Rank 2.03%,"Rank 2.03%, Score 0.0237, BULL",BEAR rank exit (85.4%),BEAR rank exit (85.4%),BEAR,csi500
+300748,金力永磁,矿物制品,20220107,40.58,20220118,37.9,100,-442.1,-6.60%,11,Rank 3.87%,"Rank 3.87%, Score 0.0162, BULL",BEAR rank exit (26.7%),BEAR rank exit (26.7%),BEAR,csi500
+000629,钒钛股份,小金属,20220106,4.26,20220119,4.04,200,-350.9,-5.16%,13,Rank 1.11%,"Rank 1.11%, Score 0.0275, BULL",BEAR rank exit (39.3%),BEAR rank exit (39.3%),BEAR,csi500
+000893,亚钾国际,农药化肥,20220111,24.97,20220119,24.51,100,-100.1,-1.84%,8,Rank 3.32%,"Rank 3.32%, Score 0.0218, BULL",BEAR rank exit (41.7%),BEAR rank exit (41.7%),BEAR,csi500
+003022,联泓新科,化工原料,20220106,33.22,20220120,30.32,100,-384.2,-8.73%,14,Rank 2.03%,"Rank 2.03%, Score 0.0225, BULL",BEAR trailing stop (10.8%),BEAR trailing stop (10.8%),BEAR,csi500
+688385,复旦微电,半导体,20220112,43.19,20220120,42.85,100,-39.6,-0.79%,8,Rank 3.14%,"Rank 3.14%, Score 0.0252, BULL",BEAR rank exit (23.5%),BEAR rank exit (23.5%),BEAR,csi500
+603650,彤程新材,化工原料,20220110,41.47,20220121,36.69,100,-502.6,-11.53%,11,Rank 4.80%,"Rank 4.80%, Score 0.0226, BULL",BEAR Hard stop (-11.5%),BEAR Hard stop (-11.5%),BEAR,csi500
+000683,博源化工,化工原料,20220112,8.92,20220124,8.96,100,21.4,0.45%,12,Rank 1.48%,"Rank 1.48%, Score 0.0316, BULL",BEAR rank exit (36.7%),BEAR rank exit (36.7%),BEAR,csi500
+002603,以岭药业,中成药,20220119,25.3,20220124,22.08,100,-1285.5,-12.73%,5,Rank 0.56%,"Rank 0.56%, Score 0.0252, BEAR",BEAR Hard stop (-12.7%),BEAR Hard stop (-12.7%),BEAR,csi500
+300118,东方日升,电气设备,20220124,23.5,20220126,22.0,200,-1045.3,-6.38%,2,Rank 0.37%,"Rank 0.37%, Score 0.0710, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
+002487,大金重工,电气设备,20220120,32.51,20220128,35.22,100,1230.6,8.34%,8,Rank 0.19%,"Rank 0.19%, Score 0.0565, BEAR",BEAR rank exit (46.9%),BEAR rank exit (46.9%),BEAR,csi500
+000519,中兵红箭,专用机械,20220120,20.75,20220207,18.4,100,-1884.2,-11.33%,18,Rank 0.56%,"Rank 0.56%, Score 0.0326, BEAR",BEAR Hard stop (-11.3%),BEAR Hard stop (-11.3%),BEAR,csi500
+002432,九安医疗,医疗保健,20220126,56.0,20220208,55.51,100,-173.5,-0.88%,13,Rank 0.19%,"Rank 0.19%, Score 0.0586, BEAR",BEAR rank exit (22.7%),BEAR rank exit (22.7%),BEAR,csi500
+002603,以岭药业,中成药,20220124,22.08,20220209,20.71,200,-1105.5,-6.20%,16,Rank 0.74%,"Rank 0.74%, Score 0.0573, BEAR",BEAR rank exit (25.1%),BEAR rank exit (25.1%),BEAR,csi500
+002240,盛新锂能,小金属,20220121,44.74,20220210,46.8,200,646.5,4.60%,20,Rank 1.11%,"Rank 1.11%, Score 0.0369, BEAR",BEAR rank exit (29.2%),BEAR rank exit (29.2%),BEAR,csi500
+000519,中兵红箭,专用机械,20220208,18.52,20220216,19.11,100,448.6,3.19%,8,Rank 0.74%,"Rank 0.74%, Score 0.0477, BEAR",BEAR rank exit (34.3%),BEAR rank exit (34.3%),BEAR,csi500
+300118,东方日升,电气设备,20220209,22.11,20220218,22.33,200,130.6,1.00%,9,Rank 0.37%,"Rank 0.37%, Score 0.0496, BEAR",BEAR rank exit (37.9%),BEAR rank exit (37.9%),BEAR,csi500
+688676,金盘科技,电气设备,20220210,23.73,20220218,23.0,800,-615.2,-3.08%,8,Rank 0.18%,"Rank 0.18%, Score 0.0424, BEAR",BEAR rank exit (35.4%),BEAR rank exit (35.4%),BEAR,csi500
+002244,滨江集团,区域地产,20220110,5.0,20220228,5.99,200,1227.8,19.80%,49,Rank 4.43%,"Rank 4.43%, Score 0.0233, BULL",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
+688276,百克生物,生物制药,20220128,54.87,20220228,53.33,300,-482.8,-2.81%,31,Rank 0.19%,"Rank 0.19%, Score 0.0471, BEAR",BEAR rank exit (25.5%),BEAR rank exit (25.5%),BEAR,csi500
+300115,长盈精密,元器件,20220218,12.14,20220301,12.23,100,90.9,0.74%,11,Rank 0.37%,"Rank 0.37%, Score 0.0346, BEAR",BEAR rank exit (23.7%),BEAR rank exit (23.7%),BEAR,csi500
+002444,巨星科技,轻工机械,20220301,20.1,20220307,17.85,200,-1995.4,-11.19%,6,Rank 0.37%,"Rank 0.37%, Score 0.0291, BEAR",BEAR Hard stop (-11.2%),BEAR Hard stop (-11.2%),BEAR,csi500
+600348,华阳股份,煤炭开采,20220218,11.79,20220308,12.5,100,656.1,6.02%,18,Rank 0.18%,"Rank 0.18%, Score 0.0405, BEAR",BEAR rank exit (32.3%),BEAR rank exit (32.3%),BEAR,csi500
+000933,神火股份,铝,20220228,12.92,20220308,13.89,100,1195.5,7.51%,8,Rank 0.18%,"Rank 0.18%, Score 0.0460, BEAR",BEAR rank exit (99.6%),BEAR rank exit (99.6%),BEAR,csi500
+600546,山煤国际,煤炭开采,20220207,9.32,20220309,12.14,200,4609.6,30.26%,30,Rank 0.37%,"Rank 0.37%, Score 0.0540, BEAR",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
+688599,天合光能,电气设备,20220216,59.05,20220311,71.3,300,3705.5,20.75%,23,Rank 0.37%,"Rank 0.37%, Score 0.0476, BEAR",BEAR trailing stop (10.7%),BEAR trailing stop (10.7%),BEAR,csi500
+603826,坤彩科技,染料涂料,20220228,52.62,20220315,51.6,200,-286.8,-1.94%,15,Rank 0.37%,"Rank 0.37%, Score 0.0371, BEAR",BEAR rank exit (25.7%),BEAR rank exit (25.7%),BEAR,csi500
+300679,电连技术,元器件,20220308,36.85,20220315,33.1,100,-1368.5,-10.18%,7,Rank 0.74%,"Rank 0.74%, Score 0.0443, BEAR",BEAR Hard stop (-10.2%),BEAR Hard stop (-10.2%),BEAR,csi500
+002444,巨星科技,轻工机械,20220307,17.85,20220316,15.93,200,-1703.6,-10.76%,9,Rank 0.37%,"Rank 0.37%, Score 0.0388, BEAR",BEAR Hard stop (-10.8%),BEAR Hard stop (-10.8%),BEAR,csi500
+688266,泽璟制药-U,生物制药,20220308,38.2,20220318,37.45,500,-399.3,-1.96%,10,Rank 1.11%,"Rank 1.11%, Score 0.0379, BEAR",BEAR rank exit (37.8%),BEAR rank exit (37.8%),BEAR,csi500
+600056,中国医药,医药商业,20220309,15.18,20220324,31.8,100,16087.9,109.49%,15,Rank 0.37%,"Rank 0.37%, Score 0.0644, BEAR",BEAR trailing stop (14.1%),BEAR trailing stop (14.1%),BEAR,csi500
+601666,平煤股份,煤炭开采,20220315,13.03,20220324,14.41,500,1938.4,10.59%,9,Rank 0.37%,"Rank 0.37%, Score 0.0640, BEAR",BEAR rank exit (24.0%),BEAR rank exit (24.0%),BEAR,csi500
+600546,山煤国际,煤炭开采,20220315,12.19,20220328,13.61,200,2305.1,11.65%,13,Rank 0.74%,"Rank 0.74%, Score 0.0516, BEAR",BEAR rank exit (81.0%),BEAR rank exit (81.0%),BEAR,csi500
+002531,天顺风能,电气设备,20220318,15.25,20220328,13.56,100,-1393.9,-11.08%,10,Rank 0.55%,"Rank 0.55%, Score 0.0440, BEAR",BEAR Hard stop (-11.1%),BEAR Hard stop (-11.1%),BEAR,csi500
+300679,电连技术,元器件,20220316,32.37,20220330,31.3,100,-400.7,-3.31%,14,Rank 0.55%,"Rank 0.55%, Score 0.0557, BEAR",BEAR trailing stop (10.1%),BEAR trailing stop (10.1%),BEAR,csi500
+601233,桐昆股份,化纤,20220324,17.7,20220401,17.33,300,-366.2,-2.09%,8,Rank 0.18%,"Rank 0.18%, Score 0.0266, BEAR",BEAR rank exit (82.1%),BEAR rank exit (82.1%),BEAR,csi500
+601966,玲珑轮胎,汽车配件,20220324,23.18,20220401,21.9,800,-1126.3,-5.52%,8,Rank 0.37%,"Rank 0.37%, Score 0.0246, BEAR",BEAR rank exit (54.5%),BEAR rank exit (54.5%),BEAR,csi500
+688065,凯赛生物,化工原料,20220311,110.47,20220406,110.15,100,-46.7,-0.29%,26,Rank 0.55%,"Rank 0.55%, Score 0.0536, BEAR",BEAR rank exit (24.9%),BEAR rank exit (24.9%),BEAR,csi500
+601567,三星医疗,电气设备,20220328,9.99,20220406,10.77,400,1569.1,7.81%,9,Rank 0.18%,"Rank 0.18%, Score 0.0439, BEAR",BEAR rank exit (30.3%),BEAR rank exit (30.3%),BEAR,csi500
+002487,大金重工,电气设备,20220401,30.9,20220408,27.79,100,-1453.2,-10.06%,7,Rank 0.37%,"Rank 0.37%, Score 0.0356, BEAR",BEAR Hard stop (-10.1%),BEAR Hard stop (-10.1%),BEAR,csi500
+688002,睿创微纳,通信设备,20220328,45.97,20220412,39.5,400,-2616.4,-14.07%,15,Rank 0.36%,"Rank 0.36%, Score 0.0420, BEAR",BEAR Hard stop (-14.1%),BEAR Hard stop (-14.1%),BEAR,csi500
+002531,天顺风能,电气设备,20220330,13.8,20220412,12.23,100,-1294.6,-11.38%,13,Rank 0.36%,"Rank 0.36%, Score 0.0452, BEAR",BEAR Hard stop (-11.4%),BEAR Hard stop (-11.4%),BEAR,csi500
+600859,王府井,百货,20220401,20.4,20220413,22.0,200,1440.3,7.84%,12,Rank 0.55%,"Rank 0.55%, Score 0.0338, BEAR",BEAR rank exit (88.3%),BEAR rank exit (88.3%),BEAR,csi500
+300118,东方日升,电气设备,20220406,22.79,20220413,20.61,200,-1509.0,-9.57%,7,Rank 0.55%,"Rank 0.55%, Score 0.0241, BEAR",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
+600348,华阳股份,煤炭开采,20220406,12.16,20220414,12.81,100,599.0,5.35%,8,Rank 0.73%,"Rank 0.73%, Score 0.0237, BEAR",BEAR rank exit (27.6%),BEAR rank exit (27.6%),BEAR,csi500
+300474,景嘉微,元器件,20220408,91.5,20220419,88.71,100,-588.0,-3.05%,11,Rank 0.55%,"Rank 0.55%, Score 0.0392, BEAR",BEAR rank exit (20.4%),BEAR rank exit (20.4%),BEAR,csi500
+603179,新泉股份,汽车配件,20220413,26.74,20220421,29.0,400,1728.9,8.45%,8,Rank 0.36%,"Rank 0.36%, Score 0.0525, BEAR",BEAR rank exit (55.8%),BEAR rank exit (55.8%),BEAR,csi500
+002335,科华数据,电气设备,20220412,22.33,20220422,19.74,100,-1532.3,-11.60%,10,Rank 0.91%,"Rank 0.91%, Score 0.0446, BEAR",BEAR Hard stop (-11.6%),BEAR Hard stop (-11.6%),BEAR,csi500
+300212,易华录,软件服务,20220412,18.29,20220422,16.93,100,-1181.8,-7.44%,10,Rank 1.10%,"Rank 1.10%, Score 0.0446, BEAR",BEAR trailing stop (10.6%),BEAR trailing stop (10.6%),BEAR,csi500
+300724,捷佳伟创,专用机械,20220413,62.09,20220425,53.18,300,-2720.7,-14.35%,12,Rank 0.55%,"Rank 0.55%, Score 0.0481, BEAR",BEAR Hard stop (-14.4%),BEAR Hard stop (-14.4%),BEAR,csi500
+002402,和而泰,元器件,20220414,14.9,20220425,13.84,100,-1308.6,-7.11%,11,Rank 0.55%,"Rank 0.55%, Score 0.0497, BEAR",BEAR trailing stop (11.6%),BEAR trailing stop (11.6%),BEAR,csi500
+002603,以岭药业,中成药,20220419,29.15,20220425,27.27,100,-757.9,-6.45%,6,Rank 0.18%,"Rank 0.18%, Score 0.0870, BEAR",BEAR trailing stop (12.0%),BEAR trailing stop (12.0%),BEAR,csi500
+000537,绿发电力,新型电力,20220421,12.79,20220426,10.65,200,-2805.2,-16.73%,5,Rank 0.36%,"Rank 0.36%, Score 0.0539, BEAR",BEAR Hard stop (-16.7%),BEAR Hard stop (-16.7%),BEAR,csi500
+688390,固德威,电气设备,20220425,198.33,20220426,168.3,100,-3040.0,-15.14%,1,Rank 0.18%,"Rank 0.18%, Score 0.0933, BEAR",BEAR Hard stop (-15.1%),BEAR Hard stop (-15.1%),BEAR,csi500
+002487,大金重工,电气设备,20220422,22.92,20220427,19.8,100,-1453.0,-13.61%,5,Rank 0.36%,"Rank 0.36%, Score 0.0655, BEAR",BEAR Hard stop (-13.6%),BEAR Hard stop (-13.6%),BEAR,csi500
+002335,科华数据,电气设备,20220422,19.74,20220427,16.54,100,-1887.2,-16.21%,5,Rank 0.91%,"Rank 0.91%, Score 0.0534, BEAR",BEAR Hard stop (-16.2%),BEAR Hard stop (-16.2%),BEAR,csi500
+600056,中国医药,医药商业,20220425,20.57,20220505,20.8,100,197.0,1.12%,10,Rank 0.55%,"Rank 0.55%, Score 0.0633, BEAR",BEAR rank exit (95.3%),BEAR rank exit (95.3%),BEAR,csi500
+002240,盛新锂能,小金属,20220425,38.26,20220505,43.32,300,2427.3,13.23%,10,Rank 0.73%,"Rank 0.73%, Score 0.0595, BEAR",BEAR rank exit (71.9%),BEAR rank exit (71.9%),BEAR,csi500
+603920,世运电路,元器件,20220427,11.95,20220506,14.0,1100,3292.1,17.15%,9,Rank 0.73%,"Rank 0.73%, Score 0.0904, BEAR",BEAR rank exit (28.6%),BEAR rank exit (28.6%),BEAR,csi500
+000537,绿发电力,新型电力,20220426,10.65,20220512,11.35,200,892.5,6.57%,16,Rank 0.36%,"Rank 0.36%, Score 0.0918, BEAR",BEAR rank exit (33.9%),BEAR rank exit (33.9%),BEAR,csi500
+300339,润和软件,软件服务,20220506,13.92,20220523,15.4,200,1846.6,10.63%,17,Rank 0.18%,"Rank 0.18%, Score 0.0594, BEAR",BEAR rank exit (23.1%),BEAR rank exit (23.1%),BEAR,csi500
+300757,罗博特科,专用机械,20220505,31.9,20220601,34.33,400,1253.8,7.62%,27,Rank 1.46%,"Rank 1.46%, Score 0.0494, BEAR",BEAR rank exit (20.1%),BEAR rank exit (20.1%),BEAR,csi500
+300140,节能环境,环境保护,20220512,5.4,20220608,7.86,900,9229.3,45.56%,27,Rank 0.18%,"Rank 0.18%, Score 0.0582, BEAR",BEAR trailing stop (14.6%),BEAR trailing stop (14.6%),BEAR,csi500
+002603,以岭药业,中成药,20220523,23.15,20220608,22.99,200,-150.3,-0.69%,16,Rank 0.18%,"Rank 0.18%, Score 0.0385, BEAR",BEAR rank exit (83.9%),BEAR rank exit (83.9%),BEAR,csi500
+600056,中国医药,医药商业,20220601,20.43,20220610,20.8,100,332.8,1.81%,9,Rank 0.36%,"Rank 0.36%, Score 0.0244, BEAR",BEAR rank exit (83.1%),BEAR rank exit (83.1%),BEAR,csi500
+300140,节能环境,环境保护,20220608,7.86,20220610,7.08,700,-2312.5,-9.92%,2,Rank 0.18%,"Rank 0.18%, Score 0.0285, BEAR",BEAR trailing stop (10.4%),BEAR trailing stop (10.4%),BEAR,csi500
+603233,大参林,医药商业,20220608,33.36,20220627,30.5,300,2180.8,11.35%,19,Rank 0.36%,"Rank 0.36%, Score 0.0276, BEAR",BULL rank exit (82.1%),BULL rank exit (82.1%),BULL,csi500
+688248,南网科技,电气设备,20220616,23.58,20220705,24.5,100,88.8,3.90%,19,Rank 0.54%,"Rank 0.54%, Score 0.0346, BULL",BULL rank exit (85.7%),BULL rank exit (85.7%),BULL,csi500
+300570,太辰光,通信设备,20220617,15.32,20220705,14.75,100,-116.6,-3.72%,18,Rank 2.72%,"Rank 2.72%, Score 0.0230, BULL",BULL rank exit (45.3%),BULL rank exit (45.3%),BULL,csi500
+603379,三美股份,化工原料,20220616,22.83,20220708,24.27,100,203.2,6.31%,22,Rank 2.00%,"Rank 2.00%, Score 0.0261, BULL",BULL rank exit (38.9%),BULL rank exit (38.9%),BULL,csi500
+600685,中船防务,船舶,20220620,16.8,20220708,16.54,100,-57.3,-1.55%,18,Rank 2.54%,"Rank 2.54%, Score 0.0167, BULL",BULL rank exit (69.2%),BULL rank exit (69.2%),BULL,csi500
+002939,长城证券,证券,20220621,10.02,20220711,9.66,300,-117.5,-3.59%,20,Rank 1.99%,"Rank 1.99%, Score 0.0232, BULL",BULL rank exit (84.5%),BULL rank exit (84.5%),BULL,csi500
+601991,大唐发电,火力发电,20220622,2.54,20220711,2.83,600,468.7,11.42%,19,Rank 3.08%,"Rank 3.08%, Score 0.0186, BULL",BULL rank exit (59.3%),BULL rank exit (59.3%),BULL,csi500
+003022,联泓新科,化工原料,20220623,33.2,20220711,36.25,100,396.7,9.19%,18,Rank 0.54%,"Rank 0.54%, Score 0.0318, BULL",BULL rank exit (95.7%),BULL rank exit (95.7%),BULL,csi500
+601001,晋控煤业,煤炭开采,20220622,15.88,20220712,15.61,100,-62.3,-1.70%,20,Rank 0.91%,"Rank 0.91%, Score 0.0243, BULL",BULL rank exit (49.1%),BULL rank exit (49.1%),BULL,csi500
+688567,孚能科技,电气设备,20220624,29.12,20220712,27.13,100,-202.5,-6.83%,18,Rank 3.99%,"Rank 3.99%, Score 0.0164, BULL",BULL rank exit (37.4%),BULL rank exit (37.4%),BULL,csi500
+688266,泽璟制药-U,生物制药,20220707,37.05,20220713,33.23,100,-386.3,-10.31%,6,Rank 4.32%,"Rank 4.32%, Score 0.0186, BULL",BULL Hard stop (-10.3%),BULL Hard stop (-10.3%),BULL,csi500
+002409,雅克科技,半导体,20220610,53.5,20220714,47.15,100,-2033.7,-11.87%,34,Rank 0.73%,"Rank 0.73%, Score 0.0276, BEAR",BULL Hard stop (-11.9%),BULL Hard stop (-11.9%),BULL,csi500
+600566,济川药业,中成药,20220701,27.25,20220715,24.5,100,-632.0,-10.09%,14,Rank 1.81%,"Rank 1.81%, Score 0.0309, BULL",BULL Hard stop (-10.1%),BULL Hard stop (-10.1%),BULL,csi500
+601615,明阳智能,电气设备,20220621,30.56,20220718,35.3,100,482.9,15.51%,27,Rank 1.63%,"Rank 1.63%, Score 0.0245, BULL",BULL rank exit (55.7%),BULL rank exit (55.7%),BULL,csi500
+600004,白云机场,机场,20220628,13.52,20220718,13.86,100,84.3,2.51%,20,Rank 0.18%,"Rank 0.18%, Score 0.0305, BULL",BULL rank exit (93.2%),BULL rank exit (93.2%),BULL,csi500
+002739,万达电影,影视音像,20220628,13.3,20220718,11.88,100,-436.4,-10.68%,20,Rank 1.08%,"Rank 1.08%, Score 0.0274, BULL",BULL Hard stop (-10.7%),BULL Hard stop (-10.7%),BULL,csi500
+000967,盈峰环境,环境保护,20220629,5.23,20220718,4.98,200,-267.5,-4.78%,19,Rank 2.89%,"Rank 2.89%, Score 0.0161, BULL",BULL rank exit (91.7%),BULL rank exit (91.7%),BULL,csi500
+601106,中国一重,工程机械,20220629,3.18,20220718,3.05,1700,-229.6,-4.09%,19,Rank 3.25%,"Rank 3.25%, Score 0.0159, BULL",BULL rank exit (89.9%),BULL rank exit (89.9%),BULL,csi500
+603786,科博达,汽车配件,20220701,61.4,20220719,64.01,100,258.0,4.25%,18,Rank 0.90%,"Rank 0.90%, Score 0.0376, BULL",BULL rank exit (83.5%),BULL rank exit (83.5%),BULL,csi500
+688772,珠海冠宇,电气设备,20220704,29.98,20220722,28.76,200,-253.2,-4.07%,18,Rank 3.61%,"Rank 3.61%, Score 0.0218, BULL",BULL rank exit (72.8%),BULL rank exit (72.8%),BULL,csi500
+002244,滨江集团,区域地产,20220705,9.23,20220725,8.97,100,-18.3,-0.19%,20,Rank 4.33%,"Rank 4.33%, Score 0.0151, BULL",BULL rank exit (65.7%),BULL rank exit (65.7%),BULL,csi500
+603885,吉祥航空,空运,20220706,16.7,20220725,16.32,100,-119.3,-2.28%,19,Rank 3.42%,"Rank 3.42%, Score 0.0218, BULL",BULL rank exit (63.0%),BULL rank exit (63.0%),BULL,csi500
+300748,金力永磁,矿物制品,20220707,42.76,20220725,45.33,100,409.9,6.01%,18,Rank 1.08%,"Rank 1.08%, Score 0.0270, BULL",BULL rank exit (70.3%),BULL rank exit (70.3%),BULL,csi500
+002583,海能达,通信设备,20220629,4.93,20220726,5.15,100,120.2,4.46%,27,Rank 3.80%,"Rank 3.80%, Score 0.0148, BULL",BULL rank exit (37.1%),BULL rank exit (37.1%),BULL,csi500
+002487,大金重工,电气设备,20220505,21.29,20220729,45.51,200,22336.1,113.85%,85,Rank 0.73%,"Rank 0.73%, Score 0.0595, BEAR",BULL trailing stop (18.7%),BULL trailing stop (18.7%),BULL,csi500
+002607,中公教育,文教休闲,20220713,5.3,20220801,5.05,100,-211.5,-4.72%,19,Rank 4.50%,"Rank 4.50%, Score 0.0205, BULL",BULL rank exit (61.7%),BULL rank exit (61.7%),BULL,csi500
+000709,河钢股份,普钢,20220714,3.03,20220801,2.79,200,-321.5,-4.90%,18,Rank 0.18%,"Rank 0.18%, Score 0.0628, BULL",BULL rank exit (91.6%),BULL rank exit (91.6%),BULL,csi500
+688266,泽璟制药-U,生物制药,20220715,33.72,20220802,33.4,100,-36.3,-0.95%,18,Rank 2.87%,"Rank 2.87%, Score 0.0191, BULL",BULL rank exit (48.3%),BULL rank exit (48.3%),BULL,csi500
+300765,新诺威,食品,20220711,16.3,20220803,14.67,100,-459.1,-10.00%,23,Rank 2.34%,"Rank 2.34%, Score 0.0229, BULL",BULL Hard stop (-10.0%),BULL Hard stop (-10.0%),BULL,csi500
+688676,金盘科技,电气设备,20220427,14.0,20220804,31.88,1300,23965.1,130.41%,99,Rank 0.36%,"Rank 0.36%, Score 0.1386, BEAR",BULL trailing stop (18.3%),BULL trailing stop (18.3%),BULL,csi500
+601155,新城控股,区域地产,20220715,21.22,20220804,18.8,100,-386.2,-11.40%,20,Rank 2.69%,"Rank 2.69%, Score 0.0193, BULL",BULL Hard stop (-11.4%),BULL Hard stop (-11.4%),BULL,csi500
+688180,君实生物-U,生物制药,20220719,65.19,20220804,58.25,100,-701.6,-10.65%,16,Rank 0.36%,"Rank 0.36%, Score 0.0408, BULL",BULL Hard stop (-10.6%),BULL Hard stop (-10.6%),BULL,csi500
+688276,百克生物,生物制药,20220718,57.65,20220805,64.93,100,720.8,12.63%,18,Rank 0.36%,"Rank 0.36%, Score 0.0411, BULL",BULL rank exit (96.8%),BULL rank exit (96.8%),BULL,csi500
+601231,环旭电子,元器件,20220718,15.89,20220805,18.12,100,503.1,14.03%,18,Rank 2.87%,"Rank 2.87%, Score 0.0241, BULL",BULL rank exit (87.1%),BULL rank exit (87.1%),BULL,csi500
+688248,南网科技,电气设备,20220708,25.42,20220808,34.54,200,1820.8,35.88%,31,Rank 1.08%,"Rank 1.08%, Score 0.0231, BULL",BULL trailing stop (23.2%),BULL trailing stop (23.2%),BULL,csi500
+603712,七一二,通信设备,20220719,28.31,20220808,30.81,200,498.1,8.83%,20,Rank 2.15%,"Rank 2.15%, Score 0.0209, BULL",BULL rank exit (37.0%),BULL rank exit (37.0%),BULL,csi500
+002203,海亮股份,铜,20220719,12.01,20220808,11.94,100,-32.4,-0.58%,20,Rank 2.51%,"Rank 2.51%, Score 0.0202, BULL",BULL rank exit (79.1%),BULL rank exit (79.1%),BULL,csi500
+002531,天顺风能,电气设备,20220610,13.5,20220809,16.6,200,5157.8,23.56%,60,Rank 0.54%,"Rank 0.54%, Score 0.0295, BEAR",BEAR trailing stop (13.7%),BEAR trailing stop (13.7%),BEAR,csi500
+000629,钒钛股份,小金属,20220629,3.66,20220809,6.3,100,2049.9,72.13%,41,Rank 4.16%,"Rank 4.16%, Score 0.0145, BULL",BEAR trailing stop (14.9%),BEAR trailing stop (14.9%),BEAR,csi500
+601001,晋控煤业,煤炭开采,20220718,14.51,20220809,13.5,100,-140.7,-4.39%,22,Rank 3.95%,"Rank 3.95%, Score 0.0218, BULL",BEAR rank exit (28.1%),BEAR rank exit (28.1%),BEAR,csi500
+002683,广东宏大,化工原料,20220720,30.29,20220809,33.01,100,736.1,8.98%,20,Rank 1.08%,"Rank 1.08%, Score 0.0273, BULL",BEAR rank exit (35.6%),BEAR rank exit (35.6%),BEAR,csi500
+601666,平煤股份,煤炭开采,20220725,11.64,20220809,12.12,100,138.8,4.12%,15,Rank 3.22%,"Rank 3.22%, Score 0.0128, BULL",BEAR rank exit (28.8%),BEAR rank exit (28.8%),BEAR,csi500
+300573,兴齐眼药,化学制药,20220726,91.85,20220809,97.0,100,516.5,5.61%,14,Rank 0.36%,"Rank 0.36%, Score 0.0357, BULL",BEAR rank exit (61.5%),BEAR rank exit (61.5%),BEAR,csi500
+300339,润和软件,软件服务,20220729,21.3,20220809,21.64,200,394.5,1.60%,11,Rank 0.36%,"Rank 0.36%, Score 0.0389, BULL",BEAR rank exit (20.2%),BEAR rank exit (20.2%),BEAR,csi500
+688772,珠海冠宇,电气设备,20220801,25.55,20220809,26.9,500,662.1,5.28%,8,Rank 1.43%,"Rank 1.43%, Score 0.0214, BULL",BEAR rank exit (22.9%),BEAR rank exit (22.9%),BEAR,csi500
+600699,均胜电子,汽车配件,20220706,14.62,20220810,19.6,100,2034.8,34.06%,35,Rank 0.72%,"Rank 0.72%, Score 0.0384, BULL",BEAR trailing stop (10.5%),BEAR trailing stop (10.5%),BEAR,csi500
+300601,康泰生物,生物制药,20220802,33.13,20220810,34.67,100,367.7,4.65%,8,Rank 0.89%,"Rank 0.89%, Score 0.0209, BULL",BEAR rank exit (34.5%),BEAR rank exit (34.5%),BEAR,csi500
+603379,三美股份,化工原料,20220725,26.99,20220811,30.7,100,529.6,13.75%,17,Rank 2.33%,"Rank 2.33%, Score 0.0145, BULL",BEAR rank exit (49.7%),BEAR rank exit (49.7%),BEAR,csi500
+600096,云天化,农药化肥,20220803,25.95,20220811,27.01,100,252.8,4.08%,8,Rank 2.50%,"Rank 2.50%, Score 0.0158, BULL",BEAR rank exit (59.6%),BEAR rank exit (59.6%),BEAR,csi500
+605589,圣泉集团,化工原料,20220801,24.43,20220812,20.18,300,-1291.9,-17.40%,11,Rank 2.15%,"Rank 2.15%, Score 0.0183, BULL",BEAR Hard stop (-17.4%),BEAR Hard stop (-17.4%),BEAR,csi500
+688180,君实生物-U,生物制药,20220804,58.25,20220812,60.21,100,188.2,3.36%,8,Rank 0.54%,"Rank 0.54%, Score 0.0419, BULL",BEAR rank exit (66.1%),BEAR rank exit (66.1%),BEAR,csi500
+000951,中国重汽,汽车整车,20220804,11.64,20220812,11.89,100,112.1,2.15%,8,Rank 0.72%,"Rank 0.72%, Score 0.0371, BULL",BEAR rank exit (81.5%),BEAR rank exit (81.5%),BEAR,csi500
+600416,湘电股份,电气设备,20220704,19.09,20220815,23.3,100,1432.8,22.05%,42,Rank 1.44%,"Rank 1.44%, Score 0.0284, BULL",BEAR trailing stop (13.7%),BEAR trailing stop (13.7%),BEAR,csi500
+603728,鸣志电器,电气设备,20220712,19.46,20220815,40.01,100,2708.0,105.60%,34,Rank 1.44%,"Rank 1.44%, Score 0.0283, BULL",BEAR trailing stop (16.2%),BEAR trailing stop (16.2%),BEAR,csi500
+600546,山煤国际,煤炭开采,20220805,14.11,20220815,16.92,100,2492.1,19.91%,10,Rank 0.54%,"Rank 0.54%, Score 0.0309, BULL",BEAR rank exit (22.4%),BEAR rank exit (22.4%),BEAR,csi500
+601567,三星医疗,电气设备,20220805,11.91,20220815,11.91,100,-8.2,0.00%,10,Rank 1.61%,"Rank 1.61%, Score 0.0224, BULL",BEAR rank exit (96.4%),BEAR rank exit (96.4%),BEAR,csi500
+002444,巨星科技,轻工机械,20220808,21.51,20220816,23.9,100,1035.3,11.11%,8,Rank 0.72%,"Rank 0.72%, Score 0.0277, BULL",BEAR rank exit (91.8%),BEAR rank exit (91.8%),BEAR,csi500
+603927,中科软,软件服务,20220808,24.2,20220816,23.75,100,-70.5,-1.86%,8,Rank 2.68%,"Rank 2.68%, Score 0.0179, BULL",BEAR rank exit (55.5%),BEAR rank exit (55.5%),BEAR,csi500
+300718,长盛轴承,机械基件,20220627,14.5,20220822,20.19,100,1840.7,39.24%,56,Rank 3.99%,"Rank 3.99%, Score 0.0169, BULL",BEAR trailing stop (14.3%),BEAR trailing stop (14.3%),BEAR,csi500
+002430,杭氧股份,化工机械,20220630,30.47,20220822,36.99,100,1464.6,21.40%,53,Rank 2.53%,"Rank 2.53%, Score 0.0232, BULL",BEAR trailing stop (13.5%),BEAR trailing stop (13.5%),BEAR,csi500
+002156,通富微电,半导体,20220725,16.05,20220822,20.25,100,1168.6,26.17%,28,Rank 3.04%,"Rank 3.04%, Score 0.0130, BULL",BEAR trailing stop (12.0%),BEAR trailing stop (12.0%),BEAR,csi500
+002773,康弘药业,化学制药,20220808,14.27,20220826,15.32,200,416.2,7.36%,18,Rank 1.79%,"Rank 1.79%, Score 0.0204, BULL",BEAR rank exit (96.1%),BEAR rank exit (96.1%),BEAR,csi500
+688390,固德威,电气设备,20220426,168.3,20220829,388.76,100,37899.6,224.49%,125,Rank 0.18%,"Rank 0.18%, Score 0.1256, BEAR",BEAR trailing stop (13.3%),BEAR trailing stop (13.3%),BEAR,csi500
+688819,天能股份,电气设备,20220711,35.23,20220829,43.99,100,898.6,24.87%,49,Rank 4.32%,"Rank 4.32%, Score 0.0195, BULL",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
 600062,华润双鹤,化学制药,20220804,19.51,20220829,18.1,100,-1182.5,-7.23%,25,Rank 0.18%,"Rank 0.18%, Score 0.0724, BULL",BEAR trailing stop (12.9%),BEAR trailing stop (12.9%),BEAR,csi500
-002335,科华数据,电气设备,20220825,44.51,20220829,36.24,100,-4890.2,-18.58%,4,Rank 0.54%,"Rank 0.54%, Score 0.0262, BEAR",BEAR Hard stop (-18.6%),BEAR Hard stop (-18.6%),BEAR,csi500
-600685,中船防务,船舶,20220715,17.66,20220901,20.25,100,526.5,14.67%,48,Rank 2.15%,"Rank 2.15%, Score 0.0205, BULL",BEAR trailing stop (12.7%),BEAR trailing stop (12.7%),BEAR,csi500
-600763,通策医疗,医疗保健,20220823,119.66,20220901,116.6,100,-775.6,-2.56%,9,Rank 0.18%,"Rank 0.18%, Score 0.0323, BEAR",BEAR rank exit (31.2%),BEAR rank exit (31.2%),BEAR,csi500
-600418,江淮汽车,汽车整车,20220826,17.69,20220901,15.65,200,-2615.3,-11.53%,6,Rank 0.89%,"Rank 0.89%, Score 0.0287, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-002335,科华数据,电气设备,20220829,36.24,20220901,34.8,100,-873.3,-3.97%,3,Rank 0.18%,"Rank 0.18%, Score 0.0540, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
-688072,拓荆科技,半导体,20220829,246.22,20220905,256.5,100,994.7,4.18%,7,Rank 0.36%,"Rank 0.36%, Score 0.0393, BEAR",BEAR trailing stop (10.1%),BEAR trailing stop (10.1%),BEAR,csi500
-688266,泽璟制药-U,生物制药,20220829,30.2,20220906,30.0,900,-215.1,-0.66%,8,Rank 0.54%,"Rank 0.54%, Score 0.0330, BEAR",BEAR rank exit (25.1%),BEAR rank exit (25.1%),BEAR,csi500
-000657,中钨高新,小金属,20220826,13.95,20220907,13.77,400,-335.6,-1.29%,12,Rank 0.72%,"Rank 0.72%, Score 0.0288, BEAR",BEAR rank exit (63.3%),BEAR rank exit (63.3%),BEAR,csi500
-002850,科达利,电气设备,20220829,118.67,20220908,118.8,100,-3.8,0.11%,10,Rank 0.72%,"Rank 0.72%, Score 0.0303, BEAR",BEAR rank exit (76.8%),BEAR rank exit (76.8%),BEAR,csi500
-688772,珠海冠宇,电气设备,20220901,30.99,20220909,28.3,800,-2196.7,-8.68%,8,Rank 0.18%,"Rank 0.18%, Score 0.0613, BEAR",BEAR rank exit (93.8%),BEAR rank exit (93.8%),BEAR,csi500
-002531,天顺风能,电气设备,20220901,14.43,20220913,14.75,100,246.8,2.22%,12,Rank 1.07%,"Rank 1.07%, Score 0.0321, BEAR",BEAR rank exit (30.3%),BEAR rank exit (30.3%),BEAR,csi500
-688778,厦钨新能,电气设备,20220905,111.76,20220913,117.58,200,1140.2,5.21%,8,Rank 1.43%,"Rank 1.43%, Score 0.0267, BEAR",BEAR rank exit (84.5%),BEAR rank exit (84.5%),BEAR,csi500
-600418,江淮汽车,汽车整车,20220901,15.65,20220914,17.43,200,2230.7,11.37%,13,Rank 0.36%,"Rank 0.36%, Score 0.0438, BEAR",BEAR rank exit (30.7%),BEAR rank exit (30.7%),BEAR,csi500
-600392,盛和资源,小金属,20220906,17.0,20220914,17.09,100,67.3,0.53%,8,Rank 0.89%,"Rank 0.89%, Score 0.0262, BEAR",BEAR rank exit (57.0%),BEAR rank exit (57.0%),BEAR,csi500
-002409,雅克科技,半导体,20220829,65.53,20220915,76.0,100,3289.7,15.98%,17,Rank 0.89%,"Rank 0.89%, Score 0.0302, BEAR",BEAR rank exit (28.4%),BEAR rank exit (28.4%),BEAR,csi500
-300432,富临精工,汽车配件,20220907,16.98,20220916,15.08,200,-3065.6,-11.19%,9,Rank 2.14%,"Rank 2.14%, Score 0.0150, BEAR",BEAR trailing stop (12.7%),BEAR trailing stop (12.7%),BEAR,csi500
-600325,华发股份,区域地产,20220908,9.82,20220916,10.5,200,1379.1,6.92%,8,Rank 1.07%,"Rank 1.07%, Score 0.0161, BEAR",BEAR rank exit (54.6%),BEAR rank exit (54.6%),BEAR,csi500
-002128,电投能源,煤炭开采,20220901,13.9,20220919,13.5,600,-763.4,-2.88%,18,Rank 0.71%,"Rank 0.71%, Score 0.0367, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-002265,建设工业,专用机械,20220913,16.76,20220920,14.61,1700,-3698.3,-12.83%,7,Rank 0.36%,"Rank 0.36%, Score 0.0170, BEAR",BEAR Hard stop (-12.8%),BEAR Hard stop (-12.8%),BEAR,csi500
-603939,益丰药房,医药商业,20220914,50.71,20220922,46.16,100,-1744.2,-8.97%,8,Rank 0.18%,"Rank 0.18%, Score 0.0255, BEAR",BEAR trailing stop (12.6%),BEAR trailing stop (12.6%),BEAR,csi500
-300339,润和软件,软件服务,20220913,18.66,20220923,17.72,200,-1218.0,-5.04%,10,Rank 0.71%,"Rank 0.71%, Score 0.0163, BEAR",BEAR rank exit (29.0%),BEAR rank exit (29.0%),BEAR,csi500
-688772,珠海冠宇,电气设备,20220914,27.09,20220923,24.58,1000,-2559.7,-9.27%,9,Rank 0.54%,"Rank 0.54%, Score 0.0214, BEAR",BEAR rank exit (33.9%),BEAR rank exit (33.9%),BEAR,csi500
-603486,科沃斯,家用电器,20220909,73.81,20220926,66.54,200,-2104.8,-9.85%,17,Rank 0.36%,"Rank 0.36%, Score 0.0265, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
-000629,钒钛股份,小金属,20220915,5.32,20220926,5.1,600,-1059.1,-4.14%,11,Rank 0.18%,"Rank 0.18%, Score 0.0359, BEAR",BEAR rank exit (36.1%),BEAR rank exit (36.1%),BEAR,csi500
-000933,神火股份,铝,20220916,18.4,20220926,17.05,100,-1785.7,-7.34%,10,Rank 0.36%,"Rank 0.36%, Score 0.0295, BEAR",BEAR rank exit (92.4%),BEAR rank exit (92.4%),BEAR,csi500
-300432,富临精工,汽车配件,20220916,15.08,20220926,14.8,200,-477.9,-1.86%,10,Rank 0.54%,"Rank 0.54%, Score 0.0294, BEAR",BEAR rank exit (30.7%),BEAR rank exit (30.7%),BEAR,csi500
-600418,江淮汽车,汽车整车,20220919,16.8,20220927,16.43,200,-496.8,-2.20%,8,Rank 0.18%,"Rank 0.18%, Score 0.0430, BEAR",BEAR rank exit (74.4%),BEAR rank exit (74.4%),BEAR,csi500
-300757,罗博特科,专用机械,20220920,42.26,20220928,45.32,400,1577.4,7.24%,8,Rank 0.89%,"Rank 0.89%, Score 0.0380, BEAR",BEAR rank exit (93.3%),BEAR rank exit (93.3%),BEAR,csi500
-000519,中兵红箭,专用机械,20220926,25.54,20221010,22.6,100,-2360.4,-11.51%,14,Rank 0.36%,"Rank 0.36%, Score 0.0378, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-603179,新泉股份,汽车配件,20220926,37.85,20221010,36.94,200,-489.9,-2.40%,14,Rank 1.95%,"Rank 1.95%, Score 0.0248, BEAR",BEAR rank exit (26.1%),BEAR rank exit (26.1%),BEAR,csi500
-600418,江淮汽车,汽车整车,20220928,15.68,20221010,13.67,200,-2573.9,-12.82%,12,Rank 0.53%,"Rank 0.53%, Score 0.0254, BEAR",BEAR Hard stop (-12.8%),BEAR Hard stop (-12.8%),BEAR,csi500
-002436,兴森科技,元器件,20220922,10.07,20221011,9.02,200,-2827.7,-10.43%,19,Rank 0.36%,"Rank 0.36%, Score 0.0312, BEAR",BEAR trailing stop (10.4%),BEAR trailing stop (10.4%),BEAR,csi500
-300454,深信服,软件服务,20220923,107.0,20221011,89.2,200,-3600.0,-16.64%,18,Rank 0.71%,"Rank 0.71%, Score 0.0265, BEAR",BEAR Hard stop (-16.6%),BEAR Hard stop (-16.6%),BEAR,csi500
-688213,思特威-W,半导体,20220926,41.8,20221011,37.5,600,-2609.2,-10.29%,15,Rank 0.71%,"Rank 0.71%, Score 0.0322, BEAR",BEAR trailing stop (13.0%),BEAR trailing stop (13.0%),BEAR,csi500
-002223,鱼跃医疗,医疗保健,20220927,25.25,20221011,28.3,100,2768.2,12.08%,14,Rank 0.36%,"Rank 0.36%, Score 0.0393, BEAR",BEAR rank exit (40.0%),BEAR rank exit (40.0%),BEAR,csi500
-603806,福斯特,塑料,20220923,54.74,20221013,52.6,100,-744.2,-3.91%,20,Rank 0.53%,"Rank 0.53%, Score 0.0309, BEAR",BEAR rank exit (25.3%),BEAR rank exit (25.3%),BEAR,csi500
-300251,光线传媒,影视音像,20220926,7.26,20221018,7.15,100,-315.8,-1.52%,22,Rank 1.07%,"Rank 1.07%, Score 0.0309, BEAR",BEAR rank exit (32.8%),BEAR rank exit (32.8%),BEAR,csi500
-002268,电科网安,IT设备,20221010,27.72,20221018,31.69,100,3347.8,14.32%,8,Rank 0.71%,"Rank 0.71%, Score 0.0360, BEAR",BEAR rank exit (76.4%),BEAR rank exit (76.4%),BEAR,csi500
-000519,中兵红箭,专用机械,20221010,22.6,20221019,20.13,100,-1984.3,-10.93%,9,Rank 0.35%,"Rank 0.35%, Score 0.0419, BEAR",BEAR trailing stop (10.9%),BEAR trailing stop (10.9%),BEAR,csi500
-002080,中材科技,玻璃,20221011,19.74,20221019,21.96,200,2221.5,11.25%,8,Rank 0.88%,"Rank 0.88%, Score 0.0419, BEAR",BEAR rank exit (89.0%),BEAR rank exit (89.0%),BEAR,csi500
-688608,恒玄科技,半导体,20221011,92.58,20221019,97.57,200,975.5,5.39%,8,Rank 1.24%,"Rank 1.24%, Score 0.0412, BEAR",BEAR rank exit (28.0%),BEAR rank exit (28.0%),BEAR,csi500
-600418,江淮汽车,汽车整车,20221010,13.67,20221024,13.52,300,-319.1,-1.10%,14,Rank 0.18%,"Rank 0.18%, Score 0.0480, BEAR",BEAR trailing stop (11.3%),BEAR trailing stop (11.3%),BEAR,csi500
-000088,盐田港,港口,20221013,4.65,20221025,4.62,600,-174.8,-0.65%,12,Rank 0.88%,"Rank 0.88%, Score 0.0295, BEAR",BEAR rank exit (43.8%),BEAR rank exit (43.8%),BEAR,csi500
-002850,科达利,电气设备,20221018,95.13,20221026,94.19,100,-164.4,-0.99%,8,Rank 0.18%,"Rank 0.18%, Score 0.0328, BEAR",BEAR rank exit (21.0%),BEAR rank exit (21.0%),BEAR,csi500
-000519,中兵红箭,专用机械,20221019,20.13,20221027,21.6,100,1146.2,7.30%,8,Rank 0.71%,"Rank 0.71%, Score 0.0270, BEAR",BEAR rank exit (37.3%),BEAR rank exit (37.3%),BEAR,csi500
-688213,思特威-W,半导体,20221011,37.5,20221031,34.08,600,-2078.6,-9.12%,20,Rank 0.71%,"Rank 0.71%, Score 0.0423, BEAR",BEAR trailing stop (13.9%),BEAR trailing stop (13.9%),BEAR,csi500
-603893,瑞芯微,半导体,20221019,66.74,20221031,63.84,300,-910.6,-4.35%,12,Rank 1.06%,"Rank 1.06%, Score 0.0255, BEAR",BEAR rank exit (32.3%),BEAR rank exit (32.3%),BEAR,csi500
-600329,达仁堂,中成药,20221018,24.6,20221101,27.7,300,3005.0,12.60%,14,Rank 0.35%,"Rank 0.35%, Score 0.0275, BEAR",BEAR rank exit (97.0%),BEAR rank exit (97.0%),BEAR,csi500
-003022,联泓新科,化工原料,20221025,33.63,20221102,34.39,600,566.9,2.26%,8,Rank 0.35%,"Rank 0.35%, Score 0.0424, BEAR",BEAR rank exit (80.6%),BEAR rank exit (80.6%),BEAR,csi500
-688778,厦钨新能,电气设备,20221019,90.25,20221103,90.44,200,14.6,0.21%,15,Rank 0.53%,"Rank 0.53%, Score 0.0274, BEAR",BEAR rank exit (75.8%),BEAR rank exit (75.8%),BEAR,csi500
-603833,欧派家居,家居用品,20221026,89.89,20221103,87.13,200,-841.4,-3.07%,8,Rank 0.35%,"Rank 0.35%, Score 0.0355, BEAR",BEAR rank exit (56.7%),BEAR rank exit (56.7%),BEAR,csi500
-600418,江淮汽车,汽车整车,20221024,13.52,20221104,14.5,300,1830.0,7.25%,11,Rank 0.18%,"Rank 0.18%, Score 0.0517, BEAR",BEAR rank exit (90.1%),BEAR rank exit (90.1%),BEAR,csi500
-688349,三一重能,电气设备,20221027,30.95,20221104,32.42,800,1142.3,4.75%,8,Rank 0.35%,"Rank 0.35%, Score 0.0360, BEAR",BEAR rank exit (66.6%),BEAR rank exit (66.6%),BEAR,csi500
-002531,天顺风能,电气设备,20221031,12.25,20221108,12.96,200,1137.2,5.80%,8,Rank 0.53%,"Rank 0.53%, Score 0.0402, BEAR",BEAR rank exit (24.2%),BEAR rank exit (24.2%),BEAR,csi500
-000683,博源化工,化工原料,20221103,6.63,20221114,7.45,500,3096.6,12.37%,11,Rank 0.88%,"Rank 0.88%, Score 0.0247, BEAR",BEAR rank exit (65.1%),BEAR rank exit (65.1%),BEAR,csi500
-000831,中国稀土,小金属,20221104,34.51,20221114,34.3,200,-204.0,-0.61%,10,Rank 0.53%,"Rank 0.53%, Score 0.0284, BEAR",BEAR trailing stop (11.3%),BEAR trailing stop (11.3%),BEAR,csi500
-002487,大金重工,电气设备,20221011,39.39,20221115,44.0,100,2103.8,11.70%,35,Rank 1.06%,"Rank 1.06%, Score 0.0415, BEAR",BEAR trailing stop (12.0%),BEAR trailing stop (12.0%),BEAR,csi500
-601799,星宇股份,汽车配件,20221031,123.91,20221115,132.09,100,1027.5,6.60%,15,Rank 0.88%,"Rank 0.88%, Score 0.0372, BEAR",BEAR trailing stop (10.3%),BEAR trailing stop (10.3%),BEAR,csi500
-300212,易华录,软件服务,20221108,16.92,20221117,19.4,200,4198.2,14.66%,9,Rank 0.53%,"Rank 0.53%, Score 0.0229, BEAR",BEAR rank exit (54.1%),BEAR rank exit (54.1%),BEAR,csi500
-002080,中材科技,玻璃,20221104,18.27,20221118,20.8,300,3806.0,13.85%,14,Rank 0.71%,"Rank 0.71%, Score 0.0279, BEAR",BEAR rank exit (27.3%),BEAR rank exit (27.3%),BEAR,csi500
-301308,江波龙,半导体,20221114,67.54,20221122,77.41,400,3941.4,14.61%,8,Rank 0.53%,"Rank 0.53%, Score 0.0362, BEAR",BEAR rank exit (98.9%),BEAR rank exit (98.9%),BEAR,csi500
-600418,江淮汽车,汽车整车,20221115,13.47,20221123,14.81,300,2514.7,9.95%,8,Rank 0.71%,"Rank 0.71%, Score 0.0356, BEAR",BEAR rank exit (93.3%),BEAR rank exit (93.3%),BEAR,csi500
-000933,神火股份,铝,20221115,16.43,20221125,15.68,100,-1002.6,-4.56%,10,Rank 0.88%,"Rank 0.88%, Score 0.0332, BEAR",BEAR rank exit (39.9%),BEAR rank exit (39.9%),BEAR,csi500
-688213,思特威-W,半导体,20221102,35.4,20221128,41.94,700,4539.8,18.47%,26,Rank 0.71%,"Rank 0.71%, Score 0.0285, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
-002407,多氟多,化工原料,20221103,32.79,20221128,35.5,100,1511.2,8.26%,25,Rank 0.53%,"Rank 0.53%, Score 0.0329, BEAR",BEAR rank exit (67.0%),BEAR rank exit (67.0%),BEAR,csi500
-688180,君实生物-U,生物制药,20221118,68.0,20221128,62.8,400,-2112.7,-7.65%,10,Rank 0.35%,"Rank 0.35%, Score 0.0280, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
-688617,惠泰医疗,医疗保健,20221117,298.0,20221129,283.99,100,-1448.0,-4.70%,12,Rank 0.35%,"Rank 0.35%, Score 0.0287, BEAR",BEAR rank exit (92.6%),BEAR rank exit (92.6%),BEAR,csi500
-600348,华阳股份,煤炭开采,20221122,16.08,20221130,16.56,100,449.3,2.99%,8,Rank 0.18%,"Rank 0.18%, Score 0.0208, BEAR",BEAR rank exit (33.3%),BEAR rank exit (33.3%),BEAR,csi500
-600129,太极集团,中成药,20221123,34.0,20221201,35.2,200,721.4,3.53%,8,Rank 0.18%,"Rank 0.18%, Score 0.0423, BEAR",BEAR rank exit (31.0%),BEAR rank exit (31.0%),BEAR,csi500
-688120,华海清科,半导体,20221125,234.5,20221205,235.0,100,19.5,0.21%,10,Rank 0.35%,"Rank 0.35%, Score 0.0307, BEAR",BEAR rank exit (89.2%),BEAR rank exit (89.2%),BEAR,csi500
-688017,绿的谐波,机械基件,20221128,101.0,20221206,103.0,200,525.7,1.98%,8,Rank 0.53%,"Rank 0.53%, Score 0.0299, BEAR",BEAR rank exit (74.2%),BEAR rank exit (74.2%),BEAR,csi500
-300573,兴齐眼药,化学制药,20221128,113.21,20221206,123.45,200,2084.2,9.05%,8,Rank 1.24%,"Rank 1.24%, Score 0.0233, BEAR",BEAR rank exit (88.9%),BEAR rank exit (88.9%),BEAR,csi500
-002432,九安医疗,医疗保健,20221128,61.9,20221207,55.88,100,-1901.1,-9.73%,9,Rank 0.71%,"Rank 0.71%, Score 0.0274, BEAR",BEAR trailing stop (12.3%),BEAR trailing stop (12.3%),BEAR,csi500
-688072,拓荆科技,半导体,20221129,217.14,20221207,235.56,100,1811.4,8.48%,8,Rank 0.71%,"Rank 0.71%, Score 0.0278, BEAR",BEAR rank exit (97.9%),BEAR rank exit (97.9%),BEAR,csi500
-002603,以岭药业,中成药,20221114,31.21,20221220,38.8,200,6037.4,24.32%,36,Rank 0.18%,"Rank 0.18%, Score 0.0638, BEAR",BULL trailing stop (25.4%),BULL trailing stop (25.4%),BULL,csi500
-002756,永兴材料,小金属,20221201,103.99,20221220,103.03,100,-229.4,-0.92%,19,Rank 0.35%,"Rank 0.35%, Score 0.0286, BEAR",BULL rank exit (39.1%),BULL rank exit (39.1%),BULL,csi500
-688180,君实生物-U,生物制药,20221206,59.96,20221220,54.8,500,-2615.6,-8.61%,14,Rank 2.65%,"Rank 2.65%, Score 0.0237, BEAR",BULL trailing stop (18.2%),BULL trailing stop (18.2%),BULL,csi500
-600038,中直股份,航空,20221130,48.0,20221221,46.56,200,-929.2,-3.00%,21,Rank 1.23%,"Rank 1.23%, Score 0.0208, BEAR",BULL rank exit (42.6%),BULL rank exit (42.6%),BULL,csi500
-688018,乐鑫科技,半导体,20221207,103.42,20221223,90.12,200,-2750.5,-12.86%,16,Rank 1.59%,"Rank 1.59%, Score 0.0203, BEAR",BULL Hard stop (-12.9%),BULL Hard stop (-12.9%),BULL,csi500
-000958,电投产融,新型电力,20221208,5.03,20221223,4.36,100,-310.5,-13.32%,15,Rank 0.53%,"Rank 0.53%, Score 0.0192, BULL",BULL Hard stop (-13.3%),BULL Hard stop (-13.3%),BULL,csi500
-688608,恒玄科技,半导体,20221207,129.73,20221226,114.92,200,-3000.9,-11.42%,19,Rank 0.88%,"Rank 0.88%, Score 0.0236, BEAR",BULL rank exit (37.9%),BULL rank exit (37.9%),BULL,csi500
-000932,华菱钢铁,普钢,20221208,4.96,20221227,4.71,200,-119.8,-5.04%,19,Rank 3.53%,"Rank 3.53%, Score 0.0118, BULL",BULL rank exit (46.0%),BULL rank exit (46.0%),BULL,csi500
-603589,口子窖,白酒,20221206,53.86,20221228,59.7,400,2632.5,10.84%,22,Rank 1.24%,"Rank 1.24%, Score 0.0325, BEAR",BULL rank exit (51.1%),BULL rank exit (51.1%),BULL,csi500
-601168,西部矿业,铜,20221212,11.27,20221230,10.34,200,-220.4,-8.25%,18,Rank 3.36%,"Rank 3.36%, Score 0.0160, BULL",BULL rank exit (45.8%),BULL rank exit (45.8%),BULL,csi500
-603766,隆鑫通用,摩托车,20221208,5.13,20230103,4.88,100,-79.6,-4.87%,26,Rank 4.59%,"Rank 4.59%, Score 0.0109, BULL",BULL rank exit (70.4%),BULL rank exit (70.4%),BULL,csi500
-601000,唐山港,港口,20221213,2.87,20230103,2.75,100,-76.8,-4.18%,21,Rank 1.41%,"Rank 1.41%, Score 0.0203, BULL",BULL rank exit (56.9%),BULL rank exit (56.9%),BULL,csi500
-600095,湘财股份,证券,20221213,7.93,20230103,7.53,100,-140.1,-5.04%,21,Rank 3.53%,"Rank 3.53%, Score 0.0144, BULL",BULL rank exit (95.2%),BULL rank exit (95.2%),BULL,csi500
-603699,纽威股份,机械基件,20221213,11.15,20230103,11.03,100,-16.8,-1.08%,21,Rank 4.41%,"Rank 4.41%, Score 0.0134, BULL",BULL rank exit (89.4%),BULL rank exit (89.4%),BULL,csi500
-002603,以岭药业,中成药,20221227,35.03,20230103,29.96,100,-2045.5,-14.47%,7,Rank 0.53%,"Rank 0.53%, Score 0.0330, BULL",BULL Hard stop (-14.5%),BULL Hard stop (-14.5%),BULL,csi500
-002157,正邦科技,农业综合,20221101,3.52,20230103,4.19,400,4323.3,19.03%,63,Rank 0.35%,"Rank 0.35%, Score 0.0444, BEAR",Close all,Close all,END,csi500
-603456,九洲药业,医疗保健,20221205,39.3,20230103,42.22,200,2205.5,7.43%,29,Rank 0.35%,"Rank 0.35%, Score 0.0283, BEAR",Close all,Close all,END,csi500
-300972,万辰集团,食品,20221208,12.85,20230103,12.0,200,-175.9,-6.61%,26,Rank 1.94%,"Rank 1.94%, Score 0.0143, BULL",Close all,Close all,END,csi500
-603920,世运电路,元器件,20221209,15.0,20230103,14.35,100,-102.1,-4.33%,25,Rank 2.83%,"Rank 2.83%, Score 0.0133, BULL",Close all,Close all,END,csi500
-000155,川能动力,新型电力,20221214,19.05,20230103,17.7,100,-215.3,-7.09%,20,Rank 0.88%,"Rank 0.88%, Score 0.0193, BULL",Close all,Close all,END,csi500
-300529,健帆生物,医疗保健,20221220,30.45,20230103,30.92,100,86.5,1.54%,14,Rank 0.70%,"Rank 0.70%, Score 0.0228, BULL",Close all,Close all,END,csi500
-603858,步长制药,中成药,20221220,23.04,20230103,21.07,100,-417.1,-8.55%,14,Rank 1.06%,"Rank 1.06%, Score 0.0215, BULL",Close all,Close all,END,csi500
-600685,中船防务,船舶,20221220,21.0,20230103,20.8,100,-46.6,-0.95%,14,Rank 1.41%,"Rank 1.41%, Score 0.0193, BULL",Close all,Close all,END,csi500
-601567,三星医疗,电气设备,20221220,12.6,20230103,13.4,100,414.0,6.35%,14,Rank 2.46%,"Rank 2.46%, Score 0.0170, BULL",Close all,Close all,END,csi500
-601636,旗滨集团,玻璃,20221220,10.84,20230103,11.34,100,175.5,4.61%,14,Rank 4.23%,"Rank 4.23%, Score 0.0148, BULL",Close all,Close all,END,csi500
-688234,天岳先进,半导体,20221221,81.77,20230103,77.53,100,-434.1,-5.19%,13,Rank 0.35%,"Rank 0.35%, Score 0.0320, BULL",Close all,Close all,END,csi500
-688114,华大智造,医疗保健,20221221,100.0,20230103,111.11,100,1096.6,11.11%,13,Rank 0.53%,"Rank 0.53%, Score 0.0284, BULL",Close all,Close all,END,csi500
-002385,大北农,饲料,20221221,7.93,20230103,8.91,100,1003.8,12.36%,13,Rank 2.82%,"Rank 2.82%, Score 0.0184, BULL",Close all,Close all,END,csi500
-688153,唯捷创芯,半导体,20221221,39.7,20230103,36.89,200,-571.6,-7.08%,13,Rank 3.17%,"Rank 3.17%, Score 0.0173, BULL",Close all,Close all,END,csi500
-002517,恺英网络,互联网,20221222,6.48,20230103,6.61,300,227.1,2.01%,12,Rank 0.53%,"Rank 0.53%, Score 0.0283, BULL",Close all,Close all,END,csi500
-600131,国网信通,通信设备,20221222,14.4,20230103,15.02,100,318.3,4.31%,12,Rank 1.23%,"Rank 1.23%, Score 0.0244, BULL",Close all,Close all,END,csi500
-601155,新城控股,区域地产,20221222,21.63,20230103,20.48,300,-557.7,-5.32%,12,Rank 2.46%,"Rank 2.46%, Score 0.0185, BULL",Close all,Close all,END,csi500
-601991,大唐发电,火力发电,20221222,2.73,20230103,2.8,1200,217.2,2.56%,12,Rank 4.23%,"Rank 4.23%, Score 0.0166, BULL",Close all,Close all,END,csi500
-600339,中油工程,石油开采,20221222,3.07,20230103,2.99,500,-175.8,-2.61%,12,Rank 4.40%,"Rank 4.40%, Score 0.0163, BULL",Close all,Close all,END,csi500
-688220,翱捷科技-U,半导体,20221222,64.49,20230103,60.7,100,-386.9,-5.88%,12,Rank 4.75%,"Rank 4.75%, Score 0.0153, BULL",Close all,Close all,END,csi500
-688037,芯源微,半导体,20221223,165.88,20230103,156.0,100,-1014.3,-5.96%,11,Rank 0.18%,"Rank 0.18%, Score 0.0573, BULL",Close all,Close all,END,csi500
-300212,易华录,软件服务,20221223,19.75,20230103,20.21,100,370.9,2.33%,11,Rank 0.71%,"Rank 0.71%, Score 0.0322, BULL",Close all,Close all,END,csi500
-688072,拓荆科技,半导体,20221226,200.33,20230103,214.0,100,1339.2,6.82%,8,Rank 0.35%,"Rank 0.35%, Score 0.0460, BULL",Close all,Close all,END,csi500
-002531,天顺风能,电气设备,20221228,15.06,20230103,15.08,200,0.6,0.13%,6,Rank 1.06%,"Rank 1.06%, Score 0.0193, BULL",Close all,Close all,END,csi500
-603486,科沃斯,家用电器,20221230,73.66,20230103,72.68,100,-153.7,-1.33%,4,Rank 0.70%,"Rank 0.70%, Score 0.0239, BULL",Close all,Close all,END,csi500
-600361,创新新材,铝,20230103,6.08,20230103,6.08,100,-4.3,0.00%,0,Rank 0.70%,"Rank 0.70%, Score 0.0271, BULL",Close all,Close all,END,csi500
-688213,思特威-W,半导体,20230103,38.3,20230103,38.3,100,-5.0,0.00%,0,Rank 1.41%,"Rank 1.41%, Score 0.0198, BULL",Close all,Close all,END,csi500
-000921,海信家电,家用电器,20230103,14.22,20230103,14.22,100,-2.6,0.00%,0,Rank 4.40%,"Rank 4.40%, Score 0.0146, BULL",Close all,Close all,END,csi500
-600021,上海电力,火力发电,20230103,10.08,20230103,10.08,100,-2.9,0.00%,0,Rank 4.75%,"Rank 4.75%, Score 0.0135, BULL",Close all,Close all,END,csi500
+600685,中船防务,船舶,20220715,17.66,20220901,20.25,100,526.5,14.67%,48,Rank 1.44%,"Rank 1.44%, Score 0.0226, BULL",BEAR trailing stop (12.7%),BEAR trailing stop (12.7%),BEAR,csi500
+000034,神州数码,软件服务,20220722,17.08,20220901,17.15,200,29.8,0.41%,41,Rank 0.36%,"Rank 0.36%, Score 0.0243, BULL",BEAR trailing stop (19.0%),BEAR trailing stop (19.0%),BEAR,csi500
+002335,科华数据,电气设备,20220829,36.24,20220901,34.8,100,-873.3,-3.97%,3,Rank 0.18%,"Rank 0.18%, Score 0.0590, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
+600418,江淮汽车,汽车整车,20220829,16.7,20220902,15.31,300,-2684.5,-8.32%,4,Rank 0.54%,"Rank 0.54%, Score 0.0304, BEAR",BEAR trailing stop (11.6%),BEAR trailing stop (11.6%),BEAR,csi500
+600763,通策医疗,医疗保健,20220826,118.0,20220905,113.8,100,-1050.0,-3.56%,10,Rank 0.36%,"Rank 0.36%, Score 0.0279, BEAR",BEAR rank exit (72.2%),BEAR rank exit (72.2%),BEAR,csi500
+688266,泽璟制药-U,生物制药,20220829,30.2,20220906,30.0,1000,-239.0,-0.66%,8,Rank 0.36%,"Rank 0.36%, Score 0.0331, BEAR",BEAR rank exit (24.4%),BEAR rank exit (24.4%),BEAR,csi500
+688772,珠海冠宇,电气设备,20220901,30.99,20220909,28.3,1000,-2745.9,-8.68%,8,Rank 0.18%,"Rank 0.18%, Score 0.0558, BEAR",BEAR rank exit (83.6%),BEAR rank exit (83.6%),BEAR,csi500
+002850,科达利,电气设备,20220901,112.73,20220913,119.51,100,1024.8,6.01%,12,Rank 0.36%,"Rank 0.36%, Score 0.0428, BEAR",BEAR rank exit (35.5%),BEAR rank exit (35.5%),BEAR,csi500
+002531,天顺风能,电气设备,20220905,13.74,20220913,14.75,200,1625.5,7.35%,8,Rank 0.89%,"Rank 0.89%, Score 0.0300, BEAR",BEAR rank exit (35.8%),BEAR rank exit (35.8%),BEAR,csi500
+688052,纳芯微,半导体,20220906,307.59,20220914,315.52,100,753.6,2.58%,8,Rank 0.71%,"Rank 0.71%, Score 0.0288, BEAR",BEAR trailing stop (10.9%),BEAR trailing stop (10.9%),BEAR,csi500
+002128,电投能源,煤炭开采,20220901,13.9,20220919,13.5,700,-890.7,-2.88%,18,Rank 0.71%,"Rank 0.71%, Score 0.0393, BEAR",BEAR trailing stop (11.5%),BEAR trailing stop (11.5%),BEAR,csi500
+002409,雅克科技,半导体,20220902,61.16,20220920,67.5,100,1983.2,10.37%,18,Rank 0.18%,"Rank 0.18%, Score 0.0651, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
+002265,建设工业,专用机械,20220913,16.76,20220920,14.61,1900,-4133.4,-12.83%,7,Rank 0.36%,"Rank 0.36%, Score 0.0193, BEAR",BEAR Hard stop (-12.8%),BEAR Hard stop (-12.8%),BEAR,csi500
+688065,凯赛生物,化工原料,20220913,65.74,20220921,66.14,300,133.5,0.61%,8,Rank 0.53%,"Rank 0.53%, Score 0.0148, BEAR",BEAR trailing stop (10.9%),BEAR trailing stop (10.9%),BEAR,csi500
+603939,益丰药房,医药商业,20220914,50.71,20220922,46.16,100,-1744.2,-8.97%,8,Rank 0.18%,"Rank 0.18%, Score 0.0318, BEAR",BEAR trailing stop (12.6%),BEAR trailing stop (12.6%),BEAR,csi500
+603486,科沃斯,家用电器,20220909,73.81,20220926,66.54,300,-3157.3,-9.85%,17,Rank 0.36%,"Rank 0.36%, Score 0.0266, BEAR",BEAR trailing stop (11.2%),BEAR trailing stop (11.2%),BEAR,csi500
+600418,江淮汽车,汽车整车,20220919,16.8,20220927,16.43,200,-496.8,-2.20%,8,Rank 0.18%,"Rank 0.18%, Score 0.0430, BEAR",BEAR rank exit (67.0%),BEAR rank exit (67.0%),BEAR,csi500
+000629,钒钛股份,小金属,20220920,4.99,20220928,5.04,800,270.7,1.00%,8,Rank 0.36%,"Rank 0.36%, Score 0.0420, BEAR",BEAR rank exit (28.8%),BEAR rank exit (28.8%),BEAR,csi500
+688772,珠海冠宇,电气设备,20220920,25.13,20221010,22.39,1200,-3346.2,-10.90%,20,Rank 0.71%,"Rank 0.71%, Score 0.0402, BEAR",BEAR Hard stop (-10.9%),BEAR Hard stop (-10.9%),BEAR,csi500
+002436,兴森科技,元器件,20220921,10.17,20221010,9.08,200,-2934.5,-10.72%,19,Rank 0.36%,"Rank 0.36%, Score 0.0331, BEAR",BEAR Hard stop (-10.7%),BEAR Hard stop (-10.7%),BEAR,csi500
+000519,中兵红箭,专用机械,20220922,25.4,20221010,22.6,100,-2249.1,-11.02%,18,Rank 0.71%,"Rank 0.71%, Score 0.0246, BEAR",BEAR Hard stop (-11.0%),BEAR Hard stop (-11.0%),BEAR,csi500
+002223,鱼跃医疗,医疗保健,20220927,25.25,20221011,28.3,100,2768.2,12.08%,14,Rank 0.18%,"Rank 0.18%, Score 0.0466, BEAR",BEAR rank exit (41.8%),BEAR rank exit (41.8%),BEAR,csi500
+688213,思特威-W,半导体,20220928,43.1,20221011,37.5,700,-3954.1,-12.99%,13,Rank 0.36%,"Rank 0.36%, Score 0.0250, BEAR",BEAR Hard stop (-13.0%),BEAR Hard stop (-13.0%),BEAR,csi500
+300251,光线传媒,影视音像,20220926,7.26,20221018,7.15,100,-315.8,-1.52%,22,Rank 0.71%,"Rank 0.71%, Score 0.0311, BEAR",BEAR rank exit (32.3%),BEAR rank exit (32.3%),BEAR,csi500
+000519,中兵红箭,专用机械,20221010,22.6,20221019,20.13,100,-1984.3,-10.93%,9,Rank 0.35%,"Rank 0.35%, Score 0.0400, BEAR",BEAR Hard stop (-10.9%),BEAR Hard stop (-10.9%),BEAR,csi500
+688017,绿的谐波,机械基件,20221011,110.46,20221021,118.7,100,1138.9,7.46%,10,Rank 0.53%,"Rank 0.53%, Score 0.0463, BEAR",BEAR rank exit (81.9%),BEAR rank exit (81.9%),BEAR,csi500
+600418,江淮汽车,汽车整车,20221010,13.67,20221024,13.52,300,-319.1,-1.10%,14,Rank 0.18%,"Rank 0.18%, Score 0.0418, BEAR",BEAR trailing stop (11.3%),BEAR trailing stop (11.3%),BEAR,csi500
+002157,正邦科技,农业综合,20221010,4.55,20221026,4.4,400,-1013.1,-3.30%,16,Rank 0.53%,"Rank 0.53%, Score 0.0399, BEAR",BEAR trailing stop (12.5%),BEAR trailing stop (12.5%),BEAR,csi500
+002850,科达利,电气设备,20221018,95.13,20221026,94.19,200,-328.7,-0.99%,8,Rank 0.18%,"Rank 0.18%, Score 0.0314, BEAR",BEAR rank exit (20.3%),BEAR rank exit (20.3%),BEAR,csi500
+688213,思特威-W,半导体,20221011,37.5,20221031,34.08,700,-2425.0,-9.12%,20,Rank 0.88%,"Rank 0.88%, Score 0.0457, BEAR",BEAR trailing stop (13.9%),BEAR trailing stop (13.9%),BEAR,csi500
+000519,中兵红箭,专用机械,20221021,19.5,20221101,20.7,100,932.5,6.15%,11,Rank 0.35%,"Rank 0.35%, Score 0.0485, BEAR",BEAR rank exit (31.3%),BEAR rank exit (31.3%),BEAR,csi500
+688778,厦钨新能,电气设备,20221019,90.25,20221103,90.44,300,21.9,0.21%,15,Rank 0.18%,"Rank 0.18%, Score 0.0374, BEAR",BEAR rank exit (70.3%),BEAR rank exit (70.3%),BEAR,csi500
+603833,欧派家居,家居用品,20221026,89.89,20221103,87.13,200,-841.4,-3.07%,8,Rank 0.35%,"Rank 0.35%, Score 0.0339, BEAR",BEAR rank exit (50.5%),BEAR rank exit (50.5%),BEAR,csi500
+300857,协创数据,IT设备,20221026,16.96,20221103,18.49,1700,2574.2,9.02%,8,Rank 0.53%,"Rank 0.53%, Score 0.0327, BEAR",BEAR rank exit (53.5%),BEAR rank exit (53.5%),BEAR,csi500
+600418,江淮汽车,汽车整车,20221024,13.52,20221104,14.5,300,1830.0,7.25%,11,Rank 0.18%,"Rank 0.18%, Score 0.0503, BEAR",BEAR rank exit (80.7%),BEAR rank exit (80.7%),BEAR,csi500
+603568,伟明环保,环境保护,20221103,19.37,20221111,22.3,400,4241.6,15.13%,8,Rank 0.88%,"Rank 0.88%, Score 0.0238, BEAR",BEAR rank exit (78.1%),BEAR rank exit (78.1%),BEAR,csi500
+600801,华新建材,水泥,20221103,13.81,20221111,14.53,200,1516.0,5.21%,8,Rank 1.06%,"Rank 1.06%, Score 0.0236, BEAR",BEAR rank exit (52.6%),BEAR rank exit (52.6%),BEAR,csi500
+601636,旗滨集团,玻璃,20221101,7.91,20221114,9.27,1000,4875.5,17.19%,13,Rank 0.35%,"Rank 0.35%, Score 0.0430, BEAR",BEAR rank exit (60.1%),BEAR rank exit (60.1%),BEAR,csi500
+000683,博源化工,化工原料,20221104,6.56,20221114,7.45,600,4036.9,13.57%,10,Rank 0.18%,"Rank 0.18%, Score 0.0399, BEAR",BEAR rank exit (61.6%),BEAR rank exit (61.6%),BEAR,csi500
+002407,多氟多,化工原料,20221103,32.79,20221121,33.0,100,94.8,0.64%,18,Rank 0.18%,"Rank 0.18%, Score 0.0327, BEAR",BEAR rank exit (27.2%),BEAR rank exit (27.2%),BEAR,csi500
+301308,江波龙,半导体,20221111,68.16,20221121,76.39,400,3280.2,12.07%,10,Rank 0.18%,"Rank 0.18%, Score 0.0390, BEAR",BEAR rank exit (95.6%),BEAR rank exit (95.6%),BEAR,csi500
+688192,迪哲医药-U,生物制药,20221111,39.55,20221121,36.31,800,-2629.8,-8.19%,10,Rank 0.35%,"Rank 0.35%, Score 0.0313, BEAR",BEAR rank exit (86.4%),BEAR rank exit (86.4%),BEAR,csi500
+600418,江淮汽车,汽车整车,20221114,13.73,20221122,14.56,300,1544.3,6.05%,8,Rank 0.35%,"Rank 0.35%, Score 0.0368, BEAR",BEAR rank exit (90.8%),BEAR rank exit (90.8%),BEAR,csi500
+000657,中钨高新,小金属,20221121,15.48,20221129,14.92,400,-991.8,-3.62%,8,Rank 0.35%,"Rank 0.35%, Score 0.0261, BEAR",BEAR rank exit (26.1%),BEAR rank exit (26.1%),BEAR,csi500
+600348,华阳股份,煤炭开采,20221121,15.5,20221129,16.05,200,1037.2,3.55%,8,Rank 0.53%,"Rank 0.53%, Score 0.0253, BEAR",BEAR rank exit (20.6%),BEAR rank exit (20.6%),BEAR,csi500
+003022,联泓新科,化工原料,20221121,30.3,20221130,30.53,800,201.1,0.76%,9,Rank 0.18%,"Rank 0.18%, Score 0.0306, BEAR",BEAR rank exit (59.4%),BEAR rank exit (59.4%),BEAR,csi500
+300623,捷捷微电,半导体,20221122,21.72,20221130,20.79,200,-1356.3,-4.28%,8,Rank 0.88%,"Rank 0.88%, Score 0.0171, BEAR",BEAR rank exit (70.0%),BEAR rank exit (70.0%),BEAR,csi500
+688349,三一重能,电气设备,20221031,28.75,20221206,32.12,1000,3328.2,11.72%,36,Rank 0.35%,"Rank 0.35%, Score 0.0445, BEAR",BEAR trailing stop (10.2%),BEAR trailing stop (10.2%),BEAR,csi500
+688017,绿的谐波,机械基件,20221129,104.25,20221207,105.17,200,220.6,0.88%,8,Rank 0.18%,"Rank 0.18%, Score 0.0352, BEAR",BEAR rank exit (83.4%),BEAR rank exit (83.4%),BEAR,csi500
+002432,九安医疗,医疗保健,20221129,59.3,20221207,55.88,100,-1089.8,-5.77%,8,Rank 0.35%,"Rank 0.35%, Score 0.0313, BEAR",BEAR trailing stop (12.3%),BEAR trailing stop (12.3%),BEAR,csi500
+688120,华海清科,半导体,20221130,223.89,20221219,239.48,100,1527.9,6.96%,19,Rank 0.53%,"Rank 0.53%, Score 0.0254, BEAR",BULL rank exit (47.7%),BULL rank exit (47.7%),BULL,csi500
+002603,以岭药业,中成药,20221114,31.21,20221220,38.8,200,6037.4,24.32%,36,Rank 0.18%,"Rank 0.18%, Score 0.0590, BEAR",BULL trailing stop (25.4%),BULL trailing stop (25.4%),BULL,csi500
+000958,电投产融,新型电力,20221208,5.03,20221220,4.5,200,-492.4,-10.54%,12,Rank 1.94%,"Rank 1.94%, Score 0.0137, BULL",BULL Hard stop (-10.5%),BULL Hard stop (-10.5%),BULL,csi500
+688234,天岳先进,半导体,20221212,88.6,20221222,78.66,100,-1004.2,-11.22%,10,Rank 2.12%,"Rank 2.12%, Score 0.0178, BULL",BULL Hard stop (-11.2%),BULL Hard stop (-11.2%),BULL,csi500
+688072,拓荆科技,半导体,20221130,209.34,20221223,209.55,100,-6.2,0.10%,23,Rank 0.35%,"Rank 0.35%, Score 0.0275, BEAR",BULL trailing stop (18.1%),BULL trailing stop (18.1%),BULL,csi500
+688608,恒玄科技,半导体,20221207,129.73,20221223,116.25,200,-2734.4,-10.39%,16,Rank 0.53%,"Rank 0.53%, Score 0.0263, BEAR",BULL Hard stop (-10.4%),BULL Hard stop (-10.4%),BULL,csi500
+601168,西部矿业,铜,20221212,11.27,20221223,10.06,600,-857.1,-10.74%,11,Rank 2.30%,"Rank 2.30%, Score 0.0174, BULL",BULL Hard stop (-10.7%),BULL Hard stop (-10.7%),BULL,csi500
+688153,唯捷创芯,半导体,20221212,40.43,20221223,37.26,100,-321.8,-7.84%,11,Rank 4.95%,"Rank 4.95%, Score 0.0122, BULL",BULL trailing stop (21.1%),BULL trailing stop (21.1%),BULL,csi500
+688037,芯源微,半导体,20221219,184.96,20221223,165.88,100,-1941.1,-10.32%,4,Rank 0.53%,"Rank 0.53%, Score 0.0268, BULL",BULL Hard stop (-10.3%),BULL Hard stop (-10.3%),BULL,csi500
+002432,九安医疗,医疗保健,20221207,55.88,20221226,58.47,100,784.5,4.63%,19,Rank 1.06%,"Rank 1.06%, Score 0.0222, BEAR",BULL rank exit (61.1%),BULL rank exit (61.1%),BULL,csi500
+603156,养元饮品,软饮料,20221208,21.44,20221226,21.68,100,66.0,1.12%,18,Rank 0.71%,"Rank 0.71%, Score 0.0215, BULL",BULL rank exit (87.1%),BULL rank exit (87.1%),BULL,csi500
+000429,粤高速Ａ,路桥,20221208,7.89,20221226,7.53,100,-155.8,-4.56%,18,Rank 1.59%,"Rank 1.59%, Score 0.0143, BULL",BULL rank exit (92.1%),BULL rank exit (92.1%),BULL,csi500
+000683,博源化工,化工原料,20221208,7.98,20221226,7.72,100,-206.4,-3.26%,18,Rank 2.12%,"Rank 2.12%, Score 0.0132, BULL",BULL rank exit (42.3%),BULL rank exit (42.3%),BULL,csi500
+002266,浙富控股,环境保护,20221208,4.2,20221226,3.91,100,-332.4,-6.90%,18,Rank 3.89%,"Rank 3.89%, Score 0.0109, BULL",BULL rank exit (63.4%),BULL rank exit (63.4%),BULL,csi500
+002563,森马服饰,服饰,20221208,5.51,20221226,5.34,100,-109.2,-3.09%,18,Rank 4.59%,"Rank 4.59%, Score 0.0103, BULL",BULL rank exit (64.3%),BULL rank exit (64.3%),BULL,csi500
+301308,江波龙,半导体,20221209,67.7,20221226,60.4,100,-744.2,-10.78%,17,Rank 3.53%,"Rank 3.53%, Score 0.0113, BULL",BULL Hard stop (-10.8%),BULL Hard stop (-10.8%),BULL,csi500
+688599,天合光能,电气设备,20221208,57.55,20221227,59.11,100,151.2,2.71%,19,Rank 0.35%,"Rank 0.35%, Score 0.0236, BULL",BULL rank exit (58.6%),BULL rank exit (58.6%),BULL,csi500
+000932,华菱钢铁,普钢,20221208,4.96,20221227,4.71,500,-299.6,-5.04%,19,Rank 2.47%,"Rank 2.47%, Score 0.0128, BULL",BULL rank exit (48.4%),BULL rank exit (48.4%),BULL,csi500
+301236,软通动力,软件服务,20221209,37.2,20221227,35.86,100,-210.7,-3.60%,18,Rank 0.18%,"Rank 0.18%, Score 0.0261, BULL",BULL rank exit (96.5%),BULL rank exit (96.5%),BULL,csi500
+300529,健帆生物,医疗保健,20221209,32.26,20221227,30.82,100,-298.0,-4.46%,18,Rank 3.71%,"Rank 3.71%, Score 0.0110, BULL",BULL rank exit (59.9%),BULL rank exit (59.9%),BULL,csi500
+603589,口子窖,白酒,20221206,53.86,20221228,59.7,500,3290.6,10.84%,22,Rank 1.06%,"Rank 1.06%, Score 0.0327, BEAR",BULL rank exit (54.4%),BULL rank exit (54.4%),BULL,csi500
+600295,鄂尔多斯,特种钢,20221212,16.63,20221230,15.31,100,-676.0,-7.94%,18,Rank 1.06%,"Rank 1.06%, Score 0.0198, BULL",BULL rank exit (48.4%),BULL rank exit (48.4%),BULL,csi500
+688295,中复神鹰,化纤,20221212,44.33,20221230,42.95,100,-143.6,-3.11%,18,Rank 2.83%,"Rank 2.83%, Score 0.0164, BULL",BULL rank exit (47.0%),BULL rank exit (47.0%),BULL,csi500
+603298,杭叉集团,工程机械,20221212,18.0,20221230,16.99,200,-329.9,-5.61%,18,Rank 3.89%,"Rank 3.89%, Score 0.0133, BULL",BULL rank exit (88.6%),BULL rank exit (88.6%),BULL,csi500
+603129,春风动力,摩托车,20221213,113.11,20230103,112.96,100,-31.1,-0.13%,21,Rank 1.59%,"Rank 1.59%, Score 0.0172, BULL",BULL rank exit (84.2%),BULL rank exit (84.2%),BULL,csi500
+601000,唐山港,港口,20221213,2.87,20230103,2.75,700,-537.4,-4.18%,21,Rank 1.76%,"Rank 1.76%, Score 0.0170, BULL",BULL rank exit (57.6%),BULL rank exit (57.6%),BULL,csi500
+600060,海信视像,家用电器,20221213,13.86,20230103,13.5,100,-226.0,-2.60%,21,Rank 1.94%,"Rank 1.94%, Score 0.0163, BULL",BULL rank exit (85.6%),BULL rank exit (85.6%),BULL,csi500
+300972,万辰集团,食品,20221208,12.85,20230103,12.0,400,-351.9,-6.61%,26,Rank 2.83%,"Rank 2.83%, Score 0.0123, BULL",Close all,Close all,END,csi500
+002867,周大生,服饰,20221208,14.09,20230103,14.03,100,-20.5,-0.43%,26,Rank 3.71%,"Rank 3.71%, Score 0.0111, BULL",Close all,Close all,END,csi500
+603920,世运电路,元器件,20221209,15.0,20230103,14.35,300,-306.3,-4.33%,25,Rank 2.30%,"Rank 2.30%, Score 0.0133, BULL",Close all,Close all,END,csi500
+603000,人民网,互联网,20221209,13.78,20230103,16.77,100,1268.4,21.70%,25,Rank 4.06%,"Rank 4.06%, Score 0.0110, BULL",Close all,Close all,END,csi500
+688018,乐鑫科技,半导体,20221220,94.64,20230103,90.31,300,-1367.6,-4.58%,14,Rank 0.70%,"Rank 0.70%, Score 0.0237, BULL",Close all,Close all,END,csi500
+002531,天顺风能,电气设备,20221220,12.98,20230103,15.08,100,1706.5,16.18%,14,Rank 1.06%,"Rank 1.06%, Score 0.0207, BULL",Close all,Close all,END,csi500
+688234,天岳先进,半导体,20221222,78.66,20230103,77.53,300,-369.2,-1.44%,12,Rank 0.35%,"Rank 0.35%, Score 0.0362, BULL",Close all,Close all,END,csi500
+601155,新城控股,区域地产,20221223,20.77,20230103,20.48,400,-200.1,-1.40%,11,Rank 0.53%,"Rank 0.53%, Score 0.0371, BULL",Close all,Close all,END,csi500
+688248,南网科技,电气设备,20221223,47.29,20230103,56.56,200,1845.2,19.60%,11,Rank 1.06%,"Rank 1.06%, Score 0.0309, BULL",Close all,Close all,END,csi500
+600131,国网信通,通信设备,20221223,14.22,20230103,15.02,100,413.8,5.63%,11,Rank 2.12%,"Rank 2.12%, Score 0.0263, BULL",Close all,Close all,END,csi500
+002385,大北农,饲料,20221223,8.03,20230103,8.91,100,900.1,10.96%,11,Rank 3.00%,"Rank 3.00%, Score 0.0234, BULL",Close all,Close all,END,csi500
+688819,天能股份,电气设备,20221223,34.5,20230103,36.74,200,452.7,6.49%,11,Rank 3.35%,"Rank 3.35%, Score 0.0226, BULL",Close all,Close all,END,csi500
+300118,东方日升,电气设备,20221226,22.5,20230103,24.83,100,785.6,10.36%,8,Rank 0.53%,"Rank 0.53%, Score 0.0456, BULL",Close all,Close all,END,csi500
+300757,罗博特科,专用机械,20221226,44.27,20230103,52.39,100,1058.0,18.34%,8,Rank 2.99%,"Rank 2.99%, Score 0.0210, BULL",Close all,Close all,END,csi500
+688385,复旦微电,半导体,20221226,65.33,20230103,69.96,100,454.4,7.09%,8,Rank 3.17%,"Rank 3.17%, Score 0.0208, BULL",Close all,Close all,END,csi500
+603225,新凤鸣,化纤,20221226,10.58,20230103,10.89,300,183.7,2.93%,8,Rank 4.23%,"Rank 4.23%, Score 0.0194, BULL",Close all,Close all,END,csi500
+600129,太极集团,中成药,20221227,27.38,20230103,30.18,100,862.7,10.23%,7,Rank 2.82%,"Rank 2.82%, Score 0.0183, BULL",Close all,Close all,END,csi500
+600363,联创光电,元器件,20221227,25.3,20230103,23.84,100,-485.3,-5.77%,7,Rank 3.17%,"Rank 3.17%, Score 0.0178, BULL",Close all,Close all,END,csi500
+600096,云天化,农药化肥,20221227,22.08,20230103,20.99,100,-275.6,-4.94%,7,Rank 3.52%,"Rank 3.52%, Score 0.0167, BULL",Close all,Close all,END,csi500
+688521,芯原股份,半导体,20221227,46.6,20230103,44.03,100,-262.7,-5.52%,7,Rank 3.87%,"Rank 3.87%, Score 0.0163, BULL",Close all,Close all,END,csi500
+002373,千方科技,软件服务,20221227,9.04,20230103,8.94,100,-45.8,-1.11%,7,Rank 4.40%,"Rank 4.40%, Score 0.0155, BULL",Close all,Close all,END,csi500
+688037,芯源微,半导体,20221228,158.18,20230103,156.0,100,-239.7,-1.38%,6,Rank 0.35%,"Rank 0.35%, Score 0.0376, BULL",Close all,Close all,END,csi500
+002603,以岭药业,中成药,20221228,32.51,20230103,29.96,100,-1036.6,-7.84%,6,Rank 0.70%,"Rank 0.70%, Score 0.0207, BULL",Close all,Close all,END,csi500
+002436,兴森科技,元器件,20221228,9.96,20230103,9.77,100,-269.9,-1.91%,6,Rank 1.41%,"Rank 1.41%, Score 0.0167, BULL",Close all,Close all,END,csi500
+600435,北方导航,专用机械,20221230,11.51,20230103,11.6,100,101.3,0.78%,4,Rank 0.53%,"Rank 0.53%, Score 0.0234, BULL",Close all,Close all,END,csi500
+603486,科沃斯,家用电器,20221230,73.66,20230103,72.68,100,-153.7,-1.33%,4,Rank 0.88%,"Rank 0.88%, Score 0.0214, BULL",Close all,Close all,END,csi500
+301308,江波龙,半导体,20221230,60.35,20230103,59.56,100,-87.5,-1.31%,4,Rank 1.41%,"Rank 1.41%, Score 0.0196, BULL",Close all,Close all,END,csi500
+600418,江淮汽车,汽车整车,20230103,13.04,20230103,13.04,200,-21.5,0.00%,0,Rank 0.53%,"Rank 0.53%, Score 0.0241, BULL",Close all,Close all,END,csi500
+601699,潞安环能,煤炭开采,20230103,16.7,20230103,16.7,100,-14.0,0.00%,0,Rank 0.70%,"Rank 0.70%, Score 0.0234, BULL",Close all,Close all,END,csi500
+600361,创新新材,铝,20230103,6.08,20230103,6.08,200,-8.7,0.00%,0,Rank 0.88%,"Rank 0.88%, Score 0.0227, BULL",Close all,Close all,END,csi500
